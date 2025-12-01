@@ -1,2 +1,1 @@
-# 1
-none
+# Zixs' Tech Note
