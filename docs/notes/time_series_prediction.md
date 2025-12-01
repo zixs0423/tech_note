@@ -1,34 +1,12 @@
-## arima
-先对原序列做d次差分
+---
+title: PatchTST 学习笔记
+---
 
-数学上：
+# PatchTST
 
+简介……  
 
-
-
-
-
-
-在差分后的序列上拟合一个 ARMA(p, q)
-
-
-
-
-
-
-
-
-
-上式整理一下，得到
-
-通过循环迭代得到所有的
-
-用高斯噪声构建似然并求负对数似然
-
-
-
-
-
-把设为参数，优化这个
-
-这里拟合噪声原理就是MLE，可看备注中线性回归的原理
+## 示例代码
+```python
+# docs/assets/code/patchtst_example.py
+print("Example")
