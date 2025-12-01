@@ -1,12 +1,6 @@
 ---
-title: PatchTST 学习笔记
+title: Welcome
 ---
 
-# PatchTST
-
-简介……  
-
-## 示例代码
-```python
-# docs/assets/code/patchtst_example.py
-print("Example")
+# Welcome to my techincal notes
+- [Time series prediction](./notes/time_series_prediction.md)
