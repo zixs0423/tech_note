@@ -1,7 +1,7 @@
 # Zixs' Tech Note
 
-1. Set the repo as public
-2. use the docs configuration:
+1. The repo need to be set as public
+2. This repo uses the docs configuration, which is more suitable to be categorized:
    ```
    tech_note/
    │
@@ -25,13 +25,14 @@
    └── .gitignore             # optional
    ```
 
-   and set as the root in settings-pages-Build and deployment, can also use _posts configuration, which is more suitable for personal blog
-3. github pages automatically use jekyll to build
-   all markdown shoud have the front matter:
+   and the docs file is set as the root in settings-pages-Build and deployment
+   the repo can also use _posts configuration, which is automatically orgnized in time added and is more suitable for personal blog
+3. Github pages automatically use jekyll to build, which mostly takes 1-3 mins, and can be found in actions
+   all markdown shoud have the front matter in order to be built by jekyll:
    ```
    ---
    layout: default
    ---
    ```
-4. write markdown and python in local environment, then copy and paste in this repo
-5. move all acadamic papers and code into this repo, and paste their links in notes
+4. Write markdown and python in local environment, then copy and paste in this repo
+5. Move all acadamic papers and code into this repo, and paste their links in notes
