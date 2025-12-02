@@ -35,4 +35,5 @@
    ---
    ```
 4. Write markdown and python in local environment, then copy and paste in this repo
-5. Move all acadamic papers and code into this repo, and paste their links in notes
+   copy the preview version of markdown to citadel can automatically transform the equations
+6. Move all acadamic papers and code into this repo, and paste their links in notes
