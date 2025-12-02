@@ -1,15 +1,5 @@
-title: My Notes
-description: A collection of notes with math formulas
-
-theme: jekyll-theme-cayman
-
+title: My Math GitHub Pages
 markdown: kramdown
 kramdown:
+  input: GFM
   math_engine: mathjax
-  math_engine_opts:
-    inline_math_delimiters: [['$', '$'], ['\\(', '\\)']]
-    display_math_delimiters: [['$$', '$$'], ['\\[', '\\]']]
-
-# GitHub Pages publish from /docs
-include:
-  - docs
