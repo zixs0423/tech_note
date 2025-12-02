@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Zixs' Tech Note
 ---
 
 # Welcome to my techincal notes
