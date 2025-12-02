@@ -1,4 +1,15 @@
+title: My Notes
+description: A collection of notes with math formulas
+
+theme: jekyll-theme-cayman
+
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-theme: jekyll-theme-cayman
+  math_engine_opts:
+    inline_math_delimiters: [['$', '$'], ['\\(', '\\)']]
+    display_math_delimiters: [['$$', '$$'], ['\\[', '\\]']]
+
+# GitHub Pages publish from /docs
+include:
+  - docs
