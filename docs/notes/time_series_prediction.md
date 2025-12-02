@@ -10,9 +10,7 @@ layout: default
 1. perform the d-degree difference on the original sequence
    mathmatically:
    
-   $$
-   y^{(d)}_t = \Delta^d x_t
-   $$
+   $y^{(d)}_t = \Delta^d x_t$
 
    $$
    d=1：y_t = x_t - x_{t-1}
