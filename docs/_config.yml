@@ -2,4 +2,4 @@ title: Tech Note
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-theme: minima
+theme: jekyll-theme-cayman
