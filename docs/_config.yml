@@ -1,4 +1,5 @@
 title: Tech Note
-description: GitHub Pages 
-theme: jekyll-theme-cayman
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
+theme: minima
