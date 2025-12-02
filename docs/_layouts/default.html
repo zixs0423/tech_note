@@ -3,6 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+  
+  <!-- MathJax configuration -->
+  <script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+  </script>
 
   <!-- MathJax -->
   <script async id="MathJax-script"
