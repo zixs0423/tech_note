@@ -17,9 +17,12 @@ layout: default
 2. 在差分后的序列上拟合一个 ARMA(p, q)
    $$
    y^{(d)}_t =  \sum_{i=1}^{p} \phi_i y^{(d)}_{t-i} + \sum_{j=1}^{q} \theta_j \varepsilon_{t-j} + \varepsilon_t
-   \phi_i：AR 系数
-   \theta_j：MA 系数
-   \varepsilon_t：预测误差 residual
+   \\\phi_i：AR 系数
+   \\\theta_j：MA 系数
+   \\\varepsilon_t：预测误差 residual
    $$
-   上式整理一下，得到$\varepsilon_t = y^{(d)}_t - \left(\sum_{i=1}^{p} \phi_i y^{(d)}_{t-i} + \sum_{j=1}^{q} \theta_j \varepsilon_{t-j}\right)$
+   上式整理一下，得到
+   $$
+   \varepsilon_t = y^{(d)}_t - \left(\sum_{i=1}^{p} \phi_i y^{(d)}_{t-i} + \sum_{j=1}^{q} \theta_j \varepsilon_{t-j}\right)
+   $$
 3. 
