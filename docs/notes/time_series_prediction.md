@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
-# Machine Learning
+# Time Series Prediction
 
-## ARIMA
+## Machine Learning
 
-### Abstract
+### ARIMA
+
+#### Abstract
 
 1. **Perform d-th order differencing on the original sequence**  
    Mathematically:
@@ -49,3 +51,13 @@ layout: default
    Set $\phi_i, \theta_j, \sigma$ as parameters, and optimize $\log p(\varepsilon_t)$.  
 
    > Note: Fitting the noise in this way is equivalent to Maximum Likelihood Estimation (MLE), similar in principle to linear regression.
+
+#### Paper
+
+
+#### Code
+[chatgpt_arima](../code/chatgpt_arima)
+
+#### Tutorials
+[时间序列模型(四)：ARIMA模型](https://zhuanlan.zhihu.com/p/634120397)
+
