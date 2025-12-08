@@ -49,7 +49,9 @@ $$
 Then:
 
 $$
-\hat{\theta}_{\text{MLE}} = \arg\min_\theta -\log \frac{1}{\sqrt{2\pi \sigma^2}} \exp\left( -\frac{1}{2\sigma^2} (y_i - f_\theta(x_i))^2 \right) = \arg\min_\theta -\frac{n}{2} \log(2\pi\sigma^2) - \frac{1}{2\sigma^2} \sum_{i=1}^n (y_i - f_\theta(x_i))^2 \propto \arg\min_\theta \sum_{i=1}^n (y_i - f_\theta(x_i))^2
+\hat{\theta}_{\text{MLE}} = \arg\min_\theta -\log \frac{1}{\sqrt{2\pi \sigma^2}} \exp\left( -\frac{1}{2\sigma^2} (y_i - f_\theta(x_i))^2 \right) \\
+= \arg\min_\theta -\frac{n}{2} \log(2\pi\sigma^2) - \frac{1}{2\sigma^2} \sum_{i=1}^n (y_i - f_\theta(x_i))^2 \\
+\propto \arg\min_\theta \sum_{i=1}^n (y_i - f_\theta(x_i))^2
 $$
 
 Here, the negative log-likelihood becomes the objective function, and dividing by nnn gives the familiar **Mean Square Error (MSE)**:
@@ -69,7 +71,9 @@ $$
 Then:
 
 $$
-\hat{\theta}_{\text{MLE}} = \arg\min_\theta -\log \frac{1}{2b} \exp\left( -\frac{|y_i - f_\theta(x_i)|}{b} \right) = \sum_{i=1}^n \left( \log(2b) + \frac{|y_i - f_\theta(x_i)|}{b} \right) \propto \arg\min_\theta \sum_{i=1}^n |y_i - f_\theta(x_i)|
+\hat{\theta}_{\text{MLE}} = \arg\min_\theta -\log \frac{1}{2b} \exp\left( -\frac{|y_i - f_\theta(x_i)|}{b} \right) \\
+= \sum_{i=1}^n \left( \log(2b) + \frac{|y_i - f_\theta(x_i)|}{b} \right) \\
+\propto \arg\min_\theta \sum_{i=1}^n |y_i - f_\theta(x_i)|
 $$
 
 Here, the negative log-likelihood becomes the objective function, and dividing by $n$ gives the **Mean Absolute Error (MAE)**:
@@ -100,11 +104,11 @@ Where:
 
 $P(\theta)$: prior probability of 
 
-$P(D|\theta)$: likelihood of observing D given $\theta$
+$P(D \mid \theta)$: likelihood of observing D given $\theta$
 
 $P(D)$: total probability of observing D
 
-$P(\theta|D)$: posterior probability — updated belief about {\theta} after seeing D
+$P(\theta \mid D)$: posterior probability — updated belief about {\theta} after seeing D
 
 <details><summary>Devrivation</summary>
 $$

@@ -5,7 +5,7 @@ layout: default
 
 ## Machine Learning
 
-### ARIMA
+### ARIMA (AutoRegressive Integrated Moving Average)
 
 #### Abstract
 
@@ -50,7 +50,7 @@ layout: default
    
    Set $\phi_i, \theta_j, \sigma$ as parameters, and optimize $\log p(\varepsilon_t)$.  
 
-   > Note: Fitting the noise in this way is equivalent to Maximum Likelihood Estimation (MLE), similar in principle to linear regression.
+   > Note: Fitting the noise in this way is equivalent to Maximum Likelihood Estimation (MLE)
 
 #### Paper
 
