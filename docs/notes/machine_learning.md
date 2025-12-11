@@ -12,6 +12,8 @@ $$
 \hat{\theta}_{\text{MLE}} = \arg \max_{\theta} P(\text{data} \mid {\theta})
 $$
 
+---
+
 Let the dataset be $(X, y)$, and a model $f_\theta(x_i)$ predicting $y_i$:
 
 $$
@@ -101,7 +103,7 @@ $$
 
 ### Bayes’ rule
 $$
-P(\theta|D)=\frac{P(D|\theta)\,P(\theta)}{P(D)}
+P(\theta \mid D)=\frac{P(D \mid \theta)\,P(\theta)}{P(D)}
 $$
 
 Where:

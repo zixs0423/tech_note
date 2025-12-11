@@ -1,7 +1,11 @@
 # Zixs' Tech Note
 
-1. The repo need to be set as public to be displayed by github pages.
-2. This repo uses the docs configuration, which is more suitable to be categorized:
+# Preparation
+1. The repo is set as public to be displayed by github pages.
+2. This repo uses the docs configuration, which is more suitable to be categorized. and the docs file is set as the root in github-settings-pages-Build and deployment.
+   
+   <details><summary>The configuration</summary>
+
    ```
    tech_note/
    │
@@ -15,27 +19,57 @@
    │   │   ├── xxx.md
    │   │   └── xxx.md
    │   │
-   │   ├── code/  
-   │   │   ├── xxx.py
-   │   │   └── xxx.ipynb
-   │   │
    │   └── pdf/              # paper PDF
    │       ├── paper1.pdf
    │       └── paper2.pdf
    └── .gitignore             # optional
    ```
 
-   and the docs file is set as the root in settings-pages-Build and deployment
-   the repo can also use _posts configuration, which is automatically orgnized in added time and is more suitable for personal blog.
-3. Github pages automatically use jekyll to build, which mostly takes 1-3 mins, and the process can be monitored in actions.
-   all markdown files shoud have the front matter in order to be built by jekyll:
+   </details>
+
+   The repo can also use _posts configuration, which is automatically orgnized in added time, but is more suitable for personal blog.
+3. The _layouts/default.html includes the mathjax to reder the latex equations in markdown files. The mathjax is v3 and the explicit config is set in the default.html to enable the features such as line breaking and inline math, which are enabled by default in the mathjax v2 in vscode.
+   
+   
+# Procedure
+   
+1. Write markdown and python in codespace instead of writing them on local environment.
+2. Write the note in four sections:
+   
+   <details><summary>Sections</summary>
+
+   #### Abstract
+
+   <br>
+
+   #### Paper
+
+   <br>
+
+   #### Tutorials
+
+   <br>
+
+   #### Code
+
+   <br>
+
+   ---
+   
+   </details>
+
+3. Write equations in Latex and code in the markdown file directly. Use folding sections to optimize the display. 
+4. Paste the links of academic papers and tutorial blogs in the markdown file directly.
+5. Remmenber that all markdown files shoud have the front matter in order to be built by jekyll:
+
+   <details><summary>The front matter</summary>
+
    ```
    ---
    layout: default
    ---
    ```
-   the _layouts/default.html includes the mathjax to reder the latex equations in markdown files.
-   the mathjax is v3 and the explicit config is set in the default.html to enable the features such as line breaking and inline math, which are enabled by default in the mathjax v2 in vscode.
-4. Write markdown and python in codespace
-   copy the preview version of markdown to citadel and the equations will be automatically transformed to images.
-5. Move all acadamic papers and code into this repo, and paste their links in markdown file notes.
+
+   </details>
+6. Commit and sync the changes in codespace and the Github pages will automatically use jekyll to build the website, which mostly takes 1-3 min. The process can be monitored in actions.
+7. Copy the markdown file (not the preview) to citadel directly, the equations and code blocks will be automatically transformed to correct form.
