@@ -8,3 +8,4 @@ title: Zixs' Tech Note
 - [Time series forecasting](./notes/time_series_forecasting.md)
 - [Advertisement](./notes/Advertisement.md)
 - [Pricing](./notes/Pricing.md)
+- [LeetCode](./notes/LeetCode.md)

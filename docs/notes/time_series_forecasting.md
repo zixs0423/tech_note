@@ -9,7 +9,7 @@ layout: default
 
 #### Abstract
 
-<details><summary>ARIMA Abstract</summary>
+
 
 1. **Perform d-th order differencing on the original sequence**  
    Mathematically:
@@ -20,7 +20,7 @@ layout: default
    - For $d=1$: $y_t = x_t - x_{t-1}$
    - For $d=2$: $y_t = (x_t - x_{t-1}) - (x_{t-1} - x_{t-2})$
 
-3. **Fit an ARMA(p, q) model to the differenced sequence**  
+2. **Fit an ARMA(p, q) model to the differenced sequence**  
 
    $$
    y^{(d)}_t = \sum_{i=1}^{p} \phi_i y^{(d)}_{t-i} + \sum_{j=1}^{q} \theta_j \varepsilon_{t-j} + \varepsilon_t
@@ -37,7 +37,7 @@ layout: default
    
    We can compute all $\varepsilon_t$ by iterating over the sequence.
 
-4. **Construct the likelihood using Gaussian noise and compute the negative log-likelihood**  
+3. **Construct the likelihood using Gaussian noise and compute the negative log-likelihood**  
    Assume:
    
    $$
@@ -54,7 +54,7 @@ layout: default
 
    > Note: Fitting the noise in this way is equivalent to Maximum Likelihood Estimation (MLE)
 
-</details>
+
 
 <br>
 
