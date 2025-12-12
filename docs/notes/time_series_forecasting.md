@@ -70,7 +70,7 @@ layout: default
 
 #### Code
 
-<details><summary>chatgpt_arima</summary>
+<details markdown="1"><summary>chatgpt_arima</summary>
 
 ```python
 import numpy as np
@@ -204,7 +204,7 @@ KDD 2016 Cited 68032
 
 #### Code
 
-<details><summary>chatgpt_arima</summary>
+<details markdown="1"><summary>chatgpt_arima</summary>
 
 ```python
 import numpy as np
@@ -327,7 +327,7 @@ yhat = m.predict(future)
 ### Prophet
 #### Abstract
 
-<details><summary>Prophet Abstract</summary>
+<details markdown="1"><summary>Prophet Abstract</summary>
 
 1. Formula:
    It is based on additive model:
@@ -379,7 +379,7 @@ yhat = m.predict(future)
 
 #### Code
 
-<details><summary>chatgpt_prophet</summary>
+<details markdown="1"><summary>chatgpt_prophet</summary>
 
 ```python
 import numpy as np
@@ -610,7 +610,7 @@ ICLR 2023 Cited by 1529
 
 #### Abstract
 
-<details><summary>LSTM Abstract</summary>
+<details markdown="1"><summary>LSTM Abstract</summary>
 
 1. Overall, LSTM has three gates: the forget gate f, the input (memory) gate i, and the output gate o, corresponding respectively to c, [x, h], along with the new c (the new cell state is obtained by combining the previous two).
    
@@ -737,7 +737,7 @@ SIGIR 2018 Cited by 2573
 ### DeepAR (Deep Autoregressive)
 #### Abstract
 
-<details><summary>DeepAR Abstract</summary>
+<details markdown="1"><summary>DeepAR Abstract</summary>
 
 1. Using an LSTM as the basic module, with initial $c$ and $h$ set to 0. The input contains covariates  $x$ and the previous step’s $z$ and 
 $h$.
@@ -860,7 +860,7 @@ ICLR 2020 Cited by 3152
 ### Informer
 #### Abstract
 
-<details><summary>Informer Abstract</summary>
+<details markdown="1"><summary>Informer Abstract</summary>
 
 The paper proposes an improved variant of the original Transformer model, with three main modifications:
 
@@ -899,7 +899,7 @@ AAAI 2021 Cited by 4838
 ### Autoformer
 #### Abstract
 
-<details><summary>Autoformer Abstract</summary>
+<details markdown="1"><summary>Autoformer Abstract</summary>
 
 1. Auto-correlation:
    The attention mechanism is applied After the sliding operation and Fourier decomposition in frequency domain. 
@@ -1008,7 +1008,7 @@ NeurIPS 2021 Cited by 2438
 ### TFT (Temporal Fusion Transformers)
 #### Abstract
 
-<details><summary>TFT Abstract</summary>
+<details markdown="1"><summary>TFT Abstract</summary>
 
 1. It is compared with the LogTrans, DeepAR and MQRNN. It is an attention-based DNN architecture and is almost unrelated to the classical Transformer in terms of structure.
 2. In terms of data structure, the model considers that many variables are not known at prediction time, such as historical customer traffic.
@@ -1091,7 +1091,7 @@ International Journal of Forecasting 2021 Cited by 1835
 ### Fedformer
 #### Abstract
 
-<details><summary>Fedformer Abstract</summary>
+<details markdown="1"><summary>Fedformer Abstract</summary>
 
 1. It can be considered an upgraded version of Autoformer. The overall architecture is consistent with Autoformer, but many details and sub-modules differ. The results are also compared directly against Autoformer.
 
@@ -1160,7 +1160,7 @@ ICLR 2022 Cited by 934
 ### PatchTST
 #### Abstract
 
-<details><summary>PatchTST Abstract</summary>
+<details markdown="1"><summary>PatchTST Abstract</summary>
 
 1. Patching 
    
@@ -1248,7 +1248,7 @@ ICLR 2023 Cited by 937
 ### iTransformer
 #### Abstract
 
-<details><summary>iTransformer Abstract</summary>
+<details markdown="1"><summary>iTransformer Abstract</summary>
 
 1. Inverted:
    Embedding the whole series as the token.
@@ -1560,7 +1560,7 @@ PVLDB 2024 Cited by 46
 
 #### Abstract
 
-<details><summary>LTSF-Linear Abstract</summary>
+<details markdown="1"><summary>LTSF-Linear Abstract</summary>
 
 Linear layers are  channel-independent
 
@@ -1637,7 +1637,7 @@ NeurIPS 2024 Cited by 84
 
 #### Abstract
 
-<details><summary>Bergmeir NeurIPS Talk Abstract</summary>
+<details markdown="1"><summary>Bergmeir NeurIPS Talk Abstract</summary>
 
 1. "Qiu et al. (PVLDB, 2024): PatchTST evaluates using a 'Drop Last trick'",
 the mentioned paper corresponds to the TFB paper.
@@ -1702,7 +1702,7 @@ ICML 2025 Cited by 0
 
 #### Abstract
 
-<details><summary>Multivariate Time series Data sets Abstract</summary>
+<details markdown="1"><summary>Multivariate Time series Data sets Abstract</summary>
 
 All the datasets used by the Transformer-based models above come from this library.
 
@@ -1757,7 +1757,7 @@ arXiv 2021 Cited by 259
 
 #### Abstract
 
-<details><summary>Multivariate Time series Data sets Abstract</summary>
+<details markdown="1"><summary>Multivariate Time series Data sets Abstract</summary>
 
 1. Each CSV file contains data with a different time granularity.
 

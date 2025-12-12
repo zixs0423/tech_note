@@ -30,7 +30,7 @@ $$
 
 MLE usually minimizes the negative log-likelihood (NLL):
 
-<details><summary>The reason of using NLL</summary>
+<details markdown="1"><summary>The reason of using NLL</summary>
 1. the log operation turns a derivative that would require repeated product rules into a derivative involving a summation, which can be broken into batches. This summation makes mini-batch training possible, which works perfectly with SGD.
 2. Log turns products into sums and avoids numerical underflow. Multiplying hundreds or thousands of tiny numbers quickly becomes zero.
 3. Minimizing NLL matches ML conventions that we should minimize a loss and lower equals better.
@@ -116,7 +116,7 @@ $P(D)$: total probability of observing D
 
 $P(\theta \mid D)$: posterior probability — updated belief about {\theta} after seeing D
 
-<details><summary>Devrivation</summary>
+<details markdown="1"><summary>Devrivation</summary>
 $$
 P(A\cap B)=P(A\mid B)P(B)=P(B\mid A)P(A)
 $$
@@ -176,7 +176,7 @@ $$
 
 This is exactly L2 regularization (Ridge).
 
-<details><summary>Devrivation</summary>
+<details markdown="1"><summary>Devrivation</summary>
 
 The PDF (Probability Density Function) of Gaussian distribution:
 
@@ -214,7 +214,7 @@ $$
 
 This is L1 regularization (Lasso).
 
-<details><summary>Devrivation</summary>
+<details markdown="1"><summary>Devrivation</summary>
 
 The PDF (Probability Density Function) of Laplace distribution:
 

@@ -9,7 +9,7 @@ layout: default
 
 #### Abstract
 
-<details><summary>CF Abstract</summary>
+<details markdown="1"><summary>CF Abstract</summary>
 
 1. Basic Principle
 
@@ -39,7 +39,7 @@ layout: default
 
 #### Code
 
-<details><summary>chatgpt_cf</summary>
+<details markdown="1"><summary>chatgpt_cf</summary>
 
 ```python
 import numpy as np
@@ -95,7 +95,7 @@ for ad, score in recommendation:
 ### Two Tower
 #### Abstract
 
-<details><summary>Two Tower Abstract</summary>
+<details markdown="1"><summary>Two Tower Abstract</summary>
 
 1. Basic Principle
 
@@ -128,7 +128,7 @@ for ad, score in recommendation:
 
 #### Code
 
-<details><summary>chatgpt_two_tower</summary>
+<details markdown="1"><summary>chatgpt_two_tower</summary>
 
 ```python
 # two_tower_demo.py
@@ -330,7 +330,7 @@ if __name__ == "__main__":
 
 #### Abstract
 
-<details><summary>FM Abstract</summary>
+<details markdown="1"><summary>FM Abstract</summary>
 
 1. Basic Principle
 
@@ -359,7 +359,7 @@ if __name__ == "__main__":
 
 #### Code
 
-<details><summary>chatgpt_fm</summary>
+<details markdown="1"><summary>chatgpt_fm</summary>
 
 ```python
 import torch
@@ -501,7 +501,7 @@ if __name__ == "__main__":
 
 #### Abstract
 
-<details><summary>gbdt_lr Abstract</summary>
+<details markdown="1"><summary>gbdt_lr Abstract</summary>
 
 1. Basic Principle
 
@@ -540,7 +540,7 @@ if __name__ == "__main__":
 
 #### Code
 
-<details><summary>chatgpt_gbdt_lr</summary>
+<details markdown="1"><summary>chatgpt_gbdt_lr</summary>
 
 ```python
 # gbdt_lr_pipeline_full.py
@@ -698,7 +698,7 @@ if __name__ == "__main__":
 
 #### Abstract
 
-<details><summary>DIN Abstract</summary>
+<details markdown="1"><summary>DIN Abstract</summary>
 
 1. Basic Principle
 
@@ -737,7 +737,7 @@ if __name__ == "__main__":
 
 #### Code
 
-<details><summary>chatgpt_din</summary>
+<details markdown="1"><summary>chatgpt_din</summary>
 
 ```python
 # din_example.py
@@ -1042,7 +1042,7 @@ if __name__ == "__main__":
 
 #### Abstract
 
-<details><summary>ESMM Abstract</summary>
+<details markdown="1"><summary>ESMM Abstract</summary>
 
 1. Basic Principle
 
@@ -1072,7 +1072,7 @@ if __name__ == "__main__":
 
 #### Code
 
-<details><summary>chatgpt_esmm</summary>
+<details markdown="1"><summary>chatgpt_esmm</summary>
 
 ```python
 """

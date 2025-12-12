@@ -9,7 +9,7 @@ layout: default
 
 #### Abstract
 
-<details><summary>DML Abstract</summary>
+<details markdown="1"><summary>DML Abstract</summary>
 
 1. Core Idea
 
@@ -45,7 +45,7 @@ layout: default
 
 #### Abstract
 
-<details><summary>PSM Abstract</summary>
+<details markdown="1"><summary>PSM Abstract</summary>
 
 1. Core Idea
 
@@ -77,7 +77,7 @@ layout: default
 
 #### Abstract
 
-<details><summary>Meta-learner Abstract</summary>
+<details markdown="1"><summary>Meta-learner Abstract</summary>
 
 1. Core Idea
 
