@@ -9,7 +9,7 @@ layout: default
 
 #### Abstract
 
-
+<details markdown="1"><summary>chatgpt_arima</summary>
 
 1. **Perform d-th order differencing on the original sequence**  
    Mathematically:
@@ -54,7 +54,7 @@ layout: default
 
    > Note: Fitting the noise in this way is equivalent to Maximum Likelihood Estimation (MLE)
 
-
+</details>
 
 <br>
 
