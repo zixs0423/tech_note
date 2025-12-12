@@ -58,9 +58,9 @@
    
    </details>
 
-3. Write equations in Latex and code in the markdown file directly. Use folding sections to optimize the display. 
+3. Write equations in Latex and code in the markdown file directly. Use folding sections to optimize the display. Remember to add 'markdown="1"' in details, which means 'Enable Markdown parsing inside this HTML block'.
 4. Paste the links of academic papers and tutorial blogs in the markdown file directly.
-5. Remmenber that all markdown files shoud have the front matter in order to be built by jekyll:
+5. Remember that all markdown files shoud have the front matter in order to be built by jekyll:
 
    <details markdown="1"><summary>The front matter</summary>
 
@@ -73,3 +73,5 @@
    </details>
 6. Commit and sync the changes in codespace and the Github pages will automatically use jekyll to build the website, which mostly takes 1-3 min. The process can be monitored in actions.
 7. Copy the markdown file (not the preview) to citadel directly, the equations and code blocks will be automatically transformed to correct form.
+8. The leetcode extension can not be logged in inside the codespace. So solve problems in local vscode and then upload the answers and notes. 
+9. The vscode is logged in with my github account and will automatically sync between the local environment and github codespace.

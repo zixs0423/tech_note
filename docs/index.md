@@ -9,3 +9,4 @@ title: Zixs' Tech Note
 - [Advertisement](./notes/Advertisement.md)
 - [Pricing](./notes/Pricing.md)
 - [LeetCode](./notes/LeetCode.md)
+- [Open Source Project](./notes/open_source_project.md)
