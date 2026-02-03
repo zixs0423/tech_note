@@ -1,15 +1,198 @@
 ---
 layout: default
 ---
+
+- [Time Series Forecasting](#time-series-forecasting)
+  - [Machine Learning](#machine-learning)
+    - [ARIMA (AutoRegressive Integrated Moving Average)](#arima-autoregressive-integrated-moving-average)
+      - [Concepts](#concepts)
+      - [Source](#source)
+      - [Code](#code)
+    - [XGBoost](#xgboost)
+      - [Concepts](#concepts-1)
+      - [Source](#source-1)
+      - [Code](#code-1)
+    - [Prophet](#prophet)
+      - [Concepts](#concepts-2)
+      - [Source](#source-2)
+      - [Code](#code-2)
+  - [Deep Learning](#deep-learning)
+    - [TCN](#tcn)
+      - [Concepts](#concepts-3)
+      - [Source](#source-3)
+      - [Code](#code-3)
+    - [N-BEATS](#n-beats)
+      - [Concepts](#concepts-4)
+      - [Source](#source-4)
+      - [Code](#code-4)
+    - [NHITS](#nhits)
+      - [Concepts](#concepts-5)
+      - [Source](#source-5)
+      - [Code](#code-5)
+    - [TimesNet](#timesnet)
+      - [Concepts](#concepts-6)
+      - [Source](#source-6)
+      - [Code](#code-6)
+    - [RNN-based](#rnn-based)
+      - [LSTM](#lstm)
+      - [Concepts](#concepts-7)
+      - [Source](#source-7)
+      - [Code](#code-7)
+    - [Seq2seq](#seq2seq)
+      - [Concepts](#concepts-8)
+      - [Source](#source-8)
+      - [Code](#code-8)
+    - [MQRNN](#mqrnn)
+      - [Concepts](#concepts-9)
+      - [Source](#source-9)
+      - [Code](#code-9)
+    - [LSTNet](#lstnet)
+      - [Concepts](#concepts-10)
+      - [Source](#source-10)
+      - [Code](#code-10)
+    - [DeepAR (Deep Autoregressive)](#deepar-deep-autoregressive)
+      - [Concepts](#concepts-11)
+      - [Source](#source-11)
+      - [Code](#code-11)
+  - [Transformer-based](#transformer-based)
+    - [LogTrans/Time-Series Transformer](#logtranstime-series-transformer)
+      - [Concepts](#concepts-12)
+      - [Source](#source-12)
+      - [Code](#code-12)
+    - [Longformer](#longformer)
+      - [Concepts](#concepts-13)
+      - [Source](#source-13)
+      - [Code](#code-13)
+    - [Reformer](#reformer)
+      - [Concepts](#concepts-14)
+      - [Source](#source-14)
+      - [Code](#code-14)
+    - [Informer](#informer)
+      - [Concepts](#concepts-15)
+      - [Source](#source-15)
+      - [Code](#code-15)
+    - [Autoformer](#autoformer)
+      - [Concepts](#concepts-16)
+      - [Source](#source-16)
+      - [Code](#code-16)
+    - [TFT (Temporal Fusion Transformers)](#tft-temporal-fusion-transformers)
+      - [Concepts](#concepts-17)
+      - [Source](#source-17)
+      - [Code](#code-17)
+    - [Fedformer](#fedformer)
+      - [Concepts](#concepts-18)
+      - [Source](#source-18)
+      - [Code](#code-18)
+    - [Pyraformer](#pyraformer)
+      - [Concepts](#concepts-19)
+      - [Source](#source-19)
+      - [Code](#code-19)
+    - [PatchTST](#patchtst)
+      - [Concepts](#concepts-20)
+      - [Source](#source-20)
+      - [Code](#code-20)
+    - [Crossformer](#crossformer)
+      - [Concepts](#concepts-21)
+      - [Source](#source-21)
+      - [Code](#code-21)
+    - [iTransformer](#itransformer)
+      - [Concepts](#concepts-22)
+      - [Source](#source-22)
+      - [Code](#code-22)
+    - [PDF](#pdf)
+      - [Concepts](#concepts-23)
+      - [Source](#source-23)
+      - [Code](#code-23)
+    - [DUET](#duet)
+      - [Concepts](#concepts-24)
+      - [Source](#source-24)
+      - [Code](#code-24)
+  - [LLMs-based](#llms-based)
+    - [One fits all](#one-fits-all)
+      - [Concepts](#concepts-25)
+      - [Source](#source-25)
+      - [Code](#code-25)
+    - [TimeGPT](#timegpt)
+      - [Concepts](#concepts-26)
+      - [Source](#source-26)
+      - [Code](#code-26)
+    - [TimesFM](#timesfm)
+      - [Concepts](#concepts-27)
+      - [Source](#source-27)
+      - [Code](#code-27)
+    - [Chronos](#chronos)
+      - [Concepts](#concepts-28)
+      - [Source](#source-28)
+      - [Code](#code-28)
+    - [Time-LLM](#time-llm)
+      - [Concepts](#concepts-29)
+      - [Source](#source-29)
+      - [Code](#code-29)
+    - [CALF](#calf)
+      - [Concepts](#concepts-30)
+      - [Source](#source-30)
+      - [Code](#code-30)
+    - [LLM4TS](#llm4ts)
+      - [Concepts](#concepts-31)
+      - [Source](#source-31)
+      - [Code](#code-31)
+  - [Leadboard](#leadboard)
+    - [TFB](#tfb)
+      - [Concepts](#concepts-32)
+      - [Source](#source-32)
+      - [Code](#code-32)
+    - [Time-Series-Library](#time-series-library)
+      - [Concepts](#concepts-33)
+      - [Source](#source-33)
+      - [Code](#code-33)
+  - [Review](#review)
+    - [LTSF-Linear](#ltsf-linear)
+      - [Concepts](#concepts-34)
+      - [Source](#source-34)
+      - [Code](#code-34)
+    - [LLMsForTimeSeries](#llmsfortimeseries)
+      - [Concepts](#concepts-35)
+      - [Source](#source-35)
+      - [Code](#code-35)
+    - [Bergmeir NeurIPS Talk](#bergmeir-neurips-talk)
+      - [Concepts](#concepts-36)
+      - [Source](#source-36)
+      - [Code](#code-36)
+    - [Transformers for TSF](#transformers-for-tsf)
+      - [Concepts](#concepts-37)
+      - [Source](#source-37)
+      - [Code](#code-37)
+  - [Dataset](#dataset)
+    - [Multivariate Time series Data sets](#multivariate-time-series-data-sets)
+      - [Concepts](#concepts-38)
+      - [Source](#source-38)
+      - [Code](#code-38)
+    - [Monash](#monash)
+      - [Concepts](#concepts-39)
+      - [Source](#source-39)
+      - [Tutorials](#tutorials)
+      - [Code](#code-39)
+    - [M4](#m4)
+      - [Concepts](#concepts-40)
+      - [Source](#source-40)
+      - [Code](#code-40)
+    - [M5](#m5)
+      - [Concepts](#concepts-41)
+      - [Source](#source-41)
+      - [Code](#code-41)
+    - [M6](#m6)
+      - [Concepts](#concepts-42)
+      - [Source](#source-42)
+      - [Code](#code-42)
+
+
 # Time Series Forecasting
 
 ## Machine Learning
 
 ### ARIMA (AutoRegressive Integrated Moving Average)
 
-#### Abstract
-
-<details markdown="1"><summary>chatgpt_arima</summary>
+#### Concepts
 
 1. **Perform d-th order differencing on the original sequence**  
    Mathematically:
@@ -54,15 +237,10 @@ layout: default
 
    > Note: Fitting the noise in this way is equivalent to Maximum Likelihood Estimation (MLE)
 
-</details>
-
 <br>
 
-#### Paper
+#### Source
 
-<br>
-
-#### Tutorials
 
 [时间序列模型(四)：ARIMA模型](https://zhuanlan.zhihu.com/p/634120397)
 
@@ -70,114 +248,7 @@ layout: default
 
 #### Code
 
-<details markdown="1"><summary>chatgpt_arima</summary>
-
-```python
-import numpy as np
-from scipy.optimize import minimize
-
-class ARIMA:
-    def __init__(self, p=1, d=0, q=0):
-        self.p = p
-        self.d = d
-        self.q = q
-
-    def difference(self, x, d):
-        """执行 d 阶差分"""
-        for _ in range(d):
-            x = np.diff(x)
-        return x
-
-    def _neg_log_likelihood(self, params, y):
-        """
-        负对数似然：
-        y_t = ar + ma + noise
-        """
-        p, q = self.p, self.q
-        ar_params = params[:p]
-        ma_params = params[p:p+q]
-        sigma = params[-1]  # noise std
-        print(f'ar_params:{ar_params}')
-        print(f'ma_params:{ma_params}')
-        print(f'sigma:{sigma}')
-
-        T = len(y)
-        eps = np.zeros(T)
-        print(f'T:{T}')
-        print(f'eps:{eps}')
-
-        # ARIMA
-        for t in range(max(p, q), T):
-            ar_term = np.dot(ar_params, y[t-p:t][::-1])
-            ma_term = np.dot(ma_params, eps[t-q:t][::-1])
-            eps[t] = y[t] - ar_term - ma_term
-            print(f't:{t}')
-            print(f'y[t-p:t][::-1]:{y[t-p:t][::-1]}')
-            print(f'eps[t-q:t][::-1]:{eps[t-q:t][::-1]}')
-            print(f'ar_term:{ar_term}')
-            print(f'ma_term:{ma_term}')
-            print(f'eps[{t}]:{eps[t]}')
-            exit()
-            
-
-
-        ll = -0.5 * np.sum((eps / sigma)**2 + np.log(2*np.pi*sigma**2))
-        return -ll  # minimize negative log likelihood
-
-    def fit(self, x):
-        y = self.difference(x, self.d)
-        print(f'y:{y}')
-        print(f'y.shape:{y.shape}')
-
-        init_params = np.random.randn(self.p + self.q + 1)
-        print(f'init_params:{init_params}')
-
-
-        result = minimize(self._neg_log_likelihood, init_params, args=(y,))
-        self.params = result.x
-        return self
-
-    def predict(self, x, steps=1):
-
-        p, d = self.p, self.d
-        y = self.difference(x, d)
-        ar_params = self.params[:p]
-
-        preds = []
-        cur = y.copy()
-
-        for _ in range(steps):
-
-            pred = np.dot(ar_params, cur[-p:][::-1])
-            cur = np.append(cur, pred)
-            preds.append(pred)
-
-
-        for _ in range(d):
-            preds = np.cumsum(np.r_[x[-1], preds])[1:]
-
-        return preds
-
-import numpy as np
-import matplotlib.pyplot as plt
-
-
-np.random.seed(0)
-x = np.cumsum(np.random.randn(200))  
-print(f'x:{x}')
-
-model = ARIMA(p=2, d=1, q=1)
-model.fit(x)
-
-pred = model.predict(x, steps=20)
-
-plt.plot(range(len(x)), x, label="data")
-plt.plot(range(len(x), len(x)+20), pred, label="forecast")
-plt.legend()
-plt.show()
-```
-
-</details>
+[chatgpt_arima](../code/chatgpt_arima.py)
 
 <br>
 
@@ -185,149 +256,29 @@ plt.show()
 
 ### XGBoost
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [XGBoost: A Scalable Tree Boosting System](https://www.kdd.org/kdd2016/papers/files/rfp0697-chenAemb.pdf)
 
 KDD 2016 Cited 68032
 
-<br>
-
-#### Tutorials
 [超详细解析XGBoost（你想要的都有）](https://zhuanlan.zhihu.com/p/562983875)
 
 <br>
 
 #### Code
 
-<details markdown="1"><summary>chatgpt_arima</summary>
-
-```python
-import numpy as np
-import pandas as pd
-from sklearn.linear_model import Lasso
-import matplotlib.pyplot as plt
-
-class MiniProphet:
-    def __init__(self, n_changepoints=10, yearly_order=5, holidays=None, changepoint_penalty=0.1):
-        self.n_changepoints = n_changepoints
-        self.yearly_order = yearly_order
-        self.holidays = holidays
-        self.changepoint_penalty = changepoint_penalty
-
-    def _make_changepoints(self, t):
-        # 均匀选 changepoints
-        cp_index = np.linspace(0, len(t)-1, self.n_changepoints+2)[1:-1].astype(int)
-        return t[cp_index]
-
-    def _design_matrix(self, df):
-        t = df['t'].values
-        
-        # 1) 基础线性趋势: k*t + m
-        X = [t, np.ones_like(t)]
-        # print(f'X:{X}')
-        
-        # 2) 趋势改变点：ReLU(t - s)
-        for s in self.changepoints:
-            X.append(np.maximum(0, t - s))
-        
-        # print(f'self.changepoints:{self.changepoints}')
-        # print(f'X:{X}')
-        
-        # 3) yearly seasonality (Fourier)
-        for i in range(1, self.yearly_order + 1):
-            X.append(np.sin(2 * np.pi * i * df['t_year'].values))
-            X.append(np.cos(2 * np.pi * i * df['t_year'].values))
-        
-        # print(f'self.yearly_order:{self.yearly_order}')
-        # print(f'X:{X}')
-        
-        # 4) holidays
-        if self.holidays is not None:
-            for h in self.holidays:
-                X.append((df['date'] == h).astype(float).values)
-        # print(f'self.holidays:{self.holidays}')
-        # print(f'X:{X}')
-        exit()
-        
-        X = np.vstack(X).T  # [n_samples, n_features]
-        return X
-
-    def fit(self, df):
-        df = df.copy()
-        df['date'] = pd.to_datetime(df['ds'])
-        
-        # 标准化时间 (t ∈ [0,1])
-        df['t'] = (df['date'] - df['date'].min()).dt.days.astype(float)
-        df['t'] /= df['t'].max()
-        
-        # yearly position
-        df['t_year'] = df['date'].dt.dayofyear / 365.25
-        print(f'df:{df}')
-
-        # choose changepoints
-        self.changepoints = self._make_changepoints(df['t'].values)
-        print(f'changepoints:{self.changepoints}')
-        
-        # Build design matrix
-        X = self._design_matrix(df)
-        y = df['y'].values
-        
-        # Fit with L1 penalty on changepoints → selects only some changepoints
-        model = Lasso(alpha=self.changepoint_penalty, fit_intercept=False)
-        model.fit(X, y)
-        
-        self.model = model
-        self.features = X.shape[1]
-        return self
-
-    def predict(self, future_df):
-        df = future_df.copy()
-        df['date'] = pd.to_datetime(df['ds'])
-        
-        df['t'] = (df['date'] - self.date_min).dt.days.astype(float)
-        df['t'] /= self.t_scale
-        
-        df['t_year'] = df['date'].dt.dayofyear / 365.25
-        
-        X = self._design_matrix(df)
-        yhat = self.model.predict(X)
-        return yhat
-
-df = pd.DataFrame({
-    'ds': pd.date_range('2022-01-01', periods=365),
-    'y': np.sin(np.linspace(0, 8*np.pi, 365)) + np.linspace(0, 1, 365)
-})
-print(f'df:{df}')
-# # 绘制y
-# plt.plot(df['ds'], df['y'])
-# plt.show()
-
-m = MiniProphet(
-    n_changepoints=8,
-    yearly_order=5,
-    holidays=['2022-02-01', '2022-10-01'],  # 举例
-    changepoint_penalty=0.1
-)
-
-m.fit(df)
-
-future = pd.DataFrame({'ds': pd.date_range('2022-01-01', periods=400)})
-yhat = m.predict(future)
-```
-
-</details>
+<br>
 
 ---
 
 ### Prophet
-#### Abstract
 
-<details markdown="1"><summary>Prophet Abstract</summary>
+#### Concepts
 
 1. Formula:
    It is based on additive model:
@@ -365,139 +316,16 @@ yhat = m.predict(future)
    y_t = \text{observed value at time t}
    $$
 
-</details>
+<br>
+
+#### Source
 
 <br>
 
-#### Paper
-
-<br>
-
-#### Tutorials
-
-<br>
 
 #### Code
 
-<details markdown="1"><summary>chatgpt_prophet</summary>
-
-```python
-import numpy as np
-import pandas as pd
-from sklearn.linear_model import Lasso
-import matplotlib.pyplot as plt
-
-class MiniProphet:
-    def __init__(self, n_changepoints=10, yearly_order=5, holidays=None, changepoint_penalty=0.1):
-        self.n_changepoints = n_changepoints
-        self.yearly_order = yearly_order
-        self.holidays = holidays
-        self.changepoint_penalty = changepoint_penalty
-
-    def _make_changepoints(self, t):
-        # 均匀选 changepoints
-        cp_index = np.linspace(0, len(t)-1, self.n_changepoints+2)[1:-1].astype(int)
-        return t[cp_index]
-
-    def _design_matrix(self, df):
-        t = df['t'].values
-        
-        # 1) 基础线性趋势: k*t + m
-        X = [t, np.ones_like(t)]
-        # print(f'X:{X}')
-        
-        # 2) 趋势改变点：ReLU(t - s)
-        for s in self.changepoints:
-            X.append(np.maximum(0, t - s))
-        
-        # print(f'self.changepoints:{self.changepoints}')
-        # print(f'X:{X}')
-        
-        # 3) yearly seasonality (Fourier)
-        for i in range(1, self.yearly_order + 1):
-            X.append(np.sin(2 * np.pi * i * df['t_year'].values))
-            X.append(np.cos(2 * np.pi * i * df['t_year'].values))
-        
-        # print(f'self.yearly_order:{self.yearly_order}')
-        # print(f'X:{X}')
-        
-        # 4) holidays
-        if self.holidays is not None:
-            for h in self.holidays:
-                X.append((df['date'] == h).astype(float).values)
-        # print(f'self.holidays:{self.holidays}')
-        # print(f'X:{X}')
-        exit()
-        
-        X = np.vstack(X).T  # [n_samples, n_features]
-        return X
-
-    def fit(self, df):
-        df = df.copy()
-        df['date'] = pd.to_datetime(df['ds'])
-        
-        # 标准化时间 (t ∈ [0,1])
-        df['t'] = (df['date'] - df['date'].min()).dt.days.astype(float)
-        df['t'] /= df['t'].max()
-        
-        # yearly position
-        df['t_year'] = df['date'].dt.dayofyear / 365.25
-        print(f'df:{df}')
-
-        # choose changepoints
-        self.changepoints = self._make_changepoints(df['t'].values)
-        print(f'changepoints:{self.changepoints}')
-        
-        # Build design matrix
-        X = self._design_matrix(df)
-        y = df['y'].values
-        
-        # Fit with L1 penalty on changepoints → selects only some changepoints
-        model = Lasso(alpha=self.changepoint_penalty, fit_intercept=False)
-        model.fit(X, y)
-        
-        self.model = model
-        self.features = X.shape[1]
-        return self
-
-    def predict(self, future_df):
-        df = future_df.copy()
-        df['date'] = pd.to_datetime(df['ds'])
-        
-        df['t'] = (df['date'] - self.date_min).dt.days.astype(float)
-        df['t'] /= self.t_scale
-        
-        df['t_year'] = df['date'].dt.dayofyear / 365.25
-        
-        X = self._design_matrix(df)
-        yhat = self.model.predict(X)
-        return yhat
-
-df = pd.DataFrame({
-    'ds': pd.date_range('2022-01-01', periods=365),
-    'y': np.sin(np.linspace(0, 8*np.pi, 365)) + np.linspace(0, 1, 365)
-})
-print(f'df:{df}')
-# # 绘制y
-# plt.plot(df['ds'], df['y'])
-# plt.show()
-
-m = MiniProphet(
-    n_changepoints=8,
-    yearly_order=5,
-    holidays=['2022-02-01', '2022-10-01'],  # 举例
-    changepoint_penalty=0.1
-)
-
-m.fit(df)
-
-future = pd.DataFrame({'ds': pd.date_range('2022-01-01', periods=400)})
-yhat = m.predict(future)
-
-
-```
-   
-</details>
+[chatgpt_propht](../code/chatgpt_prophet.py)
 
 <br>
 
@@ -507,11 +335,11 @@ yhat = m.predict(future)
 
 ### TCN
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling](https://arxiv.org/abs/1803.01271)
 
@@ -519,9 +347,6 @@ arXiv 2018 Cited by 7490
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 [TCN](https://github.com/locuslab/TCN)
@@ -532,11 +357,11 @@ arXiv 2018 Cited by 7490
 
 ### N-BEATS
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [N-BEATS: Neural basis expansion analysis for interpretable time series forecasting](https://arxiv.org/abs/1905.10437)
 
@@ -544,9 +369,6 @@ ICLR 2019 Cited by 1691
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -560,11 +382,11 @@ ICLR 2019 Cited by 1691
 
 ### NHITS
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [NHITS: Neural Hierarchical Interpolation for Time Series Forecasting](https://ojs.aaai.org/index.php/AAAI/article/view/25854)
 
@@ -572,9 +394,6 @@ AAAI 2023 Cited by 621
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -584,19 +403,16 @@ AAAI 2023 Cited by 621
 
 ### TimesNet
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis](https://arxiv.org/abs/2210.02186)
 
 ICLR 2023 Cited by 1529
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -608,9 +424,7 @@ ICLR 2023 Cited by 1529
 
 #### LSTM
 
-#### Abstract
-
-<details markdown="1"><summary>LSTM Abstract</summary>
+#### Concepts
 
 1. Overall, LSTM has three gates: the forget gate f, the input (memory) gate i, and the output gate o, corresponding respectively to c, [x, h], along with the new c (the new cell state is obtained by combining the previous two).
    
@@ -640,15 +454,10 @@ ICLR 2023 Cited by 1529
 
 ![LSTM](../images/LSTM.png)
    
-</details>
-
 <br>
 
-#### Paper
+#### Source
 
-<br>
-
-#### Tutorials
 
 [人人都能看懂的LSTM](https://zhuanlan.zhihu.com/p/32085405)
 
@@ -662,11 +471,11 @@ ICLR 2023 Cited by 1529
 
 ### Seq2seq
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [Sequence to sequence learning with neural networks](https://proceedings.neurips.cc/paper_files/paper/2014/file/5a18e133cbf9f257297f410bb7eca942-Paper.pdf)
 
@@ -674,9 +483,6 @@ NeurIPS 2014 Cited by 28288
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -686,11 +492,11 @@ NeurIPS 2014 Cited by 28288
 
 ### MQRNN
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [A Multi-Horizon Quantile Recurrent Forecaster](https://arxiv.org/abs/1711.11053)
 
@@ -698,9 +504,6 @@ NeurIPS 2017 Cited by 608
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -710,11 +513,11 @@ NeurIPS 2017 Cited by 608
 
 ### LSTNet
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks](https://dl.acm.org/doi/abs/10.1145/3209978.3210006)
 
@@ -722,9 +525,6 @@ SIGIR 2018 Cited by 2573
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -735,13 +535,12 @@ SIGIR 2018 Cited by 2573
 ---
 
 ### DeepAR (Deep Autoregressive)
-#### Abstract
 
-<details markdown="1"><summary>DeepAR Abstract</summary>
+#### Concepts
 
 1. Using an LSTM as the basic module, with initial $c$ and $h$ set to 0. The input contains covariates  $x$ and the previous step’s $z$ and 
 $h$.
-2. The model’s final outputs are $μ$ and $σ$, which are the two parameters of the distribution rather than the actual prediction value. The actual prediction must be obtained by sampling from the distribution defined by $μ$ and $σ$.
+1. The model’s final outputs are $μ$ and $σ$, which are the two parameters of the distribution rather than the actual prediction value. The actual prediction must be obtained by sampling from the distribution defined by $μ$ and $σ$.
    
    $$
    \begin{aligned}
@@ -750,22 +549,20 @@ $h$.
    \sigma(h_{i,t}) &= \log (1 + \exp(w_{\sigma}^T h_{i,t} +b_{\sigma}))
    \end{aligned}
    $$
-3. The model is trained using the log-likelihood as the loss function. The $p$ corresponds to the distribution determined by $μ$ and $σ$, and $z$ is the ground truth.
+2. The model is trained using the log-likelihood as the loss function. The $p$ corresponds to the distribution determined by $μ$ and $σ$, and $z$ is the ground truth.
    
    $$
    L = \sum_{i=1}^N \sum_{t=t_0}^{T} \log p(z_{i,t} \mid \theta (h_i,t))
 
    $$
-4. In essence, prediction involves sampling from the distribution, while training uses the true value to compute the likelihood and infer the distribution parameters. During training, each time step of every sequence outputs a $μ$ and $σ$, and prediction works the same way.
-5. During training, the model uses the true $z_{i,t-1}$ to predict $z_{i,t}$. However, during inference it uses the previously predicted $z_{i,t-1}$. The paper acknowledges this issue but claims it does not observe an impact. Still, this is clearly questionable. In the terminology of lstm_linear, this is essentially an IMS (Iterated Multi-Step) model
+3. In essence, prediction involves sampling from the distribution, while training uses the true value to compute the likelihood and infer the distribution parameters. During training, each time step of every sequence outputs a $μ$ and $σ$, and prediction works the same way.
+4. During training, the model uses the true $z_{i,t-1}$ to predict $z_{i,t}$. However, during inference it uses the previously predicted $z_{i,t-1}$. The paper acknowledges this issue but claims it does not observe an impact. Still, this is clearly questionable. In the terminology of lstm_linear, this is essentially an IMS (Iterated Multi-Step) model
 
 ![DeepAR](../images/DeepAR.png)
 
-</details>
-
 <br>
 
-#### Paper
+#### Source
 
 [DeepAR: Probabilistic forecasting with autoregressive recurrent networks](https://www.sciencedirect.com/science/article/pii/S0169207019301888)
 
@@ -773,9 +570,6 @@ International Journal of Forecasting 2020 Cited by 2524
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -788,22 +582,21 @@ International Journal of Forecasting 2020 Cited by 2524
 ---
 
 ## Transformer-based
+
 ### LogTrans/Time-Series Transformer
-#### Abstract
+
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
-[Enhancing the Locality and Breaking the Memory Bottleneck of Transformer on Time Series Forecasting](https://proceedings.neurips.cc/paper/2019/hash/6775a0635c302542da2c32aa19d86be0-Abstract.html)
+[Enhancing the Locality and Breaking the Memory Bottleneck of Transformer on Time Series Forecasting](https://proceedings.neurips.cc/paper/2019/hash/6775a0635c302542da2c32aa19d86be0-Concepts.html)
 
 NeurIPS 2019 Cited by 2045
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -812,11 +605,11 @@ NeurIPS 2019 Cited by 2045
 ---
 
 ### Longformer
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150)
 
@@ -824,9 +617,6 @@ arXiv 2020 Cited by 4690
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -835,11 +625,11 @@ arXiv 2020 Cited by 4690
 ---
 
 ### Reformer
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451)
 
@@ -847,9 +637,6 @@ ICLR 2020 Cited by 3152
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -858,9 +645,8 @@ ICLR 2020 Cited by 3152
 ---
 
 ### Informer
-#### Abstract
 
-<details markdown="1"><summary>Informer Abstract</summary>
+#### Concepts
 
 The paper proposes an improved variant of the original Transformer model, with three main modifications:
 
@@ -872,11 +658,9 @@ The paper proposes an improved variant of the original Transformer model, with t
 
 The final model outperforms LSTM, Reformer, and several other baselines.
 
-</details>
-
 <br>
 
-#### Paper
+#### Source
 
 [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://ojs.aaai.org/index.php/AAAI/article/view/17325)
 
@@ -884,9 +668,6 @@ AAAI 2021 Cited by 4838
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -897,9 +678,8 @@ AAAI 2021 Cited by 4838
 ---
 
 ### Autoformer
-#### Abstract
 
-<details markdown="1"><summary>Autoformer Abstract</summary>
+#### Concepts
 
 1. Auto-correlation:
    The attention mechanism is applied After the sliding operation and Fourier decomposition in frequency domain. 
@@ -983,21 +763,16 @@ AAAI 2021 Cited by 4838
 ![Autoformer_1](../images/Autoformer_1.png)
 ![Autoformer_2](../images/Autoformer_2.png)
 
-</details>
-
 <br>
 
-#### Paper
+#### Source
 
-[Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting](https://proceedings.neurips.cc/paper/2021/hash/bcc0d400288793e8bdcd7c19a8ac0c2b-Abstract.html)
+[Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting](https://proceedings.neurips.cc/paper/2021/hash/bcc0d400288793e8bdcd7c19a8ac0c2b-Concepts.html)
 
 NeurIPS 2021 Cited by 2438
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1006,9 +781,8 @@ NeurIPS 2021 Cited by 2438
 ---
 
 ### TFT (Temporal Fusion Transformers)
-#### Abstract
 
-<details markdown="1"><summary>TFT Abstract</summary>
+#### Concepts
 
 1. It is compared with the LogTrans, DeepAR and MQRNN. It is an attention-based DNN architecture and is almost unrelated to the classical Transformer in terms of structure.
 2. In terms of data structure, the model considers that many variables are not known at prediction time, such as historical customer traffic.
@@ -1050,19 +824,14 @@ NeurIPS 2021 Cited by 2438
 
 ![TFT](../images/TFT.png)
 
-</details>
-
 <br>
 
-#### Paper
+#### Source
 
 [Temporal Fusion Transformers for interpretable multi-horizon time series forecasting](https://www.sciencedirect.com/science/article/pii/S0169207021000637)
 
 International Journal of Forecasting 2021 Cited by 1835
 
-<br>
-
-#### Tutorials
 
 [Demand forecasting with the Temporal Fusion Transformer](https://pytorch-forecasting.readthedocs.io/en/latest/tutorials/stallion.html)
 
@@ -1089,9 +858,8 @@ International Journal of Forecasting 2021 Cited by 1835
 ---
 
 ### Fedformer
-#### Abstract
 
-<details markdown="1"><summary>Fedformer Abstract</summary>
+#### Concepts
 
 1. It can be considered an upgraded version of Autoformer. The overall architecture is consistent with Autoformer, but many details and sub-modules differ. The results are also compared directly against Autoformer.
 
@@ -1110,11 +878,9 @@ International Journal of Forecasting 2021 Cited by 1835
 ![Fedformer_1](../images/Fedformer_1.png)
 ![Fedformer_2](../images/Fedformer_2.png)
 
-</details>
-
 <br>
 
-#### Paper
+#### Source
 
 [FEDformer: Frequency Enhanced Decomposed Transformer for Long-term Series Forecasting](https://proceedings.mlr.press/v162/zhou22g)
 
@@ -1122,9 +888,6 @@ PMLR 2022 Cited by 1960
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1135,11 +898,12 @@ PMLR 2022 Cited by 1960
 ---
 
 ### Pyraformer
-#### Abstract
+
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [Pyraformer: Low-Complexity Pyramidal Attention for Long-Range Time Series Modeling and Forecasting](https://repositum.tuwien.at/handle/20.500.12708/135874)
 
@@ -1147,9 +911,6 @@ ICLR 2022 Cited by 934
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1158,9 +919,8 @@ ICLR 2022 Cited by 934
 ---
 
 ### PatchTST
-#### Abstract
 
-<details markdown="1"><summary>PatchTST Abstract</summary>
+#### Concepts
 
 1. Patching 
    
@@ -1198,11 +958,9 @@ ICLR 2022 Cited by 934
    
 ![PatchTST](../images/PatchTST.png)
 
-</details>
-
 <br>
 
-#### Paper
+#### Source
 
 [A Time Series is Worth 64 Words: Long-term Forecasting with Transformers](https://arxiv.org/abs/2211.14730)
 
@@ -1210,9 +968,6 @@ ICLR 2023 Cited by 1390
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1223,11 +978,12 @@ ICLR 2023 Cited by 1390
 ---
 
 ### Crossformer
-#### Abstract
+
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [Crossformer: Transformer Utilizing Cross-Dimension Dependency for Multivariate Time Series Forecasting](https://openreview.net/forum?id=vSVLM2j9eie)
 
@@ -1235,9 +991,6 @@ ICLR 2023 Cited by 937
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1246,9 +999,7 @@ ICLR 2023 Cited by 937
 ---
 
 ### iTransformer
-#### Abstract
-
-<details markdown="1"><summary>iTransformer Abstract</summary>
+#### Concepts
 
 1. Inverted:
    Embedding the whole series as the token.
@@ -1258,9 +1009,7 @@ ICLR 2023 Cited by 937
 
 <br>
 
-</details>
-
-#### Paper
+#### Source
 
 [iTransformer: Inverted Transformers Are Effective for Time Series Forecasting](https://arxiv.org/abs/2310.06625)
 
@@ -1268,9 +1017,6 @@ ICLR 2024 Cited by 659
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1281,11 +1027,12 @@ ICLR 2024 Cited by 659
 ---
 
 ### PDF
-#### Abstract
+
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [Periodicity Decoupling Framework for Long-term Series Forecasting](https://openreview.net/forum?id=dp27P5HBBt)
 
@@ -1293,9 +1040,6 @@ ICLR 2024 Cited by 35
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1306,11 +1050,12 @@ ICLR 2024 Cited by 35
 ---
 
 ### DUET
-#### Abstract
+
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting](https://arxiv.org/abs/2412.10859)
 
@@ -1318,9 +1063,6 @@ KDD 2025 Cited by 8
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1333,21 +1075,19 @@ KDD 2025 Cited by 8
 ## LLMs-based
 
 ### One fits all
-#### Abstract
+
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
-[One Fits All: Power General Time Series Analysis by Pretrained LM](https://proceedings.neurips.cc/paper_files/paper/2023/hash/86c17de05579cde52025f9984e6e2ebb-Abstract-Conference.html)  
+[One Fits All: Power General Time Series Analysis by Pretrained LM](https://proceedings.neurips.cc/paper_files/paper/2023/hash/86c17de05579cde52025f9984e6e2ebb-Concepts-Conference.html)  
 
 NeurIPS 2023 Cited by 508
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1358,20 +1098,18 @@ NeurIPS 2023 Cited by 508
 ---
 
 ### TimeGPT
-#### Abstract
+
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [TimeGPT-1](https://arxiv.org/abs/2310.03589)  
 arXiv 2023 Cited by 289
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1382,11 +1120,12 @@ arXiv 2023 Cited by 289
 ---
 
 ### TimesFM
-#### Abstract
+
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [TimesFM](https://openreview.net/forum?id=jn2iTJas6h)  
 
@@ -1394,9 +1133,6 @@ ICML 2024 Cited by 392
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1407,11 +1143,12 @@ ICML 2024 Cited by 392
 ---
 
 ### Chronos
-#### Abstract
+
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [Chronos](https://arxiv.org/abs/2403.07815)  
 
@@ -1419,9 +1156,6 @@ arXiv 2024 Cited by 417
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1432,11 +1166,11 @@ arXiv 2024 Cited by 417
 ---
 
 ### Time-LLM
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [Time-LLM](https://arxiv.org/abs/2310.01728)  
 
@@ -1444,9 +1178,6 @@ ICLR 2024 Cited by 797
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1457,11 +1188,11 @@ ICLR 2024 Cited by 797
 ---
 
 ### CALF
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [CALF](https://ojs.aaai.org/index.php/AAAI/article/view/34082)  
 
@@ -1469,9 +1200,6 @@ AAAI 2025 Cited by 21
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1480,11 +1208,12 @@ AAAI 2025 Cited by 21
 ---
 
 ### LLM4TS
-#### Abstract
+
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [LLM4TS](https://openreview.net/forum?id=6MKvV3bpfk)  
 
@@ -1492,9 +1221,6 @@ TIST 2025 Cited by 158
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1508,11 +1234,11 @@ TIST 2025 Cited by 158
 
 ### TFB
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods](https://arxiv.org/abs/2403.20150)
 
@@ -1520,9 +1246,6 @@ PVLDB 2024 Cited by 46
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1534,17 +1257,14 @@ PVLDB 2024 Cited by 46
 
 ### Time-Series-Library
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1558,9 +1278,7 @@ PVLDB 2024 Cited by 46
 
 ### LTSF-Linear
 
-#### Abstract
-
-<details markdown="1"><summary>LTSF-Linear Abstract</summary>
+#### Concepts
 
 Linear layers are  channel-independent
 
@@ -1584,11 +1302,9 @@ It maps the input sequence length to the output sequence length instead of mappi
    
    So we can only say the data are independent, but the processing is completely identical—it’s all using the same weight matrix.
 
-</details>
-
 <br>
 
-#### Paper
+#### Source
 
 [Are Transformers Effective for Time Series Forecasting?](https://ojs.aaai.org/index.php/AAAI/article/view/26317)
 
@@ -1596,9 +1312,6 @@ AAAI 2023 Cited by 2310
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1609,21 +1322,18 @@ AAAI 2023 Cited by 2310
 ---
 
 ### LLMsForTimeSeries
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
-[LLMsForTimeSeries](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ed5bf446f59e2c6646d23058c86424b-Abstract-Conference.html)  
+[LLMsForTimeSeries](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ed5bf446f59e2c6646d23058c86424b-Concepts-Conference.html)  
 
 NeurIPS 2024 Cited by 84
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1635,36 +1345,29 @@ NeurIPS 2024 Cited by 84
 
 ### Bergmeir NeurIPS Talk
 
-#### Abstract
-
-<details markdown="1"><summary>Bergmeir NeurIPS Talk Abstract</summary>
+#### Concepts
 
 1. "Qiu et al. (PVLDB, 2024): PatchTST evaluates using a 'Drop Last trick'",
 the mentioned paper corresponds to the TFB paper.
 
-2. It presents solid criticisms of many Transformer- and LLM-based time-series forecasting papers, and reaffirms the value of traditional models such as N-BEATS and DHR-ARIMA. It also recommends several newly released models, such as Chronos, TimeGPT, and TimesFM, but it’s unclear what distinguishes these recommended new models from one another.
+1. It presents solid criticisms of many Transformer- and LLM-based time-series forecasting papers, and reaffirms the value of traditional models such as N-BEATS and DHR-ARIMA. It also recommends several newly released models, such as Chronos, TimeGPT, and TimesFM, but it’s unclear what distinguishes these recommended new models from one another.
 
-3. Regarding datasets, it basically recommends only M4 and Monash, while raising concerns about the others.
+2. Regarding datasets, it basically recommends only M4 and Monash, while raising concerns about the others.
 
-4. This is especially true for economics-related datasets such as stock prices and exchange rates, since markets tend to be efficient and offer no exploitable additional information for forecasting. For weather-related datasets such as electricity demand, experts generally believe forecasting more than two weeks ahead is unrealistic.
+3. This is especially true for economics-related datasets such as stock prices and exchange rates, since markets tend to be efficient and offer no exploitable additional information for forecasting. For weather-related datasets such as electricity demand, experts generally believe forecasting more than two weeks ahead is unrealistic.
 
 5. It even questions the very existence or justification of global models / foundation models (where the dataset contains multiple time series; local models use only a single series). If many unrelated features are all used together as part of the loss function, they can negatively impact the model’s performance on the target domain/features. ❗️
 
 6. Corresponding to the ambiguity of language models, time-series models also need clarification. But the problem is: humans themselves might not know these clarifications. Are we supposed to turn time-series models into something like a chatbot that experts can interact with, continuously supplying contextual information? ❓
-   
-</details>
 
 <br>
 
-#### Paper
+#### Source
 
 [Fundamental limitations of foundational forecasting models: The need for multimodality and rigorous evaluation](https://cbergmeir.com/talks/neurips2024/)
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1674,11 +1377,11 @@ the mentioned paper corresponds to the TFB paper.
 
 ### Transformers for TSF
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [A Closer Look at Transformers for Time Series Forecasting: Understanding Why They Work and Where They Struggle](https://openreview.net/forum?id=kHEVCfES4Q)
 
@@ -1686,9 +1389,6 @@ ICML 2025 Cited by 0
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1700,23 +1400,16 @@ ICML 2025 Cited by 0
 
 ### Multivariate Time series Data sets
 
-#### Abstract
-
-<details markdown="1"><summary>Multivariate Time series Data sets Abstract</summary>
+#### Concepts
 
 All the datasets used by the Transformer-based models above come from this library.
 
-</details>
+<br>
+
+#### Source
 
 <br>
 
-#### Paper
-
-<br>
-
-#### Tutorials
-
-<br>
 
 #### Code
 
@@ -1728,11 +1421,11 @@ All the datasets used by the Transformer-based models above come from this libra
 
 ### Monash
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [Monash Time Series Forecasting Archive](https://arxiv.org/abs/2105.06643)
 
@@ -1755,9 +1448,7 @@ arXiv 2021 Cited by 259
 
 ### M4
 
-#### Abstract
-
-<details markdown="1"><summary>Multivariate Time series Data sets Abstract</summary>
+#### Concepts
 
 1. Each CSV file contains data with a different time granularity.
 
@@ -1765,19 +1456,14 @@ arXiv 2021 Cited by 259
 
 3. Each column is just a placeholder and does not imply that the same column corresponds to the same time step.
 
-</details>
-
 <br>
 
-#### Paper
+#### Source
 
 [The M4 Competition: 100,000 time series and 61 forecasting methods](https://www.sciencedirect.com/science/article/pii/S0169207019301128)
 
 arXiv 2021 Cited by 259
 
-<br>
-
-#### Tutorials
 
 [M4 Forecasting Competition Dataset](https://www.kaggle.com/datasets/yogesh94/m4-forecasting-competition-dataset)
 
@@ -1795,15 +1481,11 @@ arXiv 2021 Cited by 259
 
 ### M5
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
-
-<br>
-
-#### Tutorials
+#### Source
 
 [M5 Forecasting - Accuracy](https://www.kaggle.com/competitions/m5-forecasting-accuracy/overview)
 
@@ -1817,19 +1499,16 @@ arXiv 2021 Cited by 259
 
 ### M6
 
-#### Abstract
+#### Concepts
 
 <br>
 
-#### Paper
+#### Source
 
 [The M6 forecasting competition: Bridging the gap between forecasting and investment decisions](https://www.sciencedirect.com/science/article/pii/S0169207024001079)
 
 <br>
 
-#### Tutorials
-
-<br>
 
 #### Code
 
