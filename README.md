@@ -51,6 +51,8 @@
 
    </details>
 
+   [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+
 2. Write the note in Three sections:
    
    <details markdown="1"><summary>Sections</summary>
