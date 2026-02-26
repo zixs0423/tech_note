@@ -1,5 +1,3 @@
-# https://www.geeksforgeeks.org/machine-learning/what-is-reinforcement-learning/
-
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
