@@ -3,20 +3,37 @@ layout: default
 ---
 
 
-- [Workflow](#workflow)
+- [Deployment](#deployment)
   - [Repository](#repository)
     - [Git](#git)
       - [Concepts](#concepts)
       - [Source](#source)
-      - [Practice](#practice)
+      - [Code](#code)
   - [Environment](#environment)
     - [Anaconda](#anaconda)
       - [Concepts](#concepts-1)
       - [Source](#source-1)
-      - [Practice](#practice-1)
+      - [Code](#code-1)
+    - [Pip](#pip)
+      - [Concepts](#concepts-2)
+      - [Source](#source-2)
+      - [Code](#code-2)
+    - [Nvidia](#nvidia)
+      - [Concepts](#concepts-3)
+      - [Source](#source-3)
+      - [Code](#code-3)
+  - [Packages](#packages)
+    - [Python](#python)
+      - [Concepts](#concepts-4)
+      - [Source](#source-4)
+      - [Code](#code-4)
+    - [Torch](#torch)
+      - [Concepts](#concepts-5)
+      - [Source](#source-5)
+      - [Code](#code-5)
 
 
-# Workflow
+# Deployment
 
 ## Repository
 
@@ -76,17 +93,21 @@ layout: default
   
   get the current branch and commits
 
+* create a .gitignore file in the project folder. Write '*.csv' in it to ignore all the csv files.
+
 <br>
 
 #### Source
 
 [Geeksforgeeks Git Tutorial](https://www.geeksforgeeks.org/git/git-tutorial/)
 
+[Understanding Git-Ignore and Its Usage](https://www.geeksforgeeks.org/git/what-is-git-ignore-and-how-to-use-it/)
+
 [Geeksforgeeks Naming Conventions for Git Branches](https://www.geeksforgeeks.org/git/how-to-naming-conventions-for-git-branches/)
 
 <br>
 
-#### Practice
+#### Code
 
 * merge a feature branch to main branch manually
   * git pull: This fetches changes from the remote and merges them into your current branch
@@ -104,7 +125,7 @@ layout: default
   * git add .
   * git commit -m ""
   * git push origin
-
+  
 <br>
 
 ---
@@ -115,13 +136,129 @@ layout: default
 
 #### Concepts
 
+* conda create -n 'env_name' python=='python_version'
+  
+  create a new environment
+
+* conda activate 'env_name'
+
+* conda info --envs
+  
+  list all environments and locations
+ 
+* conda list
+  
+  list installed packages
+
+* conda remove -n 'env_name'
+  
+  delete environment by name
+
+<br>
+
+#### Source
+
+[Cheatsheet](https://docs.conda.io/projects/conda/en/stable/user-guide/cheatsheet.html)
+
+[Commands](https://docs.conda.io/projects/conda/en/stable/commands/index.html)
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### Pip
+
+#### Concepts
+
 <br>
 
 #### Source
 
 <br>
 
-#### Practice
+#### Code
+
+* create a environment to fullfill the requirement of a github repository
+  * conda create -n 'env_name' python=='python_version'
+  * conda activate 'env_name'
+  * pip install -r requirements.txt
+
+<br>
+
+---
+
+### Nvidia
+
+#### Concepts
+
+* nvidia-smi
+  
+  Shows a summary table with:
+  
+  GPU index, name, and UUID
+  
+  Driver & CUDA versions
+
+  GPU & memory utilization
+
+  Power consumption and temperature
+
+  Active processes using the GPU
+
+* watch -n 1 nvidia-smi
+  
+  looping
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+## Packages
+
+### Python
+
+#### Concepts
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### Torch
+
+#### Concepts
+
+* pip install torch=='torch_version'+cu'cuda_version'
+  the cuda_version here should be smaller than the cuda version got by 'nvidia-smi'
+
+<br>
+
+#### Source
+
+[pytorch](https://pytorch.org/get-started/locally/)
+
+<br>
+
+#### Code
 
 <br>
 

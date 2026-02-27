@@ -6,7 +6,7 @@ title: Zixs' Tech Note
 # Welcome to my techincal notes
 
 - [Advertisement](./notes/advertisement.md)
-- [Git](./notes/git.md)
+- [Deployment](./notes/deployment.md)
 - [LeetCode](./notes/leetCode.md)
 - [LLM](./notes/LLM.md)
 - [Machine learning](./notes/machine_learning.md)
