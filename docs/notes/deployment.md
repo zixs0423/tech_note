@@ -31,6 +31,10 @@ layout: default
       - [Concepts](#concepts-5)
       - [Source](#source-5)
       - [Code](#code-5)
+    - [Transformers](#transformers)
+      - [Concepts](#concepts-6)
+      - [Source](#source-6)
+      - [Code](#code-6)
 
 
 # Deployment
@@ -260,6 +264,43 @@ layout: default
 
 #### Code
 
+<br>
+
+---
+
+### Transformers
+
+#### Concepts
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+* Download and save LLMs on Hugging Face
+  * pip install transformers
+  * pip install torch
+  * run this python script
+  
+    ```python
+    from transformers import LlamaModel, LlamaTokenizer
+    model = LlamaModel.from_pretrained('huggyllama/llama-7b')
+    tokenizer = LlamaTokenizer.from_pretrained('huggyllama/llama-7b')
+    model.save_pretrained('./llama-7b')
+    tokenizer.save_pretrained('./llama-7b')
+    ```
+
+  * next time you can load from local folder
+  
+    ```python
+    from transformers import LlamaModel, LlamaTokenizer
+    model = LlamaModel.from_pretrained('./llama-7b')
+    tokenizer = LlamaTokenizer.from_pretrained('./llama-7b')
+    ```
+  
 <br>
 
 ---
