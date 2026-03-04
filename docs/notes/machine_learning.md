@@ -59,6 +59,26 @@ layout: default
       - [Concepts](#concepts-13)
       - [Source](#source-12)
       - [Code](#code-12)
+    - [MAPE](#mape)
+      - [Concepts](#concepts-14)
+      - [Source](#source-13)
+      - [Code](#code-13)
+    - [wMAPE](#wmape)
+      - [Concepts](#concepts-15)
+      - [Source](#source-14)
+      - [Code](#code-14)
+    - [sMAPE](#smape)
+      - [Concepts](#concepts-16)
+      - [Source](#source-15)
+      - [Code](#code-15)
+    - [MASE](#mase)
+      - [Concepts](#concepts-17)
+      - [Source](#source-16)
+      - [Code](#code-16)
+    - [OWA](#owa)
+      - [Concepts](#concepts-18)
+      - [Source](#source-17)
+      - [Code](#code-17)
 
 
 # Machine Learning
@@ -664,6 +684,137 @@ Where:
 Thus, **cross-entropy** is the sum of the **entropy** of the true distribution and the **KL divergence** between the two distributions.
 
 - **Minimizing Cross-Entropy**: Minimizing cross-entropy is equivalent to minimizing both the uncertainty of the true distribution $P$ (given by $H(P)$) and the extra inefficiency introduced by approximating $P$ with $Q$ (given by $D_{\text{KL}}(P \parallel Q)$).
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### MAPE
+
+#### Concepts
+
+- **Definition**: MAPE is a metric used to measure the accuracy of a forecasting model by calculating the average of the absolute percentage errors between the predicted values and the actual values. It is widely used because it expresses the error as a percentage, making it easier to interpret.
+- **Formula**:
+  $$
+  \text{MAPE} = \frac{1}{n} \sum_{t=1}^{n} \left| \frac{\hat{y}_t - y_t}{y_t} \right| \times 100
+  $$
+  - $\hat{y}_t$: Forecasted value at time$t$
+  - $y_t$: Actual value at time$t$
+  - $n$: Number of data points
+- **Interpretation**: MAPE measures the average percentage difference between the forecasted and actual values. A **MAPE value of 0%** indicates perfect accuracy, while higher values indicate greater forecasting errors. MAPE is most effective when the data does not have zero or near-zero values, as this would result in extremely large percentage errors.
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### wMAPE
+
+#### Concepts
+
+- **Definition**: WMAPE is a variation of MAPE where the errors are weighted by the actual values. This is particularly useful when the data points have varying levels of importance, and you want to give more weight to the larger values (or to specific periods or subsets of the data).
+- **Formula**:
+  $$
+  \text{WMAPE} = \frac{\sum_{t=1}^{n} \left| \frac{\hat{y}_t - y_t}{y_t} \right| \cdot y_t}{\sum_{t=1}^{n} y_t} = \frac{\sum_{t=1}^{n} \left| \hat{y}_t - y_t \right| }{\sum_{t=1}^{n} y_t}
+  $$
+  - $\hat{y}_t$: Forecasted value at time$t$
+  - $y_t$: Actual value at time$t$
+  - $n$: Number of data points
+- **Interpretation**: WMAPE gives more importance to data points with larger actual values, allowing the metric to reflect the performance of the model in a more context-sensitive way. Like MAPE, lower values of WMAPE indicate better model performance, but the weighted nature ensures that the model’s errors on more significant or larger data points are accounted for more heavily.
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### sMAPE
+
+#### Concepts
+
+- **Definition**: SMAPE is a metric used to measure the accuracy of a forecasting model by comparing the difference between the forecasted values and the actual values. It is symmetric, meaning it treats over- and under-predictions equally.
+- **Formula**:
+  $$
+  \text{SMAPE} = \frac{1}{n} \sum_{t=1}^{n} \frac{| \hat{y}_t - y_t |}{\frac{|\hat{y}_t| + |y_t|}{2}} \times 100
+  $$
+  - $\hat{y}_t$: Forecasted value at time$t$
+  - $y_t$: Actual value at time$t$
+  - $n$: Number of data points
+- **Interpretation**: The result is expressed as a percentage. Lower values indicate better forecasting performance. A value of **0%** means perfect accuracy, while higher values indicate larger errors.
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### MASE
+
+#### Concepts
+
+- **Definition**: MASE is a scale-independent metric that compares the forecast accuracy of a model to the accuracy of a simple benchmark model, such as a naive forecast (e.g., using the previous time step as the forecast). It provides a way to compare models across different datasets.
+- **Formula**:
+  $$
+  \text{MASE} = \frac{1}{n} \sum_{t=1}^{n} \frac{| \hat{y}_t - y_t |}{\frac{1}{n-1} \sum_{t=2}^{n} | y_t - y_{t-1} |}
+  $$
+  - $\hat{y}_t$: Forecasted value at time$t$
+  - $y_t$: Actual value at time$t$
+  - $y_{t-1}$: Previous actual value
+  - $n$: Number of data points
+- **Interpretation**: A MASE value of **1** means that the model performs as well as the naive benchmark. Values less than **1** indicate better performance, while values greater than **1** suggest the model performs worse than the naive model.
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### OWA
+
+#### Concepts
+
+- **Definition**: OWA is a metric that combines various error metrics using a weighted average, typically to assess the performance across multiple forecasting models or multiple different forecast horizons. The weights are often chosen to emphasize specific aspects of model performance, such as accuracy at longer or shorter time horizons.
+- **Formula**:
+  $$
+  \text{OWA} = \sum_{i=1}^{m} w_i \cdot E_i
+  $$
+  - $w_i$: Weight for error metric$i$
+  - $E_i$: Error metric$i$ (e.g., MAE, RMSE, MAPE, etc.)
+  - $m$: Number of error metrics being considered
+- **Interpretation**: OWA provides a composite measure of overall forecasting performance, where the weights can be adjusted to reflect different priorities or considerations (e.g., long-term vs. short-term accuracy). Lower values generally indicate better overall performance.
 
 <br>
 

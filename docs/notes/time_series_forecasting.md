@@ -1076,6 +1076,15 @@ KDD 2025 Cited by 8
 
 ### One fits all
 
+![OneFitsAll](../images/OneFitsAll.png)
+
+* Fine-tune the positional embedding and layer normalization of the backbone LLM model. Also Add a input embedding, a output Linear layer and a instance normalization plus patching.
+* The same patch method as patchTST.
+* Isn't fine-tuning require large scale dataset? 
+* Few-shot is using the first 5%/10% time steps as the new base dataset and the input and the label arrays would be taken from it by sliding. This proccess only affects the training set.
+* Zero-shot means examining how well a model performs on a dataset♣ when it is optimized on another dataset.
+* The dataset in few-shot and zero-shot is different? 
+
 #### Concepts
 
 <br>
@@ -1167,6 +1176,16 @@ arXiv 2024 Cited by 417
 
 ### Time-LLM
 #### Concepts
+
+![TIMELLM](../images/TIMELLM.png)
+
+* A reprogramming framework to adapt LLMs for time series forecasting while keeping the backbone moder intact.
+* The OneFitsAll framework still uses fine-tuning while this work remaining the LLM weight unchanged.
+* The same patch method as patchTST.
+* Reprogramming is not simply linear embedding because 'time series can neither be directly edited nor described losslessly in natural language.' It first embeds patches and use linear layer to combine word embeddings (the embeddings of the backbone LLM) at the same time. Then use a attention layer to process the embedded patches and combined word embeddings (prototypes). It is a Encoder-Decoder attention layer in original transformer with patches as the query and prototypes as the key and value. It is similar to a translation proccess.
+* Output just projects the natural language back to time series data.
+* The defination of few-shot is the same as One Fits All. But there is no code for few-shot and zero-shot training and testing?
+* The figure 5 is likely to be the weight of the attention layer and the linear layer generating prototypes.
 
 <br>
 
