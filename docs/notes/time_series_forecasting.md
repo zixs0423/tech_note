@@ -786,22 +786,43 @@ NeurIPS 2021 Cited by 2438
 
 1. It is compared with the LogTrans, DeepAR and MQRNN. It is an attention-based DNN architecture and is almost unrelated to the classical Transformer in terms of structure.
 2. In terms of data structure, the model considers that many variables are not known at prediction time, such as historical customer traffic.
-3. Gating mechanism:
+3. The input contains four parts:
+   
+   Static Covariates, $s_i$, static_reals and static_categoricals in pytorch-forecasting
+   
+   Observed/Unknown Inputs, $z_{i,t-k:t}$, time_varying_unknown_reals and time_varying_unknown_categoricals in pytorch-forecasting
+  
+   Known Inputs, $x_{i,t-k:t+\tau}$, time_varying_known_reals and time_varying_known_categoricals in pytorch-forecasting
+
+   Target till the start time, $y_{i,t-k:t}$
+
+   $s_i$ is input into the Variable Selection, as the 'Static Metadata'. $z_{i,t-k:t}$, $x_{i,t-k:t}$, $y_{i,t-k:t}$ are input into the encoder part, as the 'Past inputs'. $x_{i,t:t+\tau}$ is input into the decoder part, as the 'Known Future Inputs'. Both for training and testing.
+4. Layer Norm
+5. Gating mechanism:
    to introduce nonlinear relationships only where needed.
    $$
    GRN_w(a,c) = \text{LayerNorm} (a + GLU_w ( \eta_1)) \\
    \eta_1 = W_{1,w} \eta_2 + b_{1,w} \\
    \eta_2 = ELU(W_{2,w} a + W_{3,w} c + b_{2,w}) \\
-   GLU_w(\gamma) = \sigma(W_4,w \gamma + b_{4,w}) \bigodot (W_{5,w} \gamma + b_{5,w})
+   GLU_w(\gamma) = \sigma(W_4,w \gamma + b_{4,w}) \odot (W_{5,w} \gamma + b_{5,w})
    $$
-4. Variable selection:
+
+   
+6. Variable selection:
    $$
    v_{X_t} = Softmax(GRN_{v_X} (\Xi_t, c_s)) \\
    \hat{\xi}_t^{(j)} = GRN_{\hat{\xi}(j)} (\xi_t^{(j)}) \\
    \hat{\xi}_t = \sum_{j=1}^{m_X} v_{X_t}^{(j)} \hat{\xi}_t^{(j)}
    $$
+  
+   $\xi_t^{(j)}$, Embedded input of the jth variable at time t
 
-5. Interpretable Muti-head Attention:
+   $\Xi_t={[{\xi_t^{(1)}}^T, ..., {\xi_t^{(m_x)}}^T]}^T$, the flattened vector of inputs at time t.
+
+   Input the embedded vector of every feature into the GRU seperately and input the concated vector at time t into the GRU and softmax, then muptiply and sum those two result, as a weighting process.
+7. LSTM
+   the same as the original one.
+8. Interpretable Muti-head Attention:
    $$
    \begin{aligned}
    \hat{H} &= \hat{A} \, (Q, \, K)V \, W_V \\
@@ -810,15 +831,15 @@ NeurIPS 2021 Cited by 2438
    \end{aligned}
    $$
 
-6. Quantile prediction
+9.  Quantile prediction
    
-7. Loss function:
+10. Loss function:
    $$
    L(\Omega, W) = \sum_{y_t \in \Omega} \sum_{q \in Q} \sum_{\tau=1}^{\tau_{max}} \frac{QL(y_t, \hat{y} (q, t- \tau, \tau), q)}{M \tau_{max}} \\
    QL(y, \hat{y}, q) = q ( y - \hat{y})_+ + (1 - q)(\hat{y} - y)_+
    $$
 
-8. Both PyTorch Forecasting and Kaggle did not properly separate the validation set.
+11. Both PyTorch Forecasting and Kaggle did not properly separate the validation set.
    
    Using the test set for Optuna hyperparameter tuning obviously leads to data leakage.
 

@@ -79,6 +79,19 @@ layout: default
       - [Concepts](#concepts-18)
       - [Source](#source-17)
       - [Code](#code-17)
+  - [Hierarchical Forecasting](#hierarchical-forecasting)
+    - [GLS](#gls)
+      - [Concepts](#concepts-19)
+      - [Source](#source-18)
+      - [Code](#code-18)
+    - [WLS](#wls)
+      - [Concepts](#concepts-20)
+      - [Source](#source-19)
+      - [Code](#code-19)
+    - [MinT](#mint)
+      - [Concepts](#concepts-21)
+      - [Source](#source-20)
+      - [Code](#code-20)
 
 
 # Machine Learning
@@ -819,6 +832,164 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
 <br>
 
 #### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+## Hierarchical Forecasting
+
+### GLS
+
+#### Concepts
+
+* Consider a multi-level hierarchy, where level 0 denotes the completely aggregated series, level 1 the first level of disaggregation, down to level $K$ containing the most disaggregated time series.
+* It is assumed that observations are recorded at times $t = 1, 2, . . . , n$, and that we are interested in forecasting each series at each level at times $t = n + 1, n + 2, . . . , n + h$.
+  
+* $m_i$ denote the total number of series at level. The total number of seies in the hierarchy is $m=m_0+m_1+...+m_K$
+* We let $Y_{i,t}$ denote the vector of all observations at level $i$ and time $t$ and $Y_t = [Y_t , Y_{1,t} , . . . , Y_{K ,t}]^T$. Note that
+  
+  $$
+  Y_t = SY_{K ,t}
+  $$
+
+  Where $Y_t\isin\R^{m \times 1}$ , $S\isin \R^{m \times m_K}$, $Y_{K,t}\isin\R^{m_K \times 1}$
+
+* Suppose we first compute forecasts for each series at each level giving m base forecasts for each of the periods $n + 1, . . . , n + h$, based on the information available up to and including time n.
+  
+  We let $\tilde{Y}_n(h)$ be the vector consisting of these base forecasts, stacked in the same series order as for $Y_t$ .
+
+  All existing hierarchical forecasting methods can then be written as
+  
+  $$
+  \tilde{Y}_n(h)=SP\^{Y}_n(h)
+  $$
+
+  Where $\tilde{Y}_n(h)\isin\R^{m \times 1}$ , $S\isin \R^{m \times m_K}$, $P\isin \R^{m_K \times m}$, $\^{Y}_n(h)\isin\R^{m \times 1}$
+
+  The effect of the $P$ matrix is to extract and combine the relevant elements of the base forecasts $\^Y_n(h)$, which are then summed by S to give the final revised hierarchical forecasts,  $\tilde{Y}_n(h)$.
+
+* For example, bottom-up forecasts are obtained using $P = [0_{m_{K \times (m−m_K)}} | I_{m_K}]$
+* Top-down forecasts are obtained using $P = [p | 0_{m_{K \times (m−1)}}]$
+  
+  where $p = [p_1, p_2, . . . , p_{m_K} ]^T$ is a vector of proportions that sum to one. The effect of the P matrix here is to distribute the forecast of the aggregate to the lowest level series. Different methods of top-down forecasting lead to different proportionality vectors $p$.
+* Example:
+  
+  $$
+  Y_t 
+  $$
+  
+  $$
+  \swarrow \searrow
+  $$
+
+  $$
+  Y_{1,t} Y_{2,t} 
+  $$
+
+  $$
+  \swarrow \searrow \swarrow \searrow
+  $$
+
+  $$
+  Y_{1,1,t} Y_{1,2,t} Y_{2,1,t} Y_{2,2,t} 
+  $$
+
+  For bottom-up:
+  
+  $$
+  S = \begin{bmatrix}
+   1 & 1 & 1 & 1 \\
+   1 & 1 & 0 & 0 \\
+   0 & 0 & 1 & 1 \\
+   1 & 0 & 0 & 0 \\
+   0 & 1 & 0 & 0 \\
+   0 & 0 & 1 & 0 \\
+   0 & 0 & 0 & 1 \\
+  \end{bmatrix}
+  $$
+
+  $$
+  P = \begin{bmatrix}
+   0 & 0 & 0 & 1 & 0 & 0 & 0 \\
+   0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+   0 & 0 & 0 & 0 & 0 & 1 & 0 \\
+   0 & 0 & 0 & 0 & 0 & 0 & 1 \\
+  \end{bmatrix}
+  $$
+
+  $$
+  SP = \begin{bmatrix}
+   0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+   0 & 0 & 0 & 1 & 1 & 0 & 0 \\
+   0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+   0 & 0 & 0 & 1 & 0 & 0 & 0 \\
+   0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+   0 & 0 & 0 & 0 & 0 & 1 & 0 \\
+   0 & 0 & 0 & 0 & 0 & 0 & 1 \\
+  \end{bmatrix}
+  $$
+
+* The paper simply means train an GLS model to learn the hierarchical relationship, and it is optimal?
+  
+  Training (on $t=1...n$): You fit an GLS model to the base forecasts and learn the optimal combination weights for hierarchical forecasting.
+
+  Prediction (on $t=n+1...n+h$): You use the trained GLS model to combine the base forecasts for the test set and produce the final revised forecasts.
+
+* Why is GLS written as equation 8?
+
+
+<br>
+
+#### Source
+
+[Optimal combination forecasts for hierarchical time series](https://www.sciencedirect.com/science/article/pii/S0167947311000971)
+
+Computational statistics & data analysis 2011 cited by 775
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### WLS
+
+#### Concepts
+
+<br>
+
+#### Source
+
+[Fast computation of reconciled forecasts for hierarchical and grouped time series](https://www.sciencedirect.com/science/article/pii/S016794731500290X)
+
+Computational statistics & data analysis 2016 cited by 254
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### MinT
+
+#### Concepts
+
+<br>
+
+#### Source
+
+[Optimal forecast reconciliation forhierarchical and grouped time seriesthrough trace minimization](https://robjhyndman.com/papers/MinT.pdf)
+
+Journal of the American Statistical Association 2019 cited by 487
 
 <br>
 
