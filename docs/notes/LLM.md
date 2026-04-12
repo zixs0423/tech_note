@@ -31,6 +31,10 @@ layout: default
       - [Concepts](#concepts-5)
       - [Source](#source-5)
       - [Code](#code-5)
+    - [OpenClaw](#openclaw)
+      - [Concepts](#concepts-6)
+      - [Source](#source-6)
+      - [Code](#code-6)
 
 
 # LLM
@@ -210,6 +214,35 @@ NeurIPS 2023 Cited by 7219
 #### Source
 
 [Performance vs Practicality: A Comparison of vLLM and Ollama](https://robert-mcdermott.medium.com/performance-vs-practicality-a-comparison-of-vllm-and-ollama-104acad250fd)
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### OpenClaw
+
+#### Concepts
+
+* iwr -useb https://openclaw.ai/install.ps1 | iex
+* choose GLM https://bigmodel.cn/apikey/platform
+* choose feishu https://open.feishu.cn/app/cli_a9519a06e4b85cdd/baseinfo
+* openclaw gateway 
+* openclaw gateway status
+* openclaw dashboard
+  gateway: http://127.0.0.1:18789/ 
+* openclaw config
+
+<br>
+
+#### Source
+
+[Quick setup](https://docs.openclaw.ai/start/getting-started#windows-powershell)
+
+[feishu](https://www.feishu.cn/content/article/7613711414611463386)
 
 <br>
 

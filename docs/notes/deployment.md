@@ -158,6 +158,37 @@ layout: default
   
   delete environment by name
 
+* conda config --show-sources
+  
+  view channel sources
+
+* conda config --remove-key channels
+  
+  remove all channel sources
+
+* conda config --remove-key channels
+  
+  remove all channel sources
+
+* conda config --add channels 'channel_name'
+  
+  add the aliyun channel sources:
+  
+  conda config --add channels https://mirrors.aliyun.com/anaconda/pkgs/main
+  
+  conda config --add channels https://mirrors.aliyun.com/anaconda/pkgs/r
+  
+  conda config --add channels https://mirrors.aliyun.com/anaconda/pkgs/msys2
+
+  other sources:
+
+  mirrors.ustc.edu.cn
+
+  mirrors.bfsu.edu.cn
+
+  mirrors.tuna.tsinghua.edu.cn
+
+
 <br>
 
 #### Source
