@@ -18,23 +18,27 @@ layout: default
       - [Concepts](#concepts-2)
       - [Source](#source-2)
       - [Code](#code-2)
-    - [Nvidia](#nvidia)
+    - [uv](#uv)
       - [Concepts](#concepts-3)
       - [Source](#source-3)
       - [Code](#code-3)
-  - [Packages](#packages)
-    - [Python](#python)
+    - [Nvidia](#nvidia)
       - [Concepts](#concepts-4)
       - [Source](#source-4)
       - [Code](#code-4)
-    - [Torch](#torch)
+  - [Packages](#packages)
+    - [Python](#python)
       - [Concepts](#concepts-5)
       - [Source](#source-5)
       - [Code](#code-5)
-    - [Transformers](#transformers)
+    - [Torch](#torch)
       - [Concepts](#concepts-6)
       - [Source](#source-6)
       - [Code](#code-6)
+    - [Transformers](#transformers)
+      - [Concepts](#concepts-7)
+      - [Source](#source-7)
+      - [Code](#code-7)
 
 
 # Deployment
@@ -154,7 +158,7 @@ layout: default
   
   list installed packages
 
-* conda remove -n 'env_name'
+* conda remove --name 'env_name' --all
   
   delete environment by name
 
@@ -188,6 +192,14 @@ layout: default
 
   mirrors.tuna.tsinghua.edu.cn
 
+* The structure:
+  
+  ~/anaconda3/envs/my_env/bin/python  the currently active Python interpreter
+  
+  ~/anaconda3/envs/my_env/lib/python3.x/site-packages/  pip downloads the wheels and extracts the package files directly into this path
+  
+* Conda "owns" the environment, but pip populated it. Virtual environments are designed to be isolated, so the package downloaded by pip in one environment can not be used in another environment.
+
 
 <br>
 
@@ -209,6 +221,20 @@ layout: default
 
 #### Concepts
 
+* pip install -e .[extra]
+  
+  installing the current project as a package in editable mode of pip.
+  
+  extra could be torch or some other packages need to be installed.
+  
+  If you ran uv pip install -e ., a tiny link is placed in the Site-Packages folder that points back to your Project Folder.
+
+* pyproject.toml : 
+  
+  the modern standard for configuring Python projects, designed to replace the older, fragmented system of using multiple files like setup.py, setup.cfg, requirements.txt, and MANIFEST.in.
+  
+  When you ran pip install -e .[torch], pip looked into the [project.optional-dependencies] section of your pyproject.toml, found the list of packages associated with torch, and installed them along with your local code.
+
 <br>
 
 #### Source
@@ -221,6 +247,36 @@ layout: default
   * conda create -n 'env_name' python=='python_version'
   * conda activate 'env_name'
   * pip install -r requirements.txt
+
+<br>
+
+---
+
+### uv
+
+#### Concepts
+
+* a single tool that replaces pip, pip-tools, venv, pyenv, and poetry all at once. uv is often 10x to 100x faster than pip
+  
+* uv venv: 
+  
+  Create a virtual environment
+  
+* source .venv/bin/activate:
+  
+  Activate the environment
+  
+* uv pip install : 
+  
+  install the package
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
 
 <br>
 
