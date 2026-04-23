@@ -49,6 +49,8 @@ layout: default
 
 #### Concepts
 
+![git](../images/git.png)
+
 * git clone 'remote repository web URL'
   
   clone the remote repository (only the default branch, main/master)
@@ -113,6 +115,8 @@ layout: default
 
 [Geeksforgeeks Naming Conventions for Git Branches](https://www.geeksforgeeks.org/git/how-to-naming-conventions-for-git-branches/)
 
+[Git Stash](https://www.geeksforgeeks.org/git/git-stash/)
+
 <br>
 
 #### Code
@@ -133,6 +137,21 @@ layout: default
   * git add .
   * git commit -m ""
   * git push origin
+* Handling a conflict
+  * commit
+    * git add .
+    * git commit -m "my local edits"
+    * git pull (--rebase)           
+    * git push
+  * stash
+    * git stash    
+    * git pull (--rebase)     
+    * git stash pop
+    * git add .
+    * git commit -m "my local edits"
+    * git push
+  * Adding --rebase keeps the commit graph linear and makes it easier to read or it would be a Y-shaped history using pull/merge.
+  * Using git pull to handling conflicts need to **commit** first. Becasuse the merge algorithm works on commits (snapshots), not on arbitrary half‑finished edits. Keeping the working tree dirty could cause files to be overwritten silently. Or using stash to hide the changes and bring it back after pulling.
   
 <br>
 
