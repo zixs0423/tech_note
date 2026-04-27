@@ -83,19 +83,36 @@ layout: default
       - [Concepts](#concepts-19)
       - [Source](#source-18)
       - [Code](#code-18)
-  - [Hierarchical Forecasting](#hierarchical-forecasting)
-    - [GLS](#gls)
+  - [Layers](#layers)
+    - [Feed-Forward Layer](#feed-forward-layer)
       - [Concepts](#concepts-20)
       - [Source](#source-19)
       - [Code](#code-19)
-    - [WLS](#wls)
+    - [Fully-Connected Layer](#fully-connected-layer)
       - [Concepts](#concepts-21)
       - [Source](#source-20)
       - [Code](#code-20)
-    - [MinT](#mint)
+    - [Linear Layer](#linear-layer)
       - [Concepts](#concepts-22)
       - [Source](#source-21)
       - [Code](#code-21)
+    - [Activation Layer](#activation-layer)
+      - [Concepts](#concepts-23)
+      - [Source](#source-22)
+      - [Code](#code-22)
+  - [Hierarchical Forecasting](#hierarchical-forecasting)
+    - [GLS](#gls)
+      - [Concepts](#concepts-24)
+      - [Source](#source-23)
+      - [Code](#code-23)
+    - [WLS](#wls)
+      - [Concepts](#concepts-25)
+      - [Source](#source-24)
+      - [Code](#code-24)
+    - [MinT](#mint)
+      - [Concepts](#concepts-26)
+      - [Source](#source-25)
+      - [Code](#code-25)
 
 
 # Machine Learning
@@ -858,6 +875,86 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
   - $Preciction$: $\frac{TP}{TP+FP}$, How many predicted positives are actually correct. 
   - $Recall$: $\frac{TP}{TP+FN}$, How many actual positives were correctly identified.
 - **Interpretation**: It is the harmonic mean of precision and recall. It ranges from 0 to 1, 1 means perfect precision and recall and 0 means worst performance.
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+## Layers
+
+### Feed-Forward Layer
+
+#### Concepts
+
+* A feed-forward layer is a broad term that generally refers to any layer where data flows in one direction from input to output, without any recurrence or loops. (also known as a multi-layer perceptron, MLP)
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### Fully-Connected Layer
+
+#### Concepts
+
+* A fully-connected (FC) layer is a specific type of feed-forward layer where every input node is connected to every output node.
+* FC layers typically perform linear transformations, followed by a non-linear activation function (like ReLU, sigmoid, etc.).
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### Linear Layer
+
+#### Concepts
+
+* A linear layer specifically refers to a layer that performs a linear transformation of the input. Mathematically, it computes the output as:
+  
+  $$
+  y=Wx+b
+  $$
+* Linear layers do not apply any activation function.
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### Activation Layer
+
+#### Concepts
+
+* These layers apply non-linear activation functions (like ReLU, sigmoid, or tanh) to the output of a previous layer.
 
 <br>
 
