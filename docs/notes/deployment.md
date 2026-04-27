@@ -51,6 +51,14 @@ layout: default
 
 ![git](../images/git.png)
 
+* Working tree/ Working directory: The actual files you edit on disk.
+  
+* Staging area/ Index: A snapshot of what will go into the next commit.
+  
+  The staging area and 'git add' command let user picak which changes belong together instead of commiting all the changes at once every time, allowing fine-grained, locgial history.
+  
+* Repository/ Head: The series of commits that make up the project history.
+  
 * git clone 'remote repository web URL'
   
   clone the remote repository (only the default branch, main/master)
@@ -102,8 +110,18 @@ layout: default
 * git status
   
   get the current branch and commits
+  
+* du -sh .git
+  
+  show the git storage occupation.
 
-* create a .gitignore file in the project folder. Write '*.csv' in it to ignore all the csv files.
+* git count-objects -v
+  
+  show the detail information of git objectives.
+
+* create a .gitignore file in the project folder. 
+  
+  Write '*.csv' in it to ignore all the csv files.
 
 <br>
 
@@ -151,7 +169,26 @@ layout: default
     * git commit -m "my local edits"
     * git push
   * Adding --rebase keeps the commit graph linear and makes it easier to read or it would be a Y-shaped history using pull/merge.
-  * Using git pull to handling conflicts need to **commit** first. Becasuse the merge algorithm works on commits (snapshots), not on arbitrary half‑finished edits. Keeping the working tree dirty could cause files to be overwritten silently. Or using stash to hide the changes and bring it back after pulling.
+  * Using git pull to handling conflicts need to **commit** first. Becasuse the merge algorithm works only on commits (snapshots). Or using stash to hide the changes and bring it back after pulling.
+* Handling data files
+  * Avoiding this: add .gitignore by default
+    * .gitignore:
+    
+      *.csv
+
+      *.png
+
+      *.jpg
+
+      *.log
+
+      *.DS_Store
+  * If really happened: 
+    * Adding *.csv to .gitignore won’t delete the CSVs you already pushed and won't make the repo smaller.
+    * To remove them from the current branch, run git rm --cached, commit, and 'git push --force'.
+    * Even if those large files only exist in the master branch and master branch is the only branch, gitignore them won't delete them permanently and makes the repo smaller. Because git is designed to never lose any data and deleting files afterwards won't change the history.
+
+
   
 <br>
 
