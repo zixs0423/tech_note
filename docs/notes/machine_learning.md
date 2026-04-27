@@ -79,19 +79,23 @@ layout: default
       - [Concepts](#concepts-18)
       - [Source](#source-17)
       - [Code](#code-17)
-  - [Hierarchical Forecasting](#hierarchical-forecasting)
-    - [GLS](#gls)
+    - [F1-score](#f1-score)
       - [Concepts](#concepts-19)
       - [Source](#source-18)
       - [Code](#code-18)
-    - [WLS](#wls)
+  - [Hierarchical Forecasting](#hierarchical-forecasting)
+    - [GLS](#gls)
       - [Concepts](#concepts-20)
       - [Source](#source-19)
       - [Code](#code-19)
-    - [MinT](#mint)
+    - [WLS](#wls)
       - [Concepts](#concepts-21)
       - [Source](#source-20)
       - [Code](#code-20)
+    - [MinT](#mint)
+      - [Concepts](#concepts-22)
+      - [Source](#source-21)
+      - [Code](#code-21)
 
 
 # Machine Learning
@@ -828,6 +832,32 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
   - $E_i$: Error metric$i$ (e.g., MAE, RMSE, MAPE, etc.)
   - $m$: Number of error metrics being considered
 - **Interpretation**: OWA provides a composite measure of overall forecasting performance, where the weights can be adjusted to reflect different priorities or considerations (e.g., long-term vs. short-term accuracy). Lower values generally indicate better overall performance.
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+
+### F1-score
+
+#### Concepts
+
+- **Definition**: The F1-score is a metric used to evaluate the performance of a classification model, especially when dealing with imbalanced datasets.
+- **Formula**:
+  $$
+  \text{F1} = 2 \times \frac{Precision \times Recall}{Precision + Recall}
+  $$
+  - $Preciction$: $\frac{TP}{TP+FP}$, How many predicted positives are actually correct. 
+  - $Recall$: $\frac{TP}{TP+FN}$, How many actual positives were correctly identified.
+- **Interpretation**: It is the harmonic mean of precision and recall. It ranges from 0 to 1, 1 means perfect precision and recall and 0 means worst performance.
 
 <br>
 
