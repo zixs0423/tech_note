@@ -16,6 +16,15 @@ layout: default
       - [Concepts](#concepts-2)
       - [Source](#source-2)
       - [Code](#code-2)
+  - [Spark](#spark)
+    - [MapReduce](#mapreduce)
+      - [Concepts](#concepts-3)
+      - [Source](#source-3)
+      - [Code](#code-3)
+    - [Optimization](#optimization)
+      - [Concepts](#concepts-4)
+      - [Source](#source-4)
+      - [Code](#code-4)
 
 
 # Database
@@ -80,6 +89,95 @@ layout: default
 
 <br>
 
+
+#### Code
+
+<br>
+
+---
+
+## Spark
+
+### MapReduce
+
+#### Concepts
+
+* MapReduce breaks every big data problem into exactly two rigid phases:
+  * Map: Each node processes a local piece of data and turns it into "key-value pairs" (e.g., counting words in a single document).
+  * Reduce: The system shuffles all identical keys to the same node, where they are aggregated (e.g., summing up all instances of the word "apple").
+* Word Count Example:
+  * The Map Phase (Local Processing)
+  
+    Input: "Apple Banana Apple"
+
+    Mapper Output: (Apple, 1), (Banana, 1), (Apple, 1)
+  
+  * The Shuffle & Sort Phase (The Bridge)
+  
+    Input: Pairs from all over the cluster.
+
+    Output to Reducer A: (Apple, 1), (Apple, 1)
+
+    Output to Reducer B: (Banana, 1)
+
+  * The Reduce Phase (Aggregation)
+  
+    Reducer A Calculation: 1 + 1 = 2
+
+    Final Output: (Apple, 2), (Banana, 1)
+
+* Difference between mapreduce and spark:
+  * MapReduce is "Disk-First," Spark is "Memory-First."
+  * In-Memory Processing: Spark keeps data in RAM between different stages of a job. It doesn't write to the disk unless it absolutely has to (e.g., during a Shuffle or if it runs out of memory).
+  * DAG vs. Linear: MapReduce is a linear "Map -> Reduce" chain. Spark creates a DAG (Directed Acyclic Graph). This allows Spark to look at your entire query and optimize the path. 
+  * Speed: Because it avoids constant disk I/O, Spark is often 10x to 100x faster than MapReduce for many workloads.
+
+<br>
+
+#### Source
+
+[understanding-spark-dags](https://medium.com/plumbersofdatascience/understanding-spark-dags-b82020503444)
+<br>
+
+
+#### Code
+
+<br>
+
+---
+
+### Optimization
+
+#### Concepts
+
+* Data skew: a condition in distributed computing where data is not distributed **evenly** across the cluster. In a distributed system, your job is only as fast as its slowest task. Power Users/Hot Keys and Null Values may lead to this.
+  
+* Threshold configuration (spark.sql.autoBroadcastJoinThreshold)
+  
+  If the statistics for one of the tables show it is smaller than this value, the engine will automatically plan a Broadcast Hash Join.
+
+* Broadcast Hash Join (BHJ):
+  
+  One of the datasets (the "small" one) is collected at the driver and then sent (broadcast) to every worker node in the cluster.
+
+  Pros: Extremely fast; eliminates the need for shuffling and sorting.
+
+  Cons: Risk of Out of Memory (OOM) errors if the broadcast table is too large.
+
+* Sort Merge Join (SMJ):
+  
+  Both datasets are re-partitioned (sent to the same node) across the cluster based on the join key.
+
+  Pros: Highly scalable and robust; can handle massive datasets; does not require fitting an entire table into memory.
+
+  Cons: Slower due to the high cost of shuffling data over the network and the CPU cost of sorting.
+
+
+<br>
+
+#### Source
+
+<br>
 
 #### Code
 
