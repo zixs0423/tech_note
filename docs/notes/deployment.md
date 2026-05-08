@@ -291,6 +291,8 @@ layout: default
   
   When you ran pip install -e .[torch], pip looked into the [project.optional-dependencies] section of your pyproject.toml, found the list of packages associated with torch, and installed them along with your local code.
 
+* Do not use 'sudo pip install' at anytime. It can result in broken permissions and conflicting behaviour.
+
 <br>
 
 #### Source

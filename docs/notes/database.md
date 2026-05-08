@@ -17,14 +17,18 @@ layout: default
       - [Source](#source-2)
       - [Code](#code-2)
   - [Spark](#spark)
-    - [MapReduce](#mapreduce)
+    - [Basic](#basic)
       - [Concepts](#concepts-3)
       - [Source](#source-3)
       - [Code](#code-3)
-    - [Optimization](#optimization)
+    - [Operations](#operations)
       - [Concepts](#concepts-4)
       - [Source](#source-4)
       - [Code](#code-4)
+    - [Optimization](#optimization)
+      - [Concepts](#concepts-5)
+      - [Source](#source-5)
+      - [Code](#code-5)
 
 
 # Database
@@ -98,7 +102,7 @@ layout: default
 
 ## Spark
 
-### MapReduce
+### Basic
 
 #### Concepts
 
@@ -143,6 +147,44 @@ layout: default
 #### Code
 
 <br>
+
+---
+
+### Operations
+
+#### Concepts
+
+* The result is always a DataFrame when executing spark.sql().
+  
+* DataFrame: DataFrame = RDD + Schema
+  
+* RDD (Resilient Distributed Dataset): 
+  When you call .rdd on a DataFrame, you are accessing the underlying collection of Row objects distributed across the cluster.
+  Unlike a DataFrame, an RDD does not know anything about the names of the columns or the types of data inside it until it’s actually processed. It is "unstructured" compared to the DataFrame API.
+
+* The Schema: the metadata that defines the structure of your data. If the RDD is the "content," the Schema is the "table definition." It contains Column Names, Data Types, and Nullability.
+  
+* Export data: saveAsTextFile method is one of the original "Actions" in Spark. It takes the data inside an RDD and writes it out to a storage system as plain text files.If you have columns and types, use dataframe.write.csv()
+
+<br>
+
+#### Source
+
+[sql-getting-started](https://spark.apache.org/docs/latest/sql-getting-started.html)
+
+[web-ui](https://spark.apache.org/docs/latest/web-ui.html)
+
+[understanding-spark-ui](https://medium.com/@himanshukotkar007/understanding-spark-ui-b6250d3bdc47)
+
+<br>
+
+#### Code
+
+[spark.py](../code/spark.py)
+
+<br>
+
+---
 
 ---
 
