@@ -1,0 +1,1307 @@
+2026.05.09 11:40:18 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.09 11:40:18 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:40:19 WARN  no build tool detected in workspace '/workspaces/tech_note'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.05.09 11:40:20 WARN  Build server is not auto-connectable.
+2026.05.09 11:40:21 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+May 09, 2026 11:40:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+May 09, 2026 11:40:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.05.09 11:40:26 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:40:26 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 09, 2026 11:40:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2026.05.09 11:40:28 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:40:28 INFO  time: code lens generation in 2.78s
+2026.05.09 11:40:28 INFO  time: code lens generation in 2.82s
+2026.05.09 11:40:28 INFO  time: code lens generation in 1.95s
+2026.05.09 11:40:39 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:40:40 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:40:41 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:40:41 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:40:49 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:40:58 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:40:58 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:42:07 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:42:13 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:42:23 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:02 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:02 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:03 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:02 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:03 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:03 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:04 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 09, 2026 11:43:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+2026.05.09 11:43:04 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:04 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:06 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:06 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:06 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:06 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:06 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:07 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:07 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.09 11:43:07 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:07 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 09, 2026 11:43:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53
+2026.05.09 11:43:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 09, 2026 11:43:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54
+2026.05.09 11:43:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 09, 2026 11:43:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55
+2026.05.09 11:43:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 09, 2026 11:43:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 56
+2026.05.09 11:43:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:10 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 09, 2026 11:43:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61
+2026.05.09 11:43:10 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:10 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:10 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:12 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:12 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.09 11:43:12 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:13 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:13 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.09 11:43:13 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:13 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:15 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:15 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:32 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:35 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:35 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:35 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:35 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:36 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:36 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:38 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:38 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:41 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:41 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:41 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:41 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:41 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 09, 2026 11:43:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 100
+2026.05.09 11:43:42 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 09, 2026 11:43:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 102
+2026.05.09 11:43:42 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:46 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:46 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:55 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:55 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:43:55 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:14 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:14 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:14 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:14 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:14 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:15 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:15 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 09, 2026 11:44:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 127
+2026.05.09 11:44:42 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:44 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:44 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:44 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:44 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:44 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:44 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:51 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:51 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:51 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:51 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:52 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.09 11:44:52 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:52 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:52 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:53 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:53 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:57 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:57 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:57 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:57 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:44:57 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:45:05 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:45:05 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:45:05 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:45:05 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:45:07 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.09 11:45:07 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:45:16 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:45:20 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:57:56 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:58:34 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:59:15 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:59:15 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 11:59:15 INFO  no build target found for /workspaces/tech_note/docs/code/Longest SubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:16 WARN  no build target for: /workspaces/tech_note/docs/code/Longest SubstringWithoutRepeatingCharacters.java
+2026.05.09 11:59:16 INFO  no build target found for /workspaces/tech_note/docs/code/Longest SubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 11:59:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 184
+2026.05.09 11:59:15 INFO  no build target found for /workspaces/tech_note/docs/code/Longest SubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:16 INFO  no build target found for /workspaces/tech_note/docs/code/Longest SubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:18 INFO  no build target found for /workspaces/tech_note/docs/code/Longest SubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:26 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:26 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 11:59:26 INFO  no build target found for /workspaces/tech_note/docs/code/Longest SubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 11:59:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 195
+2026.05.09 11:59:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:26 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:30 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:30 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 11:59:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 209
+2026.05.09 11:59:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:33 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 11:59:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 11:59:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+2026.05.09 11:59:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 11:59:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 233
+2026.05.09 11:59:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 11:59:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 234
+2026.05.09 11:59:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 11:59:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 239
+2026.05.09 11:59:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 11:59:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 241
+2026.05.09 11:59:36 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 11:59:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:36 INFO  time: code lens generation in 2.29s
+2026.05.09 11:59:36 INFO  time: code lens generation in 1.28s
+2026.05.09 11:59:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 11:59:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:00:07 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:00:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:00:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:00:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:00:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:00:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:00:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:00:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:00:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:00:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:00:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:01:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 279
+2026.05.09 12:01:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:53 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:53 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:53 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:57 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:01:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:01:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: Range [-1, 785) out of bounds for length 2239
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: Range [-1, 785) out of bounds for length 2239
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [-1, 785) out of bounds for length 2239
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at scala.meta.internal.pc.JavaMetalsGlobal.findIndentifierStartAndEnd(JavaMetalsGlobal.scala:87)
+	at scala.meta.internal.pc.JavaDefinitionProvider.$anonfun$definitionImpl$5(JavaDefinitionProvider.scala:122)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.pc.JavaDefinitionProvider.definitionImpl(JavaDefinitionProvider.scala:70)
+	at scala.meta.internal.pc.JavaDefinitionProvider.definitionOffset(JavaDefinitionProvider.scala:53)
+	at scala.meta.internal.pc.JavaDefinitionProvider.definition(JavaDefinitionProvider.scala:31)
+	at scala.meta.internal.pc.JavaPresentationCompiler.definition(JavaPresentationCompiler.scala:98)
+	at scala.meta.internal.metals.Compilers.$anonfun$definition$1(Compilers.scala:1230)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$4(Compilers.scala:1543)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:1543)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:1535)
+	at scala.meta.internal.metals.Compilers.definition(Compilers.scala:1221)
+	at scala.meta.internal.metals.Compilers.definition(Compilers.scala:1182)
+	at scala.meta.internal.metals.DefinitionProvider.fromCompiler$1(DefinitionProvider.scala:97)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$10(DefinitionProvider.scala:146)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$15(DefinitionProvider.scala:153)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	... 3 more
+
+2026.05.09 12:01:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:01:59 WARN  Running javac-semanticdb failed for file:///workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Output:
+
+2026.05.09 12:01:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:02:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 311
+2026.05.09 12:01:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:00 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:02:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:02 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:02 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:02:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 322
+2026.05.09 12:02:02 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:02 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:07 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:07 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:07 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:07 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:08 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:08 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:08 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:08 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:10 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:02:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:13 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:13 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:18 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:02:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:02:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:03:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 393
+2026.05.09 12:03:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:12 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:12 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:12 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:12 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:13 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:03:13 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:13 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:16 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:03:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:19 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:03:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:38 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:03:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:38 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:38 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:38 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:38 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:03:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 460
+2026.05.09 12:03:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:41 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:41 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:41 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:42 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:41 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:41 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:43 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:03:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:44 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:49 WARN  Running javac-semanticdb failed for file:///workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Output:
+
+2026.05.09 12:03:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:50 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:03:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:50 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:56 WARN  Running javac-semanticdb failed for file:///workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Output:
+
+2026.05.09 12:03:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:57 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:03:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:03:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 521
+2026.05.09 12:03:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:03:59 WARN  Running javac-semanticdb failed for file:///workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Output:
+
+2026.05.09 12:04:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:00 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:04:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:17 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:04:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:18 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:04:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:21 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:04:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:04:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 581
+2026.05.09 12:04:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:23 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:23 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:23 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:23 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:04:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:05:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:05:13 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:05:13 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:05:13 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:05:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:05:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:05:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:05:28 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:05:28 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:05:28 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:05:28 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:05:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:25 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:25 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:25 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:25 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:25 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:06:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 638
+2026.05.09 12:06:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:06:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 645
+May 09, 2026 12:06:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 644
+2026.05.09 12:06:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:06:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 642
+May 09, 2026 12:06:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 636
+2026.05.09 12:06:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:06:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 647
+May 09, 2026 12:06:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 650
+2026.05.09 12:06:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:06:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 651
+May 09, 2026 12:06:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 652
+2026.05.09 12:06:33 INFO  time: code lens generation in 1.17s
+2026.05.09 12:06:33 INFO  time: code lens generation in 1.67s
+2026.05.09 12:06:33 INFO  time: code lens generation in 1.82s
+2026.05.09 12:06:33 INFO  time: code lens generation in 1.74s
+May 09, 2026 12:06:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 653
+2026.05.09 12:06:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:06:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 659
+May 09, 2026 12:06:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 660
+May 09, 2026 12:06:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 661
+2026.05.09 12:06:33 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:06:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:40 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:40 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:42 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:42 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:44 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:44 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:44 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:44 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:46 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:06:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:53 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:53 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:06:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:00 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:07:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:02 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:02 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:03 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:05 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:05 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:05 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:05 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:05 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:06 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:07:06 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:06 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:07 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:08 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:08 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:07:08 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:12 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:12 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:07:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 757
+2026.05.09 12:07:12 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:12 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:40 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:40 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:40 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:44 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:44 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:44 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:44 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:07:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 783
+2026.05.09 12:07:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:47 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:48 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:07:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:50 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:50 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:53 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:07:53 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:07:53 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:08:54 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:08:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:08:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:08:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:08:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:08:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:08:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:08:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:08:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:08:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:03 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:03 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:03 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:09:03 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:03 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:03 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:03 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:04 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:09:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:06 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:09:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 840
+2026.05.09 12:09:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:23 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:23 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:30 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:09:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 861
+2026.05.09 12:09:30 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:30 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:30 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:30 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:09:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 864
+2026.05.09 12:09:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:09:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:16:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:20:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 902
+2026.05.09 12:20:24 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:24 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:24 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:24 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:25 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:25 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:25 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:25 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:20:28 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:30 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:30 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:30 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:33 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:35 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:21:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:38 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:38 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:38 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:38 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:38 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:39 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:21:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:41 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:21:53 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:07 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:11 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:13 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:24:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1000
+2026.05.09 12:24:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:24:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1011
+May 09, 2026 12:24:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1012
+2026.05.09 12:24:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:18 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:24:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:24:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1017
+2026.05.09 12:24:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:20 WARN  Running javac-semanticdb failed for file:///workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Output:
+
+2026.05.09 12:24:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:21 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:24:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:24:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1038
+2026.05.09 12:24:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:28 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:28 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:28 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:28 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:28 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:30 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:30 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:31 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:24:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:37 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:24:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:24:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:25:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.09 12:25:59 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:25:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:25:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:26:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:27:24 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:27:24 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:27:24 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:27:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.09 12:27:57 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:27:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:27:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:28:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 09, 2026 12:28:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.09 12:28:09 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:31:05 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:34:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:34:26 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:34:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:34:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:34:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:34:50 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:34:50 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.09 12:34:50 WARN  Running javac-semanticdb failed for file:///workspaces/tech_note/docs/code/TwoSum.java. Output:
+
+2026.05.09 12:34:50 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:05 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:05 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:06 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:06 WARN  Running javac-semanticdb failed for file:///workspaces/tech_note/docs/code/TwoSum.java. Output:
+
+2026.05.09 12:35:05 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:07 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:07 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:07 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:08 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.09 12:35:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:07 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:07 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:09 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:10 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:10 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:11 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:10 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:10 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 09, 2026 12:35:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1156
+2026.05.09 12:35:11 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:11 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:11 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.09 12:35:11 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:11 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:12 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:12 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:12 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:12 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:12 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:12 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:14 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:14 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:14 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.09 12:35:14 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:15 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:15 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:15 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:15 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:15 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:15 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:16 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:16 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:18 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:18 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:19 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:19 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:19 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:20 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.09 12:35:20 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.09 12:35:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:22 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:35:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:41 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:41 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:41 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:41 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:42 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:42 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:42 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:43 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:35:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:44 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:44 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:44 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:47 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:35:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:47 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:50 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:50 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:50 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:53 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:55 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:35:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:35:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:00 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:36:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:36:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1340
+2026.05.09 12:36:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:04 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:05 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:05 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:36:05 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:06 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:06 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:10 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:14 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:16 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:17 INFO  Created report: Optional[file:///workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java]
+2026.05.09 12:36:17 INFO  empty definition using pc, found symbol in pc: _empty_/LongestSubstringWithoutRepeatingCharacters#lengthOfLongestSubstring# (full report at: "/workspaces/tech_note/.metals/.reports/metals-full/2026-05-09/r_empty-definition_12-36-17-381.md")
+2026.05.09 12:36:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:17 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:36:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1377
+2026.05.09 12:36:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:19 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:36:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:19 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:21 INFO  Created report: Optional[file:///workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java]
+2026.05.09 12:36:21 INFO  empty definition using pc, found symbol in pc: _empty_/LongestSubstringWithoutRepeatingCharacters#longestSubstringWithoutRepeatingCharacters# (full report at: "/workspaces/tech_note/.metals/.reports/metals-full/2026-05-09/r_empty-definition_12-36-21-557.md")
+2026.05.09 12:36:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:21 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:36:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:22 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:23 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:23 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:23 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:25 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:25 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:36:25 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:26 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:26 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:29 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:47 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:47 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:47 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:50 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:52 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:36:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:54 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:36:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1466
+2026.05.09 12:36:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:56 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:36:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:56 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:57 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:58 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:36:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:01 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:37:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:02 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:37:02 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:05 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:05 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:05 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:05 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:15 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:26 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:26 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:31 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:37:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1520
+2026.05.09 12:37:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:35 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:37 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:37:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:37 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:38 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:38 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:43 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:45 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 09, 2026 12:37:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1556
+May 09, 2026 12:37:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1558
+2026.05.09 12:37:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:48 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:37:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:48 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:49 WARN  Running javac-semanticdb failed for file:///workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Output:
+
+2026.05.09 12:37:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:50 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:50 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:37:50 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:51 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:37:59 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:38:00 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:38:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:38:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:38:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:38:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:38:01 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.09 12:38:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:38:01 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:38:02 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.09 12:38:02 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.11 03:43:56 INFO  Started: Metals version 1.6.7 in folders '/workspaces/tech_note' for client Visual Studio Code 1.115.0.
+2026.05.11 03:43:56 INFO  time: initialize in 0.11s
+2026.05.11 03:43:56 INFO  Memory monitor started
+2026.05.11 03:44:04 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.11 03:44:06 WARN  no build tool detected in workspace '/workspaces/tech_note'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.05.11 03:44:06 WARN  Build server is not auto-connectable.
+May 11, 2026 3:51:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

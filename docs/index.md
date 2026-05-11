@@ -6,8 +6,8 @@ title: Zixs' Tech Note
 # Welcome to my techincal notes
 
 - [Advertisement](./notes/advertisement.md)
-- [backend](./notes/backend.md)
-- [database](./notes/database.md)
+- [Backend](./notes/backend.md)
+- [Database](./notes/database.md)
 - [Deployment](./notes/deployment.md)
 - [LeetCode](./notes/leetCode.md)
 - [LLM](./notes/LLM.md)

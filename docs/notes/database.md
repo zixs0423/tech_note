@@ -29,6 +29,10 @@ layout: default
       - [Concepts](#concepts-5)
       - [Source](#source-5)
       - [Code](#code-5)
+    - [Engineering](#engineering)
+      - [Concepts](#concepts-6)
+      - [Source](#source-6)
+      - [Code](#code-6)
 
 
 # Database
@@ -186,8 +190,6 @@ layout: default
 
 ---
 
----
-
 ### Optimization
 
 #### Concepts
@@ -213,6 +215,27 @@ layout: default
   Pros: Highly scalable and robust; can handle massive datasets; does not require fitting an entire table into memory.
 
   Cons: Slower due to the high cost of shuffling data over the network and the CPU cost of sorting.
+
+
+<br>
+
+#### Source
+
+<br>
+
+#### Code
+
+<br>
+
+---
+
+### Engineering
+
+#### Concepts
+
+* Backfilling/Re-triggering tasks based on soft dependencies may lead to data inconsistency between previous and current results.
+  
+  Because when upstream tasks is not ready is not ready in the same/current day but is ready when re-running, the inconsistency/discrepancies may appear.
 
 
 <br>
