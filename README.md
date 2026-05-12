@@ -27,7 +27,8 @@
    │       ├── xxx.md
    │       ├── xxx.md
    │       └── xxx.md
-   └── .gitignore             # optional
+   ├── README.md  
+   └── .gitignore             
    ```
 
    </details>
@@ -37,7 +38,31 @@
    
 # Procedure
    
-1. Write markdown and python in codespace instead of writing them on local environment. Do note write python in markdown notes directly, even though they can be written in folding sections. Write them in code folder with python format, which can be run in codespace. Then paste their links in the notes. 
+1. Write markdown and code in codespace instead of writing them on local environment. 
+   
+   [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+
+2. Remember that all markdown files shoud have the front matter in order to be built by jekyll:
+
+   <details markdown="1"><summary>The front matter</summary>
+
+   ```
+   ---
+   layout: default
+   ---
+   ```
+
+   </details>
+ 
+3. Generate a catalog or table of contents (TOC) by using the command palette (Cmd/Ctrl + Shift + P) and selecting Markdown: Create Table of Contents.
+4. Write under different heading levels. Every level can be and should be filled with asterisk expressions. Don't need extra expression and prefix for code, images, tutorials and papers, also don't need asterisk beforehead.
+5. Write equations in Latex in the markdown file directly. 
+   
+   [Latex Cheatsheet](https://quickref.me/latex.html)
+
+6. Do note write code in markdown notes directly. Write them in code folder, which can be run in codespace. Then paste their links in the notes. 
+7. Do not upload any pdf files to this github repo. Paste the links of books, papers and tutorial webs in the source section of the notes directly. Download the calssic textbooks and academic papers to work computer and personal computer. Upload them to the Baidu Disk on PC and check them on WC at work. For those saved in Baidu Disk, paste both source links and Baidu Disk links.
+8. Copy the images from website and directly paste them in 'images' folder, then paste their links in the note.
    
    <details markdown="1"><summary>link examples</summary>
 
@@ -51,43 +76,8 @@
 
    </details>
 
-   [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
-
-2. Write the note in Three sections:
-   
-   <details markdown="1"><summary>Sections</summary>
-
-   #### Concepts
-
-   <br>
-
-   #### Source
-
-   <br>
-
-   #### Code
-
-   <br>
-
-   ---
-   
-   </details>
-
-3. Write equations in Latex and code in the markdown file directly. Use folding sections to optimize the display. Remember to add 'markdown="1"' in details, which means 'Enable Markdown parsing inside this HTML block'.
-4. Do not upload any pdf files to this github repo. Download the calssic textbooks and academic papers to work computer and personal computer. Upload them to the Baidu Disk on PC and check them on WC at work. Paste the links of books, papers and tutorial webs in the source section of the notes directly. for those saved in Baidu Disk, paste both source links and Baidu Disk links.
-5. Remember that all markdown files shoud have the front matter in order to be built by jekyll:
-
-   <details markdown="1"><summary>The front matter</summary>
-
-   ```
-   ---
-   layout: default
-   ---
-   ```
-
-   </details>
-6. Generate a catalog or table of contents (TOC) by using the command palette (Cmd/Ctrl + Shift + P) and selecting Markdown: Create Table of Contents.
-7. Commit and sync the changes in codespace and the Github pages will automatically use jekyll to build the website, which mostly takes 1-3 min. The process can be monitored in actions.
-8. Copy the markdown file (not the preview) to citadel directly, the equations and code blocks will be automatically transformed to correct form.
-9. The leetcode extension can not be logged in inside the codespace. So solve problems in local vscode and then upload the answers and notes. 
-10. The vscode is logged in with my github account and will automatically sync between the local environment and github codespace.
+9. Use folding sections to optimize the display. Remember to add 'markdown="1"' in details, which means 'Enable Markdown parsing inside this HTML block'.
+10. Commit and sync the changes in codespace and the Github pages will automatically use jekyll to build the website, which mostly takes 1-3 min. The process can be monitored in actions.
+11. Copy the markdown file (not the preview) to citadel directly, the equations and code blocks will be automatically transformed to correct form.
+12. The leetcode extension can not be logged in inside the codespace. So read problems in local vscdoe and solve them in codespace.
+13. The vscode is logged in with my github account and will automatically sync between the local environment and github codespace.
