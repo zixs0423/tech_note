@@ -3,30 +3,32 @@ layout: default
 ---
 
 - [LeetCode](#leetcode)
-  - [Dynamic Programming](#dynamic-programming)
-    - [53.Maximum Subarray](#53maximum-subarray)
-      - [Concepts](#concepts)
-      - [Source](#source)
-      - [Code](#code)
+  - [1.TwoSum](#1twosum)
+  - [3.Longest Substring Without Repeating Characters](#3longest-substring-without-repeating-characters)
+  - [53.Maximum Subarray](#53maximum-subarray)
 
 
 # LeetCode
 
-## Dynamic Programming
+## 1.TwoSum
 
-### 53.Maximum Subarray
-
-#### Concepts
+[TwoSum.java](../code/TwoSum.java)
 
 <br>
 
-#### Source
+---
+
+## 3.Longest Substring Without Repeating Characters
+
+[LongestSubstringWithoutRepeatingCharacters.java](../code/LongestSubstringWithoutRepeatingCharacters.java)
+
+<br>
+
+---
+
+## 53.Maximum Subarray
 
 [53.Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
-
-<br>
-
-#### Code
 
 <br>
 

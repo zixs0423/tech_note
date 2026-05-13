@@ -5,114 +5,35 @@ layout: default
 - [Machine Learning](#machine-learning)
   - [Bayes’ rule](#bayes-rule)
     - [Maximum Likelihood Estimation (MLE)](#maximum-likelihood-estimation-mle)
-      - [Concepts](#concepts)
-      - [Source](#source)
-      - [Code](#code)
     - [Bayes’ rule](#bayes-rule-1)
-      - [Concepts](#concepts-1)
-      - [Source](#source-1)
-      - [Code](#code-1)
     - [Maximum A Posteriori Estimation (MAP)](#maximum-a-posteriori-estimation-map)
-      - [Concepts](#concepts-2)
-      - [Source](#source-2)
-      - [Code](#code-2)
   - [Loss Functions](#loss-functions)
     - [Gaussian Distribution and MSE](#gaussian-distribution-and-mse)
-      - [Concepts](#concepts-3)
-      - [Source](#source-3)
-      - [Code](#code-3)
     - [Laplace Distribution and MAE:](#laplace-distribution-and-mae)
-      - [Concepts](#concepts-4)
-      - [Source](#source-4)
-      - [Code](#code-4)
     - [Poisson Loss](#poisson-loss)
-      - [Concepts](#concepts-5)
-      - [Source](#source-5)
-      - [Code](#code-5)
     - [Gamma Loss](#gamma-loss)
-      - [Concepts](#concepts-6)
-      - [Source](#source-6)
-      - [Code](#code-6)
     - [Tweedie Loss](#tweedie-loss)
-      - [Concepts](#concepts-7)
-      - [Source](#source-7)
-      - [Code](#code-7)
     - [Log-Normal Loss](#log-normal-loss)
-      - [Concepts](#concepts-8)
-      - [Source](#source-8)
-      - [Code](#code-8)
     - [Huber loss](#huber-loss)
-      - [Concepts](#concepts-9)
-      - [Source](#source-9)
-      - [Code](#code-9)
     - [Entropy](#entropy)
-      - [Concepts](#concepts-10)
-      - [Source](#source-10)
-      - [Code](#code-10)
     - [Cross-Entropy](#cross-entropy)
-      - [Concepts](#concepts-11)
-      - [Source](#source-11)
-      - [Code](#code-11)
     - [KL Divergence](#kl-divergence)
-      - [Concepts](#concepts-12)
     - [Relationship Between Entropy, Cross-Entropy, and KL Divergence](#relationship-between-entropy-cross-entropy-and-kl-divergence)
-      - [Concepts](#concepts-13)
-      - [Source](#source-12)
-      - [Code](#code-12)
     - [MAPE](#mape)
-      - [Concepts](#concepts-14)
-      - [Source](#source-13)
-      - [Code](#code-13)
     - [wMAPE](#wmape)
-      - [Concepts](#concepts-15)
-      - [Source](#source-14)
-      - [Code](#code-14)
     - [sMAPE](#smape)
-      - [Concepts](#concepts-16)
-      - [Source](#source-15)
-      - [Code](#code-15)
     - [MASE](#mase)
-      - [Concepts](#concepts-17)
-      - [Source](#source-16)
-      - [Code](#code-16)
     - [OWA](#owa)
-      - [Concepts](#concepts-18)
-      - [Source](#source-17)
-      - [Code](#code-17)
     - [F1-score](#f1-score)
-      - [Concepts](#concepts-19)
-      - [Source](#source-18)
-      - [Code](#code-18)
   - [Layers](#layers)
     - [Feed-Forward Layer](#feed-forward-layer)
-      - [Concepts](#concepts-20)
-      - [Source](#source-19)
-      - [Code](#code-19)
     - [Fully-Connected Layer](#fully-connected-layer)
-      - [Concepts](#concepts-21)
-      - [Source](#source-20)
-      - [Code](#code-20)
     - [Linear Layer](#linear-layer)
-      - [Concepts](#concepts-22)
-      - [Source](#source-21)
-      - [Code](#code-21)
     - [Activation Layer](#activation-layer)
-      - [Concepts](#concepts-23)
-      - [Source](#source-22)
-      - [Code](#code-22)
   - [Hierarchical Forecasting](#hierarchical-forecasting)
     - [GLS](#gls)
-      - [Concepts](#concepts-24)
-      - [Source](#source-23)
-      - [Code](#code-23)
     - [WLS](#wls)
-      - [Concepts](#concepts-25)
-      - [Source](#source-24)
-      - [Code](#code-24)
     - [MinT](#mint)
-      - [Concepts](#concepts-26)
-      - [Source](#source-25)
-      - [Code](#code-25)
 
 
 # Machine Learning
@@ -121,8 +42,6 @@ layout: default
 
 ### Maximum Likelihood Estimation (MLE)
 
-#### Concepts
-   
 Suppose you have a model with a parameter $\theta$.
 
 MLE finds $\hat{\theta}$ that makes the observed data most likely:
@@ -155,20 +74,11 @@ MLE usually minimizes the negative log-likelihood (NLL):
 $$
 \hat{\theta}_{\text{MLE}} = \arg\min_\theta -\log L(\theta) = \arg\min_\theta -\log \prod_{i=1}^n p(y_i \mid x_i, \theta) = \arg\min_\theta -\log \prod_{i=1}^n p(\epsilon \mid \theta) 
 $$
-   
-#### Source
-
-<br>
-
-#### Code
-
 <br>
 
 ---
 
 ### Bayes’ rule
-
-#### Concepts
 
 $$
 P(\theta \mid D)=\frac{P(D \mid \theta)\,P(\theta)}{P(D)}
@@ -189,22 +99,11 @@ $$
 P(A\cap B)=P(A\mid B)P(B)=P(B\mid A)P(A)
 $$
 </details>
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
-
 <br>
 
 ---
 
 ### Maximum A Posteriori Estimation (MAP)
-
-#### Concepts
 
 Suppose you have a model with a parameter $\theta$.
 
@@ -326,15 +225,6 @@ $$
 
 
 So, **Regularization = MAP with specific priors**.
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
-
 <br>
 
 ---
@@ -343,8 +233,6 @@ So, **Regularization = MAP with specific priors**.
 
 ### Gaussian Distribution and MSE
 
-#### Concepts
-   
 Assume the observation noise is Gaussian:
 
 $$
@@ -366,23 +254,12 @@ Here, the negative log-likelihood becomes the objective function, and dividing b
 $$
 \text{MSE} = \frac{1}{n} \sum_{i=1}^n (y_i - f_\theta(x_i))^2
 $$
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
-
 <br>
 
 ---
 
 ### Laplace Distribution and MAE:
 
-#### Concepts
-   
 Assume the observation noise is Laplace:
 
 $$
@@ -404,22 +281,11 @@ Here, the negative log-likelihood becomes the objective function, and dividing b
 $$
 \text{MAE} = \frac{1}{n}\sum_{i=1}^n |y_i - f_\theta(x_i)|
 $$
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
-
 <br>
 
 ---
 
 ### Poisson Loss
-
-#### Concepts
 
 Assume the observation noise follows a Poisson distribution:
 
@@ -449,23 +315,12 @@ $$
 $$
 
 This is equivalent to minimizing the **Poisson Deviance**, often used in Poisson regression models.
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
-
 <br>
 
 ---
 
 ### Gamma Loss
 
-#### Concepts
-   
 Assume the observation noise follows a Gamma distribution:
 
 $$
@@ -494,22 +349,11 @@ $$
 $$
 
 This is typically minimized using specialized methods such as iteratively reweighted least squares (IRLS).
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
-
 <br>
 
 ---
 
 ### Tweedie Loss
-
-#### Concepts
 
 The Tweedie distribution is a family of distributions that includes several well-known distributions as special cases, including the Normal, Poisson, and Gamma distributions. The likelihood function depends on a power parameter $p$, which determines the distribution's shape:
 
@@ -533,19 +377,9 @@ This requires iterative methods for parameter estimation due to its complexity.
    
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
    
 ### Log-Normal Loss
-
-#### Concepts
 
 Assume the observation noise follows a Log-Normal distribution:
 
@@ -569,19 +403,9 @@ $$
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ### Huber loss 
-
-#### Concepts
 
 Assume the observation noise follows a mixture of Gaussian and Laplace distributions:
 
@@ -617,19 +441,9 @@ The negative log-likelihood becomes the Huber loss, which switches between **MSE
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ### Entropy
-
-#### Concepts
 
 Assume the random variable $X$ takes values $x_1, x_2, \dots, x_n$ with corresponding probabilities $P(x_1), P(x_2), \dots, P(x_n)$. The **entropy** $H(X)$ of the random variable is defined as:
 
@@ -644,19 +458,9 @@ Entropy measures the **uncertainty** or **disorder** in a system. It quantifies 
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ### Cross-Entropy
-
-#### Concepts
 
 Let $P(x)$ be the true distribution and $Q(x)$ the predicted distribution. The **cross-entropy** between $P$ and $Q$ is defined as:
 
@@ -672,19 +476,9 @@ Here, minimizing cross-entropy is closely related to **optimizing the parameters
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ### KL Divergence
-
-#### Concepts
 
 The **Kullback-Leibler (KL) divergence** measures how much one probability distribution $Q(x)$ diverges from the true distribution $P(x)$. It is defined as:
 
@@ -703,8 +497,6 @@ In machine learning, minimizing KL divergence often plays a role in **variationa
 
 ### Relationship Between Entropy, Cross-Entropy, and KL Divergence
 
-#### Concepts
-
 The relationship between **entropy**, **cross-entropy**, and **KL divergence** is given by the following equation:
 
 $$
@@ -721,19 +513,9 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ### MAPE
-
-#### Concepts
 
 - **Definition**: MAPE is a metric used to measure the accuracy of a forecasting model by calculating the average of the absolute percentage errors between the predicted values and the actual values. It is widely used because it expresses the error as a percentage, making it easier to interpret.
 - **Formula**:
@@ -747,19 +529,9 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ### wMAPE
-
-#### Concepts
 
 - **Definition**: WMAPE is a variation of MAPE where the errors are weighted by the actual values. This is particularly useful when the data points have varying levels of importance, and you want to give more weight to the larger values (or to specific periods or subsets of the data).
 - **Formula**:
@@ -773,19 +545,9 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ### sMAPE
-
-#### Concepts
 
 - **Definition**: SMAPE is a metric used to measure the accuracy of a forecasting model by comparing the difference between the forecasted values and the actual values. It is symmetric, meaning it treats over- and under-predictions equally.
 - **Formula**:
@@ -799,19 +561,9 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ### MASE
-
-#### Concepts
 
 - **Definition**: MASE is a scale-independent metric that compares the forecast accuracy of a model to the accuracy of a simple benchmark model, such as a naive forecast (e.g., using the previous time step as the forecast). It provides a way to compare models across different datasets.
 - **Formula**:
@@ -826,19 +578,9 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ### OWA
-
-#### Concepts
 
 - **Definition**: OWA is a metric that combines various error metrics using a weighted average, typically to assess the performance across multiple forecasting models or multiple different forecast horizons. The weights are often chosen to emphasize specific aspects of model performance, such as accuracy at longer or shorter time horizons.
 - **Formula**:
@@ -852,20 +594,10 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 
 ### F1-score
-
-#### Concepts
 
 - **Definition**: The F1-score is a metric used to evaluate the performance of a classification model, especially when dealing with imbalanced datasets.
 - **Formula**:
@@ -878,31 +610,13 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ## Layers
 
 ### Feed-Forward Layer
 
-#### Concepts
-
 * A feed-forward layer is a broad term that generally refers to any layer where data flows in one direction from input to output, without any recurrence or loops. (also known as a multi-layer perceptron, MLP)
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
 
 <br>
 
@@ -910,26 +624,14 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
 
 ### Fully-Connected Layer
 
-#### Concepts
-
 * A fully-connected (FC) layer is a specific type of feed-forward layer where every input node is connected to every output node.
 * FC layers typically perform linear transformations, followed by a non-linear activation function (like ReLU, sigmoid, etc.).
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
 
 <br>
 
 ---
 
 ### Linear Layer
-
-#### Concepts
 
 * A linear layer specifically refers to a layer that performs a linear transformation of the input. Mathematically, it computes the output as:
   
@@ -940,29 +642,11 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ### Activation Layer
 
-#### Concepts
-
 * These layers apply non-linear activation functions (like ReLU, sigmoid, or tanh) to the output of a previous layer.
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
 
 <br>
 
@@ -971,8 +655,6 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
 ## Hierarchical Forecasting
 
 ### GLS
-
-#### Concepts
 
 * Consider a multi-level hierarchy, where level 0 denotes the completely aggregated series, level 1 the first level of disaggregation, down to level $K$ containing the most disaggregated time series.
 * It is assumed that observations are recorded at times $t = 1, 2, . . . , n$, and that we are interested in forecasting each series at each level at times $t = n + 1, n + 2, . . . , n + h$.
@@ -1070,58 +752,30 @@ Thus, **cross-entropy** is the sum of the **entropy** of the true distribution a
 * Why is GLS written as equation 8?
 
 
-<br>
-
-#### Source
 
 [Optimal combination forecasts for hierarchical time series](https://www.sciencedirect.com/science/article/pii/S0167947311000971)
 
 Computational statistics & data analysis 2011 cited by 775
-
-<br>
-
-#### Code
-
 <br>
 
 ---
 
 ### WLS
 
-#### Concepts
-
-<br>
-
-#### Source
 
 [Fast computation of reconciled forecasts for hierarchical and grouped time series](https://www.sciencedirect.com/science/article/pii/S016794731500290X)
 
 Computational statistics & data analysis 2016 cited by 254
-
-<br>
-
-#### Code
-
 <br>
 
 ---
 
 ### MinT
 
-#### Concepts
-
-<br>
-
-#### Source
 
 [Optimal forecast reconciliation forhierarchical and grouped time seriesthrough trace minimization](https://robjhyndman.com/papers/MinT.pdf)
 
 Journal of the American Statistical Association 2019 cited by 487
-
-<br>
-
-#### Code
-
 <br>
 
 ---

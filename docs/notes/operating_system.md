@@ -2,13 +2,17 @@
 layout: default
 ---
 
+- [Operating System](#operating-system)
+  - [Linux](#linux)
+    - [Command](#command)
+    - [SSH (Secure Shell)](#ssh-secure-shell)
+
+
 # Operating System
 
 ## Linux
 
 ### Command
-
-#### Concepts
 
 * ls: list files
 * pwd: display the path of the working directory
@@ -16,9 +20,6 @@ layout: default
 * mv: move or rename files
 * rm: remove or delete the files
 
-<br>
-
-#### Source
 
 [GeeksforGeeks – Basic Linux Commands](https://www.geeksforgeeks.org/linux-unix/basic-linux-commands/)
 
@@ -26,15 +27,9 @@ layout: default
 
 <br>
 
-#### Code
-
-<br>
-
 ---
 
 ### SSH (Secure Shell)
-
-#### Concepts
 
 * A network protocol that provides a secure way to access a computer (server) over an unsecured network.
   
@@ -54,15 +49,7 @@ layout: default
   
     Used in jumper servers. Instead of exposing all your sensitive database servers or application servers to the public internet, you hide them in a private network. You only allow one machine—the jumper—to be reachable from the outside.
   
-<br>
-
-#### Source
-
 [what-is-ssh](https://www.cloudflare.com/en-gb/learning/access-management/what-is-ssh/)
-
-<br>
-
-#### Code
 
 <br>
 

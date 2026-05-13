@@ -3,16 +3,11 @@ layout: default
 ---
 
 - [Supply Chain](#supply-chain)
-    - [Safety Stock](#safety-stock)
-      - [Concepts](#concepts)
-      - [Source](#source)
-      - [Code](#code)
+  - [Safety Stock](#safety-stock)
 
 # Supply Chain
 
-### Safety Stock
-
-#### Concepts
+## Safety Stock
 
 **1. Safety Stock Definition**
 
@@ -100,15 +95,7 @@ $$
   
 - **Second Part** ($\bar d^2 \cdot \sigma_L^2$): This represents the **variance due to uncertainty in lead time**. It reflects the additional variability that comes from the fact that lead time $L$ is not fixed, and it influences the total demand during that uncertain period.
 
-<br>
-
-#### Source
-
 [Safety Stock](https://en.wikipedia.org/wiki/Safety_stock)
-
-<br>
-
-#### Code
 
 <br>
 

@@ -5,55 +5,23 @@ layout: default
 - [Advertisement](#advertisement)
   - [Recall](#recall)
     - [CF](#cf)
-      - [Concepts](#concepts)
-      - [Source](#source)
-      - [Code](#code)
     - [Two Tower](#two-tower)
-      - [Concepts](#concepts-1)
-      - [Source](#source-1)
-      - [Code](#code-1)
   - [Main Rank](#main-rank)
     - [FM](#fm)
-      - [Concepts](#concepts-2)
-      - [Source](#source-2)
-      - [Code](#code-2)
     - [gbdt\_lr](#gbdt_lr)
-      - [Concepts](#concepts-3)
-      - [Source](#source-3)
-      - [Code](#code-3)
     - [DIN](#din)
-      - [Concepts](#concepts-4)
-      - [Source](#source-4)
-      - [Code](#code-4)
     - [ESMM](#esmm)
-      - [Concepts](#concepts-5)
-      - [Source](#source-5)
-      - [Code](#code-5)
 
 # Advertisement
 
 ## Recall
 
 ### CF
-
-#### Concepts
   
-Multi-task prediction: here the demo predicts CTR and CTCVR simultaneously.
-
-Where: p(CTCVR) = p(CTR) × p(CVR)It still uses two MLPs with the same input; the first embedding layer is shared, while the later layers are separate.
-
-MLP input is [dim_emb * n_sparse + n_dense], i.e., embeddings for sparse features plus raw dense features.
-
-The two outputs are CTR and CVR predictions.
-
-In the demo, each uses a separate BCE loss, and the losses are summed.
-<br>
-
-#### Source
-
-<br>
-
-#### Code
+* Multi-task prediction: here the demo predicts CTR and CTCVR simultaneously. Where: p(CTCVR) = p(CTR) × p(CVR)
+* It still uses two MLPs with the same input; the first embedding layer is shared, while the later layers are separate. MLP input is [dim_emb * n_sparse + n_dense], i.e., embeddings for sparse features plus raw dense features.
+* The two outputs are CTR and CVR predictions.
+* In the demo, each uses a separate BCE loss, and the losses are summed.
 
 [chatgpt_cf](../code/chatgpt_cf.py)
 
@@ -62,31 +30,12 @@ In the demo, each uses a separate BCE loss, and the losses are summed.
 ---
 
 ### Two Tower
-#### Concepts
 
-Two MLPs (fully-connected layer = linear layer + optional activation.
-
-MLP = multiple FC layers with nonlinearities;Transformer’s FFN = a special MLP structure with two layers and an expansion).
-
-One MLP takes the user matrix as input, the other takes the item matrix: [num_samples, dim_features].
-
-Outputs are two embedding matrices:[num_samples, dim_features].
-
-Loss functions include point-wise, pair-wise, and batch-wise.
-
-Here it uses batch-wise InfoNCE.
-
-Only positive samples are selected; all others within the batch are treated as negatives.
-
-We want the positive samples to be classified as positive, which is equivalent to BCE(dot(user_emb, item_emb)).
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
+* Two MLPs. One MLP takes the user matrix as input, the other takes the item matrix: [num_samples, dim_features].
+* Outputs are two embedding matrices:[num_samples, dim_features].
+* Loss functions include point-wise, pair-wise, and batch-wise. Here it uses batch-wise InfoNCE.
+* Only positive samples are selected; all others within the batch are treated as negatives.
+* We want the positive samples to be classified as positive, which is equivalent to BCE(dot(user_emb, item_emb)).
 
 [chatgpt_two_tower](../code/chatgpt_two_tower.py)
 
@@ -97,9 +46,6 @@ We want the positive samples to be classified as positive, which is equivalent t
 ## Main Rank
 
 ### FM
-
-#### Concepts
-
 1. Basic Principle
 
    Ranking is a classification problem. Using the actual 0/1 click labels as ground truth, the predicted probability is directly used as the CTR prediction.
@@ -113,14 +59,6 @@ We want the positive samples to be classified as positive, which is equivalent t
 
    Embedding is equivalent to one-hot + linear layer, but you directly lookup weights instead.
 
-<br>
-
-#### Source
-
-<br>
-
-#### Code
-
 [chatgpt_fm](../code/chatgpt_fm.py)
 
 <br>
@@ -128,8 +66,6 @@ We want the positive samples to be classified as positive, which is equivalent t
 ---
 
 ### gbdt_lr
-
-#### Concepts
 
 1. Basic Principle
 
@@ -154,14 +90,6 @@ We want the positive samples to be classified as positive, which is equivalent t
 
    Even inference can be slow, but optimizations (e.g., hashing) can help.
 
-<br>
-
-#### Source
-
-<br>
-
-#### Code
-
 [chatgpt_gbdt_lr](../code/chatgpt_gbdt_lr.py)
 
 <br>
@@ -169,8 +97,6 @@ We want the positive samples to be classified as positive, which is equivalent t
 ---
 
 ### DIN
-
-#### Concepts
 
 1. Basic Principle
 
@@ -195,14 +121,6 @@ We want the positive samples to be classified as positive, which is equivalent t
    
    This works like FM: sparse features are embedded then concatenated; dense features are added similarly; then feed into an MLP.
 
-<br>
-
-#### Source
-
-<br>
-
-#### Code
-
 [chatgpt_din](../code/chatgpt_din.py)
 
 <br>
@@ -210,8 +128,6 @@ We want the positive samples to be classified as positive, which is equivalent t
 ---
 
 ### ESMM
-
-#### Concepts
 
 1. Basic Principle
 
@@ -226,14 +142,6 @@ We want the positive samples to be classified as positive, which is equivalent t
    The two outputs are CTR and CVR predictions.
 
    In the demo, each uses a separate BCE loss, and the losses are summed.
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
 
 [chatgpt_esmm](../code/chatgpt_esmm.py)
 

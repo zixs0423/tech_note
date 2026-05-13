@@ -7,38 +7,17 @@ layout: default
   - [Repository](#repository)
     - [Git](#git)
       - [Concepts](#concepts)
-      - [Source](#source)
-      - [Code](#code)
+      - [commands](#commands)
+      - [Practice](#practice)
   - [Environment](#environment)
     - [Anaconda](#anaconda)
-      - [Concepts](#concepts-1)
-      - [Source](#source-1)
-      - [Code](#code-1)
     - [Pip](#pip)
-      - [Concepts](#concepts-2)
-      - [Source](#source-2)
-      - [Code](#code-2)
     - [uv](#uv)
-      - [Concepts](#concepts-3)
-      - [Source](#source-3)
-      - [Code](#code-3)
     - [Nvidia](#nvidia)
-      - [Concepts](#concepts-4)
-      - [Source](#source-4)
-      - [Code](#code-4)
   - [Packages](#packages)
     - [Python](#python)
-      - [Concepts](#concepts-5)
-      - [Source](#source-5)
-      - [Code](#code-5)
     - [Torch](#torch)
-      - [Concepts](#concepts-6)
-      - [Source](#source-6)
-      - [Code](#code-6)
     - [Transformers](#transformers)
-      - [Concepts](#concepts-7)
-      - [Source](#source-7)
-      - [Code](#code-7)
 
 
 # Deployment
@@ -52,13 +31,14 @@ layout: default
 ![git](../images/git.png)
 
 * Working tree/ Working directory: The actual files you edit on disk.
-  
 * Staging area/ Index: A snapshot of what will go into the next commit.
   
   The staging area and 'git add' command let user picak which changes belong together instead of commiting all the changes at once every time, allowing fine-grained, locgial history.
   
 * Repository/ Head: The series of commits that make up the project history.
   
+#### commands
+
 * git clone 'remote repository web URL'
   
   clone the remote repository (only the default branch, main/master)
@@ -123,10 +103,6 @@ layout: default
   
   Write '*.csv' in it to ignore all the csv files.
 
-<br>
-
-#### Source
-
 [Geeksforgeeks Git Tutorial](https://www.geeksforgeeks.org/git/git-tutorial/)
 
 [Understanding Git-Ignore and Its Usage](https://www.geeksforgeeks.org/git/what-is-git-ignore-and-how-to-use-it/)
@@ -135,9 +111,7 @@ layout: default
 
 [Git Stash](https://www.geeksforgeeks.org/git/git-stash/)
 
-<br>
-
-#### Code
+#### Practice
 
 * merge a feature branch to main branch manually
   * git pull: This fetches changes from the remote and merges them into your current branch
@@ -188,8 +162,6 @@ layout: default
     * To remove them from the current branch, run git rm --cached, commit, and 'git push --force'.
     * Even if those large files only exist in the master branch and master branch is the only branch, gitignore them won't delete them permanently and makes the repo smaller. Because git is designed to never lose any data and deleting files afterwards won't change the history.
 
-
-  
 <br>
 
 ---
@@ -197,8 +169,6 @@ layout: default
 ## Environment
 
 ### Anaconda
-
-#### Concepts
 
 * conda create -n 'env_name' python=='python_version'
   
@@ -257,25 +227,15 @@ layout: default
 * Conda "owns" the environment, but pip populated it. Virtual environments are designed to be isolated, so the package downloaded by pip in one environment can not be used in another environment.
 
 
-<br>
-
-#### Source
-
 [Cheatsheet](https://docs.conda.io/projects/conda/en/stable/user-guide/cheatsheet.html)
 
 [Commands](https://docs.conda.io/projects/conda/en/stable/commands/index.html)
 
 <br>
 
-#### Code
-
-<br>
-
 ---
 
 ### Pip
-
-#### Concepts
 
 * pip install -e .[extra]
   
@@ -293,14 +253,6 @@ layout: default
 
 * Do not use 'sudo pip install' at anytime. It can result in broken permissions and conflicting behaviour.
 
-<br>
-
-#### Source
-
-<br>
-
-#### Code
-
 * create a environment to fullfill the requirement of a github repository
   * conda create -n 'env_name' python=='python_version'
   * conda activate 'env_name'
@@ -311,8 +263,6 @@ layout: default
 ---
 
 ### uv
-
-#### Concepts
 
 * a single tool that replaces pip, pip-tools, venv, pyenv, and poetry all at once. uv is often 10x to 100x faster than pip
   
@@ -330,19 +280,9 @@ layout: default
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ### Nvidia
-
-#### Concepts
 
 * nvidia-smi
   
@@ -364,29 +304,11 @@ layout: default
 
 <br>
 
-#### Source
-
-<br>
-
-#### Code
-
-<br>
-
 ---
 
 ## Packages
 
 ### Python
-
-#### Concepts
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
 
 <br>
 
@@ -394,36 +316,16 @@ layout: default
 
 ### Torch
 
-#### Concepts
-
 * pip install torch=='torch_version'+cu'cuda_version'
   the cuda_version here should be smaller than the cuda version got by 'nvidia-smi'
 
-<br>
-
-#### Source
-
 [pytorch](https://pytorch.org/get-started/locally/)
-
-<br>
-
-#### Code
 
 <br>
 
 ---
 
 ### Transformers
-
-#### Concepts
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
 
 * Download and save LLMs on Hugging Face
   * pip install transformers

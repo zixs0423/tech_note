@@ -3,53 +3,39 @@ layout: default
 ---
 
 - [Database](#database)
-  - [Category](#category)
   - [SQL](#sql)
-    - [Transaction](#transaction)
-      - [ACID Properties:](#acid-properties)
-    - [Expressions](#expressions)
+    - [Language](#language)
       - [CTE (Common Table Expression)](#cte-common-table-expression)
       - [CTAS (Create Table As Select)](#ctas-create-table-as-select)
-    - [Language](#language)
       - [Drop](#drop)
       - [Window Functions](#window-functions)
-  - [RDBMS](#rdbms)
-    - [MySQL](#mysql)
-  - [Doris](#doris)
-  - [Hadoop](#hadoop)
+    - [RDBMS](#rdbms)
+      - [Transaction](#transaction)
+      - [MySQL](#mysql)
+      - [PostgreSQL](#postgresql)
+  - [NoSQL](#nosql)
+    - [Key-Value Store](#key-value-store)
+      - [Redis](#redis)
+  - [Storage](#storage)
+    - [Kubernetes](#kubernetes)
+    - [Cloud](#cloud)
+    - [Hadoop](#hadoop)
     - [HDFS](#hdfs)
     - [YARN](#yarn)
     - [Hive](#hive)
-    - [Engines](#engines)
-      - [MapReduce](#mapreduce)
-      - [Spark](#spark)
-        - [Dataframe](#dataframe)
-        - [API](#api)
-        - [Web UI](#web-ui)
-        - [Optimization](#optimization)
-        - [Engineering praticals](#engineering-praticals)
-      - [Presto](#presto)
-  - [Kubernetes](#kubernetes)
-  - [Cloud](#cloud)
+  - [Engines](#engines)
+    - [MapReduce](#mapreduce)
+    - [Spark](#spark)
+      - [Dataframe](#dataframe)
+      - [API](#api)
+      - [Web UI](#web-ui)
+      - [Optimization](#optimization)
+      - [Engineering praticals](#engineering-praticals)
+    - [Presto](#presto)
+    - [Doris](#doris)
 
 
 # Database
-
-## Category
-
-* SQL: MySQL, PostgreSQL
-* NoSQL
-  * Document-Based: JSON-like documents. MongoDB
-  * Key-Value Store: Key-Value pairs. Redis
-  * Column-Oriented: Columns instead of rows: HBase
-
-  [types-of-nosql-databases](https://www.geeksforgeeks.org/dbms/types-of-nosql-databases/)
-
-* NewSQL: Doris, clickhouse
-
-<br>
-
----
 
 ## SQL
 
@@ -61,26 +47,7 @@ layout: default
 
 ---
 
-### Transaction
-
-[sql-transactions](https://www.geeksforgeeks.org/sql/sql-transactions/)
-
-<br>
-
----
-
-#### ACID Properties:
-
-* Atomicity: Atomicity ensures that a transaction is treated as a single unit of work, and either all operations within the transaction are successfully completed, or none of them are.
-* Consistency: Consistency ensures that a transaction brings the database from one valid state to another. The database must remain in a valid state before and after the transaction.
-* Isolation: Isolation ensures that the operations within a transaction are invisible to other transactions until the transaction is complete.
-* Durability : Durability ensures that once a transaction is committed, its changes are permanent and will survive any system crash or failure.
-
-<br>
-
----
-
-### Expressions
+### Language
  
 #### CTE (Common Table Expression)
 
@@ -99,8 +66,6 @@ layout: default
 <br>
 
 ---
-
-### Language
  
 #### Drop
 
@@ -148,7 +113,7 @@ layout: default
 
 ---
 
-## RDBMS
+### RDBMS
 
 * Relational Database Management Systems (RDBMS).
 * The RDBMS handles the "Front Line". Hadoop handles the "History". When a user buys an item on your website, that transaction goes into an RDBMS (MySQL). It needs to be instant, and it needs to be perfectly accurate (you can't accidentally charge someone twice). Once a day, your company likely runs a job that "exports" all the transactions from the MySQL RDBMS and "dumps" them into Hadoop (HDFS).
@@ -158,8 +123,22 @@ layout: default
 <br>
 
 ---
+
+#### Transaction
+
+[sql-transactions](https://www.geeksforgeeks.org/sql/sql-transactions/)
+
+* ACID Properties:
+  * Atomicity: Atomicity ensures that a transaction is treated as a single unit of work, and either all operations within the transaction are successfully completed, or none of them are.
+  * Consistency: Consistency ensures that a transaction brings the database from one valid state to another. The database must remain in a valid state before and after the transaction.
+  * Isolation: Isolation ensures that the operations within a transaction are invisible to other transactions until the transaction is complete.
+  * Durability : Durability ensures that once a transaction is committed, its changes are permanent and will survive any system crash or failure.
+
+<br>
+
+---
   
-### MySQL
+#### MySQL
 
 * OLTP (Online Transaction Processing). Looking up one specific row very fast.
 * Spark / Presto /Doris are all OLAP (Online Analytical Processing).
@@ -169,20 +148,58 @@ layout: default
 
 ---
 
-## Doris
-
-* Apache Doris is a modern, real-time data warehouse designed for OLAP (Online Analytical Processing). In the "Data Warehouse" family, if Hive is the old, reliable storage vault, Doris is the high-speed trading floor.
-* When you use Spark or Presto, they are Compute-only engines. Doris, however, follows the Storage-Compute Coupled principle. It owns the physical disks and dictates exactly how every byte is written.
-* Doris is its own independent system that is designed to replace the need for both RDBMS and Hadoop for analytical work.
-* Doris simplifies the "distributed system" concept into two main components:
-  * Frontend (FE): The "Brain." It handles user connections, parses your SQL queries, and creates the plan for how to get the data.
-  * Backend (BE): The "Muscle." These live on your physical Blades. They store the actual data and do the heavy lifting of calculating sums, averages, and joins.
+#### PostgreSQL
 
 <br>
 
 ---
 
-## Hadoop
+## NoSQL
+
+* Document-Based: JSON-like documents. MongoDB
+  * Key-Value Store: Key-Value pairs. Redis
+  * Column-Oriented: Columns instead of rows: HBase
+
+  [types-of-nosql-databases](https://www.geeksforgeeks.org/dbms/types-of-nosql-databases/)
+
+<br>
+
+---
+
+### Key-Value Store
+
+#### Redis
+
+<br>
+
+---
+
+## Storage
+
+### Kubernetes
+
+* Kubernetes (k8s)
+* While YARN was built specifically to manage Big Data jobs (like Hadoop and Spark), Kubernetes was built to manage Containers (like Docker). Kubernetes is an orchestrator that automates the deployment, scaling, and management of "containerized" applications.
+  
+[introduction-to-kubernetes-k8s](https://www.geeksforgeeks.org/devops/introduction-to-kubernetes-k8s/)
+
+<br>
+
+---
+
+### Cloud
+
+* Large-scale data centers owned by companies like Amazon (AWS), Google (GCP), or Microsoft (Azure). Instead of your company buying physical servers, bolting them into a rack, and plugging in the power cables, they "rent" virtual versions of those resources over the internet.
+* On-Premise: (Private Cloud)
+* On-Cloud: (Public Cloud)
+  
+[on-premises-vs-on-cloud](https://www.geeksforgeeks.org/cloud-computing/on-premises-vs-on-cloud/)
+
+<br>
+
+---
+
+### Hadoop
 
 ![](../images/Hadoop_1.png)
 
@@ -219,9 +236,9 @@ layout: default
 
 ---
 
-### Engines
+## Engines
 
-#### MapReduce
+### MapReduce
 
 * MapReduce breaks every big data problem into exactly two rigid phases:
   * Map: Each node processes a local piece of data and turns it into "key-value pairs" (e.g., counting words in a single document).
@@ -253,7 +270,7 @@ layout: default
 
 ---
 
-#### Spark
+### Spark
 
 * Difference between mapreduce and spark:
   * MapReduce is "Disk-First," Spark is "Memory-First."
@@ -265,7 +282,7 @@ layout: default
 
 ---
 
-##### Dataframe
+#### Dataframe
   
 * DataFrame: DataFrame = RDD + Schema
 * RDD (Resilient Distributed Dataset): 
@@ -279,7 +296,7 @@ layout: default
 
 ---
 
-##### API
+#### API
 
 * spark.sql(): The result is a DataFrame.
 * Export data: 
@@ -294,7 +311,7 @@ layout: default
 
 ---
 
-##### Web UI
+#### Web UI
 
 [web-ui](https://spark.apache.org/docs/latest/web-ui.html)
 
@@ -304,7 +321,7 @@ layout: default
 
 ---
 
-##### Optimization
+#### Optimization
 
 * Data skew: a condition in distributed computing where data is not distributed **evenly** across the cluster. In a distributed system, your job is only as fast as its slowest task. Power Users/Hot Keys and Null Values may lead to this.
   
@@ -332,7 +349,7 @@ layout: default
 
 ---
 
-##### Engineering praticals
+#### Engineering praticals
 
 * Backfilling/Re-triggering tasks based on soft dependencies may lead to data inconsistency between previous and current results.
   
@@ -343,7 +360,7 @@ layout: default
 ---
 
 
-#### Presto
+### Presto
 
 * a "Massively Parallel Processing" (MPP) SQL engine. It was designed by Facebook specifically to make interactive queries lightning fast.
 * Memory-to-Memory: Presto was built from the ground up to be "in-memory." It streams data from the disk directly through the network to the next processing stage without ever stopping to write "checkpoints" to the disk.
@@ -356,24 +373,14 @@ layout: default
 
 ---
 
-## Kubernetes
+### Doris
 
-* Kubernetes (k8s)
-* While YARN was built specifically to manage Big Data jobs (like Hadoop and Spark), Kubernetes was built to manage Containers (like Docker). Kubernetes is an orchestrator that automates the deployment, scaling, and management of "containerized" applications.
-  
-[introduction-to-kubernetes-k8s](https://www.geeksforgeeks.org/devops/introduction-to-kubernetes-k8s/)
-
-<br>
-
----
-
-## Cloud
-
-* Large-scale data centers owned by companies like Amazon (AWS), Google (GCP), or Microsoft (Azure). Instead of your company buying physical servers, bolting them into a rack, and plugging in the power cables, they "rent" virtual versions of those resources over the internet.
-* On-Premise: (Private Cloud)
-* On-Cloud: (Public Cloud)
-  
-[on-premises-vs-on-cloud](https://www.geeksforgeeks.org/cloud-computing/on-premises-vs-on-cloud/)
+* Apache Doris is a modern, real-time data warehouse designed for OLAP (Online Analytical Processing). In the "Data Warehouse" family, if Hive is the old, reliable storage vault, Doris is the high-speed trading floor.
+* When you use Spark or Presto, they are Compute-only engines. Doris, however, follows the Storage-Compute Coupled principle. It owns the physical disks and dictates exactly how every byte is written.
+* Doris is its own independent system that is designed to replace the need for both RDBMS and Hadoop for analytical work.
+* Doris simplifies the "distributed system" concept into two main components:
+  * Frontend (FE): The "Brain." It handles user connections, parses your SQL queries, and creates the plan for how to get the data.
+  * Backend (BE): The "Muscle." These live on your physical Blades. They store the actual data and do the heavy lifting of calculating sums, averages, and joins.
 
 <br>
 

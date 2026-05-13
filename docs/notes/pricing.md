@@ -4,29 +4,13 @@ layout: default
 
 - [Pricing](#pricing)
   - [DML](#dml)
-    - [DML](#dml-1)
-      - [Concepts](#concepts)
-      - [Source](#source)
-      - [Code](#code)
-  - [Matching](#matching)
-    - [PSM](#psm)
-      - [Concepts](#concepts-1)
-      - [Source](#source-1)
-      - [Code](#code-1)
+  - [PSM](#psm)
   - [Meta-learner](#meta-learner)
-    - [Meta-learner](#meta-learner-1)
-      - [Concepts](#concepts-2)
-      - [Source](#source-2)
-      - [Code](#code-2)
 
 
 # Pricing
 
 ## DML
-
-### DML
-
-#### Concepts
 
 Two models: One regresses Y on X, another one  regresses T on X
 
@@ -38,22 +22,9 @@ The underlying principle is Neyman orthogonality.
 
 <br>
 
-#### Source
-
-<br>
-
-
-#### Code
-
-<br>
-
 ---
 
-## Matching
-
-### PSM
-
-#### Concepts
+## PSM
 
 PSM removes bias by mimicking a randomized experiment.
 
@@ -61,22 +32,9 @@ But PSM itself introduces some bias, so in theory it performs the worst.
 
 <br>
 
-#### Source
-
-<br>
-
-
-#### Code
-
-<br>
-
 ---
 
 ## Meta-learner
-
-### Meta-learner
-
-#### Concepts
 
 A randomized experiment ensures that T is independent of X.
 
@@ -121,14 +79,6 @@ Train a model to estimate, for any given X, the difference Y(T=1) – Y(T=0), i.
    Then a third model regresses the residual of Y on the residual of T, using a loss function based on the MSE of: (residual of T * treatment effect) vs. (residual of Y).
 
    This is essentially equivalent to DML.
-
-<br>
-
-#### Source
-
-<br>
-
-#### Code
 
 <br>
 

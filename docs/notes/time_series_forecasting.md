@@ -5,185 +5,55 @@ layout: default
 - [Time Series Forecasting](#time-series-forecasting)
   - [Machine Learning](#machine-learning)
     - [ARIMA (AutoRegressive Integrated Moving Average)](#arima-autoregressive-integrated-moving-average)
-      - [Concepts](#concepts)
-      - [Source](#source)
-      - [Code](#code)
     - [XGBoost](#xgboost)
-      - [Concepts](#concepts-1)
-      - [Source](#source-1)
-      - [Code](#code-1)
     - [Prophet](#prophet)
-      - [Concepts](#concepts-2)
-      - [Source](#source-2)
-      - [Code](#code-2)
   - [Deep Learning](#deep-learning)
     - [TCN](#tcn)
-      - [Concepts](#concepts-3)
-      - [Source](#source-3)
-      - [Code](#code-3)
     - [N-BEATS](#n-beats)
-      - [Concepts](#concepts-4)
-      - [Source](#source-4)
-      - [Code](#code-4)
     - [NHITS](#nhits)
-      - [Concepts](#concepts-5)
-      - [Source](#source-5)
-      - [Code](#code-5)
     - [TimesNet](#timesnet)
-      - [Concepts](#concepts-6)
-      - [Source](#source-6)
-      - [Code](#code-6)
-    - [RNN-based](#rnn-based)
-      - [LSTM](#lstm)
-      - [Concepts](#concepts-7)
-      - [Source](#source-7)
-      - [Code](#code-7)
+  - [RNN-based](#rnn-based)
+    - [LSTM](#lstm)
     - [Seq2seq](#seq2seq)
-      - [Concepts](#concepts-8)
-      - [Source](#source-8)
-      - [Code](#code-8)
     - [MQRNN](#mqrnn)
-      - [Concepts](#concepts-9)
-      - [Source](#source-9)
-      - [Code](#code-9)
     - [LSTNet](#lstnet)
-      - [Concepts](#concepts-10)
-      - [Source](#source-10)
-      - [Code](#code-10)
     - [DeepAR (Deep Autoregressive)](#deepar-deep-autoregressive)
-      - [Concepts](#concepts-11)
-      - [Source](#source-11)
-      - [Code](#code-11)
   - [Transformer-based](#transformer-based)
     - [LogTrans/Time-Series Transformer](#logtranstime-series-transformer)
-      - [Concepts](#concepts-12)
-      - [Source](#source-12)
-      - [Code](#code-12)
     - [Longformer](#longformer)
-      - [Concepts](#concepts-13)
-      - [Source](#source-13)
-      - [Code](#code-13)
     - [Reformer](#reformer)
-      - [Concepts](#concepts-14)
-      - [Source](#source-14)
-      - [Code](#code-14)
     - [Informer](#informer)
-      - [Concepts](#concepts-15)
-      - [Source](#source-15)
-      - [Code](#code-15)
     - [Autoformer](#autoformer)
-      - [Concepts](#concepts-16)
-      - [Source](#source-16)
-      - [Code](#code-16)
     - [TFT (Temporal Fusion Transformers)](#tft-temporal-fusion-transformers)
-      - [Concepts](#concepts-17)
-      - [Source](#source-17)
-      - [Code](#code-17)
     - [Fedformer](#fedformer)
-      - [Concepts](#concepts-18)
-      - [Source](#source-18)
-      - [Code](#code-18)
     - [Pyraformer](#pyraformer)
-      - [Concepts](#concepts-19)
-      - [Source](#source-19)
-      - [Code](#code-19)
     - [PatchTST](#patchtst)
-      - [Concepts](#concepts-20)
-      - [Source](#source-20)
-      - [Code](#code-20)
     - [Crossformer](#crossformer)
-      - [Concepts](#concepts-21)
-      - [Source](#source-21)
-      - [Code](#code-21)
     - [iTransformer](#itransformer)
-      - [Concepts](#concepts-22)
-      - [Source](#source-22)
-      - [Code](#code-22)
     - [PDF](#pdf)
-      - [Concepts](#concepts-23)
-      - [Source](#source-23)
-      - [Code](#code-23)
     - [DUET](#duet)
-      - [Concepts](#concepts-24)
-      - [Source](#source-24)
-      - [Code](#code-24)
   - [LLMs-based](#llms-based)
     - [One fits all](#one-fits-all)
-      - [Concepts](#concepts-25)
-      - [Source](#source-25)
-      - [Code](#code-25)
     - [TimeGPT](#timegpt)
-      - [Concepts](#concepts-26)
-      - [Source](#source-26)
-      - [Code](#code-26)
     - [TimesFM](#timesfm)
-      - [Concepts](#concepts-27)
-      - [Source](#source-27)
-      - [Code](#code-27)
     - [Chronos](#chronos)
-      - [Concepts](#concepts-28)
-      - [Source](#source-28)
-      - [Code](#code-28)
     - [Time-LLM](#time-llm)
-      - [Concepts](#concepts-29)
-      - [Source](#source-29)
-      - [Code](#code-29)
     - [CALF](#calf)
-      - [Concepts](#concepts-30)
-      - [Source](#source-30)
-      - [Code](#code-30)
     - [LLM4TS](#llm4ts)
-      - [Concepts](#concepts-31)
-      - [Source](#source-31)
-      - [Code](#code-31)
   - [Leadboard](#leadboard)
     - [TFB](#tfb)
-      - [Concepts](#concepts-32)
-      - [Source](#source-32)
-      - [Code](#code-32)
     - [Time-Series-Library](#time-series-library)
-      - [Concepts](#concepts-33)
-      - [Source](#source-33)
-      - [Code](#code-33)
   - [Review](#review)
     - [LTSF-Linear](#ltsf-linear)
-      - [Concepts](#concepts-34)
-      - [Source](#source-34)
-      - [Code](#code-34)
     - [LLMsForTimeSeries](#llmsfortimeseries)
-      - [Concepts](#concepts-35)
-      - [Source](#source-35)
-      - [Code](#code-35)
     - [Bergmeir NeurIPS Talk](#bergmeir-neurips-talk)
-      - [Concepts](#concepts-36)
-      - [Source](#source-36)
-      - [Code](#code-36)
     - [Transformers for TSF](#transformers-for-tsf)
-      - [Concepts](#concepts-37)
-      - [Source](#source-37)
-      - [Code](#code-37)
   - [Dataset](#dataset)
     - [Multivariate Time series Data sets](#multivariate-time-series-data-sets)
-      - [Concepts](#concepts-38)
-      - [Source](#source-38)
-      - [Code](#code-38)
     - [Monash](#monash)
-      - [Concepts](#concepts-39)
-      - [Source](#source-39)
-      - [Tutorials](#tutorials)
-      - [Code](#code-39)
     - [M4](#m4)
-      - [Concepts](#concepts-40)
-      - [Source](#source-40)
-      - [Code](#code-40)
     - [M5](#m5)
-      - [Concepts](#concepts-41)
-      - [Source](#source-41)
-      - [Code](#code-41)
     - [M6](#m6)
-      - [Concepts](#concepts-42)
-      - [Source](#source-42)
-      - [Code](#code-42)
 
 
 # Time Series Forecasting
@@ -191,8 +61,6 @@ layout: default
 ## Machine Learning
 
 ### ARIMA (AutoRegressive Integrated Moving Average)
-
-#### Concepts
 
 1. **Perform d-th order differencing on the original sequence**  
    Mathematically:
@@ -237,16 +105,9 @@ layout: default
 
    > Note: Fitting the noise in this way is equivalent to Maximum Likelihood Estimation (MLE)
 
-<br>
-
-#### Source
-
 
 [时间序列模型(四)：ARIMA模型](https://zhuanlan.zhihu.com/p/634120397)
 
-<br>
-
-#### Code
 
 [chatgpt_arima](../code/chatgpt_arima.py)
 
@@ -256,29 +117,18 @@ layout: default
 
 ### XGBoost
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [XGBoost: A Scalable Tree Boosting System](https://www.kdd.org/kdd2016/papers/files/rfp0697-chenAemb.pdf)
 
 KDD 2016 Cited 68032
 
 [超详细解析XGBoost（你想要的都有）](https://zhuanlan.zhihu.com/p/562983875)
 
-<br>
-
-#### Code
 
 <br>
 
 ---
 
 ### Prophet
-
-#### Concepts
 
 1. Formula:
    It is based on additive model:
@@ -316,15 +166,6 @@ KDD 2016 Cited 68032
    y_t = \text{observed value at time t}
    $$
 
-<br>
-
-#### Source
-
-<br>
-
-
-#### Code
-
 [chatgpt_propht](../code/chatgpt_prophet.py)
 
 <br>
@@ -335,20 +176,9 @@ KDD 2016 Cited 68032
 
 ### TCN
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling](https://arxiv.org/abs/1803.01271)
 
 arXiv 2018 Cited by 7490
-
-<br>
-
-
-#### Code
 [TCN](https://github.com/locuslab/TCN)
 
 <br>
@@ -357,20 +187,9 @@ arXiv 2018 Cited by 7490
 
 ### N-BEATS
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [N-BEATS: Neural basis expansion analysis for interpretable time series forecasting](https://arxiv.org/abs/1905.10437)
 
 ICLR 2019 Cited by 1691
-
-<br>
-
-
-#### Code
 
 [pytorch-forecasting](https://github.com/sktime/pytorch-forecasting/tree/main)
 
@@ -382,20 +201,9 @@ ICLR 2019 Cited by 1691
 
 ### NHITS
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [NHITS: Neural Hierarchical Interpolation for Time Series Forecasting](https://ojs.aaai.org/index.php/AAAI/article/view/25854)
 
 AAAI 2023 Cited by 621
-
-<br>
-
-
-#### Code
 
 <br>
 
@@ -403,28 +211,17 @@ AAAI 2023 Cited by 621
 
 ### TimesNet
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis](https://arxiv.org/abs/2210.02186)
 
 ICLR 2023 Cited by 1529
-
-
-#### Code
 
 <br>
 
 ---
 
-### RNN-based
+## RNN-based
 
-#### LSTM
-
-#### Concepts
+### LSTM
 
 1. Overall, LSTM has three gates: the forget gate f, the input (memory) gate i, and the output gate o, corresponding respectively to c, [x, h], along with the new c (the new cell state is obtained by combining the previous two).
    
@@ -454,16 +251,9 @@ ICLR 2023 Cited by 1529
 
 ![LSTM](../images/LSTM.png)
    
-<br>
-
-#### Source
-
 
 [人人都能看懂的LSTM](https://zhuanlan.zhihu.com/p/32085405)
 
-<br>
-
-#### Code
 
 <br>
 
@@ -471,20 +261,9 @@ ICLR 2023 Cited by 1529
 
 ### Seq2seq
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [Sequence to sequence learning with neural networks](https://proceedings.neurips.cc/paper_files/paper/2014/file/5a18e133cbf9f257297f410bb7eca942-Paper.pdf)
 
 NeurIPS 2014 Cited by 28288
-
-<br>
-
-
-#### Code
 
 <br>
 
@@ -492,20 +271,9 @@ NeurIPS 2014 Cited by 28288
 
 ### MQRNN
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [A Multi-Horizon Quantile Recurrent Forecaster](https://arxiv.org/abs/1711.11053)
 
 NeurIPS 2017 Cited by 608
-
-<br>
-
-
-#### Code
 
 <br>
 
@@ -513,20 +281,9 @@ NeurIPS 2017 Cited by 608
 
 ### LSTNet
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks](https://dl.acm.org/doi/abs/10.1145/3209978.3210006)
 
 SIGIR 2018 Cited by 2573
-
-<br>
-
-
-#### Code
 
 [LSTNet](https://github.com/laiguokun/LSTNet?tab=readme-ov-file)
 
@@ -535,8 +292,6 @@ SIGIR 2018 Cited by 2573
 ---
 
 ### DeepAR (Deep Autoregressive)
-
-#### Concepts
 
 1. Using an LSTM as the basic module, with initial $c$ and $h$ set to 0. The input contains covariates  $x$ and the previous step’s $z$ and 
 $h$.
@@ -560,18 +315,9 @@ $h$.
 
 ![DeepAR](../images/DeepAR.png)
 
-<br>
-
-#### Source
-
 [DeepAR: Probabilistic forecasting with autoregressive recurrent networks](https://www.sciencedirect.com/science/article/pii/S0169207019301888)
 
 International Journal of Forecasting 2020 Cited by 2524
-
-<br>
-
-
-#### Code
 
 [pytorch-forecasting](https://github.com/sktime/pytorch-forecasting/tree/main)
 
@@ -585,68 +331,33 @@ International Journal of Forecasting 2020 Cited by 2524
 
 ### LogTrans/Time-Series Transformer
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [Enhancing the Locality and Breaking the Memory Bottleneck of Transformer on Time Series Forecasting](https://proceedings.neurips.cc/paper/2019/hash/6775a0635c302542da2c32aa19d86be0-Concepts.html)
 
 NeurIPS 2019 Cited by 2045
 
 <br>
 
-
-#### Code
-
-<br>
-
 ---
 
 ### Longformer
-#### Concepts
-
-<br>
-
-#### Source
-
 [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150)
 
 arXiv 2020 Cited by 4690
 
 <br>
 
-
-#### Code
-
-<br>
-
 ---
 
 ### Reformer
-#### Concepts
-
-<br>
-
-#### Source
-
 [Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451)
 
 ICLR 2020 Cited by 3152
 
 <br>
 
-
-#### Code
-
-<br>
-
 ---
 
 ### Informer
-
-#### Concepts
 
 The paper proposes an improved variant of the original Transformer model, with three main modifications:
 
@@ -658,18 +369,9 @@ The paper proposes an improved variant of the original Transformer model, with t
 
 The final model outperforms LSTM, Reformer, and several other baselines.
 
-<br>
-
-#### Source
-
 [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://ojs.aaai.org/index.php/AAAI/article/view/17325)
 
 AAAI 2021 Cited by 4838
-
-<br>
-
-
-#### Code
 
 [Informer2020](https://github.com/zhouhaoyi/Informer2020)
 
@@ -678,8 +380,6 @@ AAAI 2021 Cited by 4838
 ---
 
 ### Autoformer
-
-#### Concepts
 
 1. Auto-correlation:
    The attention mechanism is applied After the sliding operation and Fourier decomposition in frequency domain. 
@@ -763,26 +463,15 @@ AAAI 2021 Cited by 4838
 ![Autoformer_1](../images/Autoformer_1.png)
 ![Autoformer_2](../images/Autoformer_2.png)
 
-<br>
-
-#### Source
-
 [Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting](https://proceedings.neurips.cc/paper/2021/hash/bcc0d400288793e8bdcd7c19a8ac0c2b-Concepts.html)
 
 NeurIPS 2021 Cited by 2438
 
 <br>
 
-
-#### Code
-
-<br>
-
 ---
 
 ### TFT (Temporal Fusion Transformers)
-
-#### Concepts
 
 1. It is compared with the LogTrans, DeepAR and MQRNN. It is an attention-based DNN architecture and is almost unrelated to the classical Transformer in terms of structure.
 2. In terms of data structure, the model considers that many variables are not known at prediction time, such as historical customer traffic.
@@ -845,10 +534,6 @@ NeurIPS 2021 Cited by 2438
 
 ![TFT](../images/TFT.png)
 
-<br>
-
-#### Source
-
 [Temporal Fusion Transformers for interpretable multi-horizon time series forecasting](https://www.sciencedirect.com/science/article/pii/S0169207021000637)
 
 International Journal of Forecasting 2021 Cited by 1835
@@ -864,9 +549,6 @@ International Journal of Forecasting 2021 Cited by 1835
 
 [Volume Forecasting](https://www.kaggle.com/datasets/utathya/future-volume-prediction/data)
 
-<br>
-
-#### Code
 
 [google-research](https://github.com/google-research/google-research/tree/master/tft)
 
@@ -879,8 +561,6 @@ International Journal of Forecasting 2021 Cited by 1835
 ---
 
 ### Fedformer
-
-#### Concepts
 
 1. It can be considered an upgraded version of Autoformer. The overall architecture is consistent with Autoformer, but many details and sub-modules differ. The results are also compared directly against Autoformer.
 
@@ -899,18 +579,9 @@ International Journal of Forecasting 2021 Cited by 1835
 ![Fedformer_1](../images/Fedformer_1.png)
 ![Fedformer_2](../images/Fedformer_2.png)
 
-<br>
-
-#### Source
-
 [FEDformer: Frequency Enhanced Decomposed Transformer for Long-term Series Forecasting](https://proceedings.mlr.press/v162/zhou22g)
 
 PMLR 2022 Cited by 1960
-
-<br>
-
-
-#### Code
 
 [ICML2022-FEDformer](https://github.com/DAMO-DI-ML/ICML2022-FEDformer)
 
@@ -920,28 +591,15 @@ PMLR 2022 Cited by 1960
 
 ### Pyraformer
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [Pyraformer: Low-Complexity Pyramidal Attention for Long-Range Time Series Modeling and Forecasting](https://repositum.tuwien.at/handle/20.500.12708/135874)
 
 ICLR 2022 Cited by 934
 
 <br>
 
-
-#### Code
-
-<br>
-
 ---
 
 ### PatchTST
-
-#### Concepts
 
 1. Patching 
    
@@ -979,18 +637,9 @@ ICLR 2022 Cited by 934
    
 ![PatchTST](../images/PatchTST.png)
 
-<br>
-
-#### Source
-
 [A Time Series is Worth 64 Words: Long-term Forecasting with Transformers](https://arxiv.org/abs/2211.14730)
 
 ICLR 2023 Cited by 1390
-
-<br>
-
-
-#### Code
 
 [PatchTST](https://github.com/yuqinie98/PatchTST)
 
@@ -1000,46 +649,24 @@ ICLR 2023 Cited by 1390
 
 ### Crossformer
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [Crossformer: Transformer Utilizing Cross-Dimension Dependency for Multivariate Time Series Forecasting](https://openreview.net/forum?id=vSVLM2j9eie)
 
 ICLR 2023 Cited by 937
 
 <br>
 
-
-#### Code
-
-<br>
-
 ---
 
 ### iTransformer
-#### Concepts
-
 1. Inverted:
    Embedding the whole series as the token.
 2. It is a framework and a bundle of efficient attention mechanisms can be the plugins.
    
 ![iTransformer](../images/iTransformer.png)
 
-<br>
-
-#### Source
-
 [iTransformer: Inverted Transformers Are Effective for Time Series Forecasting](https://arxiv.org/abs/2310.06625)
 
 ICLR 2024 Cited by 659
-
-<br>
-
-
-#### Code
 
 [iTransformer](https://github.com/thuml/iTransformer)
 
@@ -1049,20 +676,9 @@ ICLR 2024 Cited by 659
 
 ### PDF
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [Periodicity Decoupling Framework for Long-term Series Forecasting](https://openreview.net/forum?id=dp27P5HBBt)
 
 ICLR 2024 Cited by 35
-
-<br>
-
-
-#### Code
 
 [PDF](https://github.com/Hank0626/PDF?tab=readme-ov-file)
 
@@ -1072,20 +688,9 @@ ICLR 2024 Cited by 35
 
 ### DUET
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting](https://arxiv.org/abs/2412.10859)
 
 KDD 2025 Cited by 8
-
-<br>
-
-
-#### Code
 
 [Duet](https://github.com/decisionintelligence/DUET)
 
@@ -1106,20 +711,9 @@ KDD 2025 Cited by 8
 * Zero-shot means examining how well a model performs on a dataset♣ when it is optimized on another dataset.
 * The dataset in few-shot and zero-shot is different? 
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [One Fits All: Power General Time Series Analysis by Pretrained LM](https://proceedings.neurips.cc/paper_files/paper/2023/hash/86c17de05579cde52025f9984e6e2ebb-Concepts-Conference.html)  
 
 NeurIPS 2023 Cited by 508
-
-<br>
-
-
-#### Code
 
 [NeurIPS2023-One-Fits-All](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)
 
@@ -1129,19 +723,8 @@ NeurIPS 2023 Cited by 508
 
 ### TimeGPT
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [TimeGPT-1](https://arxiv.org/abs/2310.03589)  
 arXiv 2023 Cited by 289
-
-<br>
-
-
-#### Code
 
 [Nixtla / TimeGPT](https://github.com/Nixtla/nixtla)
 
@@ -1151,20 +734,9 @@ arXiv 2023 Cited by 289
 
 ### TimesFM
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [TimesFM](https://openreview.net/forum?id=jn2iTJas6h)  
 
 ICML 2024 Cited by 392
-
-<br>
-
-
-#### Code
 
 [Google Research / TimesFM](https://github.com/google-research/timesfm?tab=readme-ov-file)
 
@@ -1174,20 +746,9 @@ ICML 2024 Cited by 392
 
 ### Chronos
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [Chronos](https://arxiv.org/abs/2403.07815)  
 
 arXiv 2024 Cited by 417
-
-<br>
-
-
-#### Code
 
 [Amazon Science / Chronos](https://github.com/amazon-science/chronos-forecasting)
 
@@ -1196,8 +757,6 @@ arXiv 2024 Cited by 417
 ---
 
 ### Time-LLM
-#### Concepts
-
 ![TIMELLM](../images/TIMELLM.png)
 
 * A reprogramming framework to adapt LLMs for time series forecasting while keeping the backbone moder intact.
@@ -1208,18 +767,9 @@ arXiv 2024 Cited by 417
 * The defination of few-shot is the same as One Fits All. But there is no code for few-shot and zero-shot training and testing?
 * The figure 5 is likely to be the weight of the attention layer and the linear layer generating prototypes.
 
-<br>
-
-#### Source
-
 [Time-LLM](https://arxiv.org/abs/2310.01728)  
 
 ICLR 2024 Cited by 797
-
-<br>
-
-
-#### Code
 
 [KimMeen / Time-LLM](https://github.com/KimMeen/Time-LLM)
 
@@ -1228,20 +778,9 @@ ICLR 2024 Cited by 797
 ---
 
 ### CALF
-#### Concepts
-
-<br>
-
-#### Source
-
 [CALF](https://ojs.aaai.org/index.php/AAAI/article/view/34082)  
 
 AAAI 2025 Cited by 21
-
-<br>
-
-
-#### Code
 
 <br>
 
@@ -1249,20 +788,9 @@ AAAI 2025 Cited by 21
 
 ### LLM4TS
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [LLM4TS](https://openreview.net/forum?id=6MKvV3bpfk)  
 
 TIST 2025 Cited by 158
-
-<br>
-
-
-#### Code
 
 [blacksnail789521 / LLM4TS](https://github.com/blacksnail789521/LLM4TS)
 
@@ -1274,20 +802,9 @@ TIST 2025 Cited by 158
 
 ### TFB
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods](https://arxiv.org/abs/2403.20150)
 
 PVLDB 2024 Cited by 46
-
-<br>
-
-
-#### Code
 
 [decisionintelligence / TFB](https://github.com/decisionintelligence/TFB)
 
@@ -1296,17 +813,6 @@ PVLDB 2024 Cited by 46
 ---
 
 ### Time-Series-Library
-
-#### Concepts
-
-<br>
-
-#### Source
-
-<br>
-
-
-#### Code
 
 [thuml / Time-Series-Library](https://github.com/thuml/Time-Series-Library)
 
@@ -1317,8 +823,6 @@ PVLDB 2024 Cited by 46
 ## Review
 
 ### LTSF-Linear
-
-#### Concepts
 
 Linear layers are  channel-independent
 
@@ -1342,18 +846,9 @@ It maps the input sequence length to the output sequence length instead of mappi
    
    So we can only say the data are independent, but the processing is completely identical—it’s all using the same weight matrix.
 
-<br>
-
-#### Source
-
 [Are Transformers Effective for Time Series Forecasting?](https://ojs.aaai.org/index.php/AAAI/article/view/26317)
 
 AAAI 2023 Cited by 2310
-
-<br>
-
-
-#### Code
 
 [LTSF-Linear](https://github.com/cure-lab/LTSF-Linear)
 
@@ -1362,20 +857,9 @@ AAAI 2023 Cited by 2310
 ---
 
 ### LLMsForTimeSeries
-#### Concepts
-
-<br>
-
-#### Source
-
 [LLMsForTimeSeries](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ed5bf446f59e2c6646d23058c86424b-Concepts-Conference.html)  
 
 NeurIPS 2024 Cited by 84
-
-<br>
-
-
-#### Code
 
 [BennyTMT / LLMsForTimeSeries](https://github.com/BennyTMT/LLMsForTimeSeries)
 
@@ -1384,8 +868,6 @@ NeurIPS 2024 Cited by 84
 ---
 
 ### Bergmeir NeurIPS Talk
-
-#### Concepts
 
 1. "Qiu et al. (PVLDB, 2024): PatchTST evaluates using a 'Drop Last trick'",
 the mentioned paper corresponds to the TFB paper.
@@ -1400,16 +882,7 @@ the mentioned paper corresponds to the TFB paper.
 
 6. Corresponding to the ambiguity of language models, time-series models also need clarification. But the problem is: humans themselves might not know these clarifications. Are we supposed to turn time-series models into something like a chatbot that experts can interact with, continuously supplying contextual information? ❓
 
-<br>
-
-#### Source
-
 [Fundamental limitations of foundational forecasting models: The need for multimodality and rigorous evaluation](https://cbergmeir.com/talks/neurips2024/)
-
-<br>
-
-
-#### Code
 
 <br>
 
@@ -1417,20 +890,9 @@ the mentioned paper corresponds to the TFB paper.
 
 ### Transformers for TSF
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [A Closer Look at Transformers for Time Series Forecasting: Understanding Why They Work and Where They Struggle](https://openreview.net/forum?id=kHEVCfES4Q)
 
 ICML 2025 Cited by 0
-
-<br>
-
-
-#### Code
 
 <br>
 
@@ -1440,18 +902,7 @@ ICML 2025 Cited by 0
 
 ### Multivariate Time series Data sets
 
-#### Concepts
-
 All the datasets used by the Transformer-based models above come from this library.
-
-<br>
-
-#### Source
-
-<br>
-
-
-#### Code
 
 [laiguokun / multivariate-time-series-data](https://github.com/laiguokun/multivariate-time-series-data)
 
@@ -1461,24 +912,12 @@ All the datasets used by the Transformer-based models above come from this libra
 
 ### Monash
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [Monash Time Series Forecasting Archive](https://arxiv.org/abs/2105.06643)
 
 arXiv 2021 Cited by 259
-<br>
-
-#### Tutorials
 
 [Monash Time Series Forecasting Repository](https://forecastingdata.org/)
 
-<br>
-
-#### Code
 
 [laiguokun / multivariate-time-series-data](https://github.com/laiguokun/multivariate-time-series-data)
 
@@ -1488,17 +927,11 @@ arXiv 2021 Cited by 259
 
 ### M4
 
-#### Concepts
-
 1. Each CSV file contains data with a different time granularity.
 
 2. Each row is a time series, and the length of each time series may vary.
 
 3. Each column is just a placeholder and does not imply that the same column corresponds to the same time step.
-
-<br>
-
-#### Source
 
 [The M4 Competition: 100,000 time series and 61 forecasting methods](https://www.sciencedirect.com/science/article/pii/S0169207019301128)
 
@@ -1509,9 +942,6 @@ arXiv 2021 Cited by 259
 
 [Makridakis Competitions](https://en.wikipedia.org/wiki/Makridakis_Competitions)
 
-<br>
-
-#### Code
 
 [Mcompetitions / M4-methods](https://github.com/Mcompetitions/M4-methods?tab=readme-ov-file)
 
@@ -1521,17 +951,8 @@ arXiv 2021 Cited by 259
 
 ### M5
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [M5 Forecasting - Accuracy](https://www.kaggle.com/competitions/m5-forecasting-accuracy/overview)
 
-<br>
-
-#### Code
 
 <br>
 
@@ -1539,18 +960,7 @@ arXiv 2021 Cited by 259
 
 ### M6
 
-#### Concepts
-
-<br>
-
-#### Source
-
 [The M6 forecasting competition: Bridging the gap between forecasting and investment decisions](https://www.sciencedirect.com/science/article/pii/S0169207024001079)
-
-<br>
-
-
-#### Code
 
 <br>
 
