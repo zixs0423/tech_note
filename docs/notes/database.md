@@ -323,27 +323,19 @@ layout: default
 
 #### Optimization
 
-* Data skew: a condition in distributed computing where data is not distributed **evenly** across the cluster. In a distributed system, your job is only as fast as its slowest task. Power Users/Hot Keys and Null Values may lead to this.
-  
-* Threshold configuration (spark.sql.autoBroadcastJoinThreshold)
-  
-  If the statistics for one of the tables show it is smaller than this value, the engine will automatically plan a Broadcast Hash Join.
-
-* Broadcast Hash Join (BHJ):
-  
-  One of the datasets (the "small" one) is collected at the driver and then sent (broadcast) to every worker node in the cluster.
-
-  Pros: Extremely fast; eliminates the need for shuffling and sorting.
-
-  Cons: Risk of Out of Memory (OOM) errors if the broadcast table is too large.
-
 * Sort Merge Join (SMJ):
-  
-  Both datasets are re-partitioned (sent to the same node) across the cluster based on the join key.
-
-  Pros: Highly scalable and robust; can handle massive datasets; does not require fitting an entire table into memory.
-
-  Cons: Slower due to the high cost of shuffling data over the network and the CPU cost of sorting.
+  * Workflow: 
+    * Shuffle: Both datasets are re-partitioned across the cluster based on the join key. This ensures that records with the same key end up on the same node.
+    * Sort: Within each partition, the data is sorted by the join key.
+    * Merge: The engine iterates through both sorted partitions simultaneously, matching keys (similar to a two-pointer approach).
+  * Pros: Highly scalable and robust; can handle massive datasets; does not require fitting an entire table into memory.
+  * Cons: Slower due to the high cost of shuffling data over the network and the CPU cost of sorting.
+* Data skew: a condition in distributed computing where data is not distributed **evenly** across the cluster. In a distributed system, The job is only as fast as its slowest task. Power Users/Hot Keys and Null Values may lead to this.
+* Broadcast Hash Join (BHJ):
+  * Workflow: One of the datasets (the "small" one) is collected at the driver and then sent (broadcast) to every worker node in the cluster. Each worker then builds a **hash table** ([hashing](data_structure_and_algorithms.md#hashing)) of this small dataset in memory and performs the join with its local portion of the large dataset. It uses a hash table for O(1) average-time lookups during the join.
+  * Pros: Extremely fast; eliminates the need for shuffling and sorting.
+  * Cons: Risk of Out of Memory (OOM) errors if the broadcast table is too large.
+  * Threshold configuration (spark.sql.autoBroadcastJoinThreshold): If the statistics for one of the tables show it is smaller than this value, the engine will automatically plan a Broadcast Hash Join.
 
 <br>
 

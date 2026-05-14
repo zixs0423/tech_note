@@ -1312,3 +1312,322 @@ INFO: Unsupported notification method: $/setTrace
 2026.05.13 12:15:15 WARN  Build server is not auto-connectable.
 2026.05.13 12:15:15 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
 2026.05.13 12:17:34 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:02:57 INFO  Started: Metals version 1.6.7 in folders '/workspaces/tech_note' for client Visual Studio Code 1.120.0.
+2026.05.14 06:02:57 INFO  time: initialize in 0.14s
+2026.05.14 06:02:57 INFO  Memory monitor started
+2026.05.14 06:03:06 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.14 06:03:08 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 06:03:09 WARN  no build tool detected in workspace '/workspaces/tech_note'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.05.14 06:03:09 WARN  Build server is not auto-connectable.
+2026.05.14 06:03:09 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+May 14, 2026 6:03:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+May 14, 2026 6:03:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+May 14, 2026 6:03:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.05.14 06:03:13 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 14, 2026 6:03:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+May 14, 2026 6:03:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2026.05.14 06:03:14 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 06:03:19 INFO  time: code lens generation in 5.77s
+2026.05.14 06:03:19 INFO  time: code lens generation in 4.61s
+2026.05.14 06:03:29 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 06:03:31 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 06:03:32 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 06:30:34 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 06:31:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 06:31:17 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+May 14, 2026 6:31:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+2026.05.14 06:31:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 06:31:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 06:31:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 06:31:19 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 06:31:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:31:20 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.14 06:31:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:31:20 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:31:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:31:23 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:31:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:31:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:31:27 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:31:32 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:31:46 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:31:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:31:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:33:18 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:33:24 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 06:34:17 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:02:21 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 07:05:17 INFO  Started: Metals version 1.6.7 in folders '/workspaces/tech_note' for client Visual Studio Code 1.120.0.
+2026.05.14 07:05:17 INFO  Memory monitor started
+2026.05.14 07:05:23 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.14 07:05:24 WARN  no build tool detected in workspace '/workspaces/tech_note'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.05.14 07:05:24 WARN  Build server is not auto-connectable.
+2026.05.14 07:05:25 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.14 07:06:03 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 14, 2026 7:06:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+May 14, 2026 7:06:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+May 14, 2026 7:07:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.14 07:07:03 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 14, 2026 7:09:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.14 07:25:03 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 07:28:42 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 07:28:42 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 07:28:52 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 07:28:52 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.14 07:28:52 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:28:52 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 14, 2026 7:28:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+2026.05.14 07:28:52 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:28:52 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:28:55 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:29:01 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:29:30 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.14 07:29:31 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:29:34 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+2026.05.14 07:29:34 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:29:49 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 14, 2026 7:30:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/workspaces/tech_note/docs/code/TwoSum.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 14, 2026 7:30:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/workspaces/tech_note/docs/code/TwoSum.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2026.05.14 07:30:18 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:30:18 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+May 14, 2026 7:30:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51
+2026.05.14 07:30:18 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:30:18 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:30:19 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 14, 2026 7:30:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/workspaces/tech_note/docs/code/TwoSum.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 14, 2026 7:30:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/workspaces/tech_note/docs/code/TwoSum.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 14, 2026 7:30:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/workspaces/tech_note/docs/code/TwoSum.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 14, 2026 7:30:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/workspaces/tech_note/docs/code/TwoSum%24TestCase.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+May 14, 2026 7:30:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/workspaces/tech_note/docs/code/TwoSum.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2026.05.14 07:31:52 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+May 14, 2026 7:32:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

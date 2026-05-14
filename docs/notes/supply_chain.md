@@ -49,7 +49,7 @@ $$
 \text{Var}(D_{LT}) = L \cdot \sigma_d^2
 $$
 
-This is because the linear combination property of the variance for independent variables. [variance](statistics.md/)
+This is because the linear combination property of the variance for independent variables. ([variance](statistics.md/#variance))
 
 The safety stock for a **constant lead time** becomes:
 
@@ -59,7 +59,7 @@ $$
 
 **Step 2: When Lead Time is Random**
 
-When **lead time $L$** is **random** (i.e., it has variability), we need to account for the uncertainty in lead time. The **law of total variance** is used to compute the total variance of demand during lead time. [law of total variance](statistics.md)
+When **lead time $L$** is **random** (i.e., it has variability), we need to account for the uncertainty in lead time. The **law of total variance** is used to compute the total variance of demand during lead time. ([law of total variance](statistics.md#the-law-of-total-variance))
 
 The **total variance** of demand during lead time is:
 
