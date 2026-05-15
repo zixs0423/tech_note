@@ -50,7 +50,15 @@ layout: default
 * Output:
 
   ```
-  System.out.println("Hello, World!");
+  int num1 = 10, num2 = 20;
+
+  System.out.print("The addition of ");
+  System.out.print(num1 + " and " + num2 + " is: ");
+  System.out.println(num1 + num2); // The addition of 10 and 20 is: 30
+
+  String[] fruits = {"Apple", "Banana", "Cherry"};
+
+  System.out.println(Arrays.toString(fruits)); // [Apple, Banana, Cherry]
   ```
 
 * For loops: In the context of a standard Java for loop header, 'i++' and '++i' will produce the exact same result.
@@ -65,8 +73,8 @@ layout: default
 
   ```
   int a = 10;
-  System.out.println("Postincrement : " + (a++)); # Postincrement : 10
-  System.out.println("Preincrement : " + (++a)); # Preincrement : 12
+  System.out.println("Postincrement : " + (a++)); // Postincrement : 10
+  System.out.println("Preincrement : " + (++a)); // Preincrement : 12
   ```
 
   [operators-in-java](https://www.geeksforgeeks.org/java/operators-in-java/)

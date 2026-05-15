@@ -79,5 +79,5 @@
 9. Use folding sections to optimize the display. Remember to add 'markdown="1"' in details, which means 'Enable Markdown parsing inside this HTML block'.
 10. Commit and sync the changes in codespace and the Github pages will automatically use jekyll to build the website, which mostly takes 1-3 min. The process can be monitored in actions.
 11. Copy the markdown file (not the preview) to citadel directly, the equations and code blocks will be automatically transformed to correct form.
-12. The leetcode extension can not be logged in inside the codespace. So read problems in local vscdoe and solve them in codespace.
+12. The leetcode extension is hard be logged in inside the codespace (Using inspect to copy cookies everytime). So solve problems in local vscdoe and copy/upload the code to codespace. Most of the code can not be run individually, they need to request the leetcode website to get tested.
 13. The vscode is logged in with my github account and will automatically sync between the local environment and github codespace.
