@@ -1631,3 +1631,40 @@ java.nio.file.FileSystemNotFoundException: Provider "class" not installed
 2026.05.14 07:31:52 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
 May 14, 2026 7:32:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2026.05.14 07:33:39 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:33:39 WARN  no build target for: /workspaces/tech_note/docs/code/TwoSum.java
+May 14, 2026 7:33:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+2026.05.14 07:33:39 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:33:39 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:33:39 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:33:41 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:33:42 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 07:37:01 INFO  no build target found for /workspaces/tech_note/docs/code/TwoSum.java. Using fallback presentation compiler.
+2026.05.14 11:17:23 INFO  Started: Metals version 1.6.7 in folders '/workspaces/tech_note' for client Visual Studio Code 1.120.0.
+2026.05.14 11:17:24 INFO  time: initialize in 0.75s
+2026.05.14 11:17:25 INFO  Memory monitor started
+2026.05.14 11:17:34 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.14 11:17:36 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 14, 2026 11:17:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+May 14, 2026 11:17:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+May 14, 2026 11:17:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.05.14 11:17:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 11:17:39 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 14, 2026 11:17:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2026.05.14 11:17:39 WARN  no build tool detected in workspace '/workspaces/tech_note'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.05.14 11:17:39 WARN  Build server is not auto-connectable.
+2026.05.14 11:17:39 WARN  no build target for: /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java
+2026.05.14 11:17:46 INFO  time: code lens generation in 6.43s
+2026.05.14 11:17:46 INFO  time: code lens generation in 6.42s
+2026.05.14 11:17:55 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 11:25:08 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 11:25:23 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 11:37:12 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+2026.05.14 11:41:49 INFO  no build target found for /workspaces/tech_note/docs/code/LongestSubstringWithoutRepeatingCharacters.java. Using fallback presentation compiler.
+May 14, 2026 12:18:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

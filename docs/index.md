@@ -17,8 +17,9 @@ title: Zixs' Tech Note
 ### [Advertisement](./notes/advertisement.md)
 ### [Pricing](./notes/pricing.md)
 ## Development
-### [Open Source Project](./notes/open_source_project.md)
-### [Backend](./notes/backend.md)
 ### [Database](./notes/database.md)
+### [Backend](./notes/backend.md)
+### [Frontend](./notes/frontend.md)
+### [Open Source Project](./notes/open_source_project.md)
 ## Business
 ### [Supply Chain](./notes/supply_chain.md)
