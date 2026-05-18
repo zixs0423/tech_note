@@ -3,6 +3,7 @@ layout: default
 ---
 
 
+
 - [Deployment](#deployment)
   - [Repository](#repository)
     - [Git](#git)
@@ -18,7 +19,6 @@ layout: default
     - [Python](#python)
     - [Torch](#torch)
     - [Transformers](#transformers)
-
 
 # Deployment
 
@@ -211,7 +211,7 @@ layout: default
   conda config --add channels https://mirrors.aliyun.com/anaconda/pkgs/msys2
 
   other sources:
-
+  
   mirrors.ustc.edu.cn
 
   mirrors.bfsu.edu.cn
@@ -236,6 +236,26 @@ layout: default
 ---
 
 ### Pip
+
+* python -m pip install --upgrade pip
+  
+  upgrading pip
+
+* pip config set global.index-url 'channel_name'
+
+  setting the channel/index of pip
+
+  sources:
+
+  https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+
+  https://mirrors.aliyun.com/pypi/simple/
+
+  https://mirrors.163.com/pypi/simple/ 
+
+  https://pypi.doubanio.com/simple/
+
+  https://pypi.mirrors.ustc.edu.cn/simple/
 
 * pip install -e .[extra]
   

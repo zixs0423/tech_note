@@ -6,7 +6,8 @@ title: Zixs' Tech Note
 ## Math
 ### [Statistics](./notes/statistics.md)
 ## CS
-### [Operating system](./notes/operating_system.md)
+### [Computer Organization and Architecture](./notes/computer_organization_and_architecture.md)
+### [Operating System](./notes/operating_system.md)
 ### [Data Structure and Algorithms](./notes/data_structure_and_algorithms.md)
 ### [LeetCode](./notes/leetCode.md)
 ## AI

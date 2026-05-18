@@ -50,6 +50,8 @@ layout: default
 * Output:
 
   ```
+  import java.util.Arrays;
+  
   int num1 = 10, num2 = 20;
 
   System.out.print("The addition of ");
