@@ -39,69 +39,26 @@ layout: default
   
 #### commands
 
-* git clone 'remote repository web URL'
-  
-  clone the remote repository (only the default branch, main/master)
-
-* git branch 
-  
-  get the list of local branches
-
-* git branch -r
-  
-  get the list of remote branches
-
-* git checkout -b 'new-local-branch-name' origin/'remote-branch-name'
-  
-  pull a new remote branch
-
-* git checkout 'local-branch-name'
-  
-  switch to a branch already existed locally
-
-* git pull 
-  
-  fetch and merge changes from the remote branch that your current local branch is tracking
-
-* git checkout -b 'new-local-branch-name'
-  
-  create a new local branch
-
-* git branch -d 'local-branch-name'
-  
-  delete the local branch
-
-* git push origin --delete 'remote-branch-name'
-  
-  delete the remote branch
-
-* git add .
-  
-  add all modifications from working directory to staging area
-
-* git commit -m ""
-  
-  commit with message ""
-
-* git push origin
-  
-  push your current branch to the remote
-
-* git status
-  
-  get the current branch and commits
-  
-* du -sh .git
-  
-  show the git storage occupation.
-
-* git count-objects -v
-  
-  show the detail information of git objectives.
-
-* create a .gitignore file in the project folder. 
-  
-  Write '*.csv' in it to ignore all the csv files.
+* git clone 'remote repository web URL': clone the remote repository (only the default branch, main/master).
+  * Git actually downloads the entire repository, including all of its history and all branches. However, it only creates and checks out a single local branch for you to work on immediately (usually main or master).
+* create a .gitignore file in the project folder. Write '*.csv' in it to ignore all the csv files.
+* git status: get the current branch and commits
+* du -sh .git: show the git storage occupation.
+* git count-objects -v: show the detail information of git objectives.
+* git branch: get the list of local branches.
+  * git branch -r: get the list of remote branches.
+  * git branch -a: get the list of all branches.
+* git checkout 'local-branch-name': switch to a branch already existed locally.
+  * git checkout -b 'new-local-branch-name': create a new local branch. The f
+  * git branch -d 'local-branch-name': delete the local branch.
+  * git checkout -b 'new-local-branch-name' origin/'remote-branch-name': pull a new remote branch. Use the following command unless you need to specify the remote name when collaborating with multiple remotes.
+  * git checkout 'remote-branch-name': check out to a new remote branch. The same as the above command, which automatically creates a local branch if git does not find the branch in local.
+* git pull: fetch and merge changes from the remote branch that your current local branch is tracking.
+  * git push -u origin 'new-local-branch-name': create the remote branch and link the newly-created local branch to the new remote branch.
+* git add .: add all modifications from working directory to staging area
+* git commit -m "": commit with message ""
+* git push origin: push your current branch to the remote
+  * git push origin --delete 'remote-branch-name': delete the remote branch
 
 [Geeksforgeeks Git Tutorial](https://www.geeksforgeeks.org/git/git-tutorial/)
 
@@ -113,13 +70,21 @@ layout: default
 
 #### Practice
 
-* merge a feature branch to main branch manually
-  * git pull: This fetches changes from the remote and merges them into your current branch
-  * git checkout main: You switch to the main branch.
-  * git merge feature: This merges the local feature branch into your main branch.
-  * git push: Finally, you push your local main branch to the remote.
-* Pull Request (PR): a request to **merge** one branch (usually a feature branch) into another branch (usually main or master) in a remote repository.
-* copy a github repository to the team project repository
+* Start a new team project:
+  * git clone (automatically on master)
+  * git checkout -b 'songzhexiang_dev' (automatically on master)
+  * git push -u origin 'songzhexiang_dev' (the first time pushing after create the local branch)
+  * git pull 
+    * Daily. Choose the "Ladder" Graph instead of the "Long Divergent" Graph. "The person writing the feature branch is responsible for making sure it integrates cleanly with master."
+  * git add, commit and push (Daily as well)
+  * pull request
+* Pull Request (PR): a request to **pull** and then **merge** one branch (usually a feature branch) into another branch (usually main or master) in a remote repository.
+  * merge a feature branch to main branch manually (equal to the pull request)
+    * git pull: This fetches changes from the remote and merges them into your current branch. (currently on feature branch)
+    * git checkout main: You switch to the main branch.
+    * git merge feature: This merges the local feature branch into your main branch.
+    * git push: Finally, you push your local main branch to the remote.
+* Copy a github repository to the team project repository
   * cd 'local code folder'
   * git clone: clone the github repository to local environment
   * git clone: clone the team project repository to local environment
