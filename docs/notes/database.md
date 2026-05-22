@@ -20,9 +20,9 @@ layout: default
     - [Kubernetes](#kubernetes)
     - [Cloud](#cloud)
     - [Hadoop](#hadoop)
-    - [HDFS](#hdfs)
-    - [YARN](#yarn)
-    - [Hive](#hive)
+      - [HDFS](#hdfs)
+      - [YARN](#yarn)
+      - [Hive](#hive)
   - [Engines](#engines)
     - [MapReduce](#mapreduce)
     - [Spark](#spark)
@@ -94,7 +94,7 @@ layout: default
   ```
   SELECT column_name1, 
        window_function(column_name2) 
-       OVER ([PARTITION BY column_name3] [ORDER BY column_name4]) AS new_column
+       OVER (PARTITION BY column_name3 ORDER BY column_name4 ROWS BETWEEN N PRECEDING/CURRENT ROW AND M FOLLOWING) AS new_column
   FROM table_name;
   ```
 * Ranking:
@@ -207,11 +207,24 @@ layout: default
 
 [hadoop-an-introduction](https://www.geeksforgeeks.org/big-data/hadoop-an-introduction/)
 
+* Command:
+  * Difference between 'hadoop fs' and 'hdfs dfs':
+    * 'hadoop fs': the older, global script. It can interact with the file system, but it is also used to run MapReduce jobs, manage cluster administrative tasks, and interact with other core Hadoop plumbing. 
+    * 'hdfs dfs': the modern, dedicated command used specifically to interact with the Hadoop Distributed File System. 
+    * The 'fs' stands for File System. The 'dfs' stands for Distributed File System. 'hadoop' and 'hdfs' are the global, all-encompassing commands for the entire ecosystem, they have several "sub-commands" other than 'fs' and 'dfs'. 'hadoop fs' and 'hdfs dfs' are interchangeable in most scenarios.
+  * hdfs dfs -get 'hdfs_file_path' 'local_folder_path': To copy files/folders from hdfs store to local file system.
+  * hdfs dfs -put 'local_file_path' 'hdfs_folder_path': To copy files/folders from local file system to hdfs store.
+  * hdfs dfs -ls 'path': list all the files on hdfs.
+  * hdfs dfs -mkdir 'folder_name': create a directory on hdfs.
+  
+  [hdfs-commands](https://www.geeksforgeeks.org/linux-unix/hdfs-commands/)
+
+
 <br>
 
 ---
 
-### HDFS
+#### HDFS
 
 * Hadoop Distributed File System (HDFS)
 
@@ -219,7 +232,7 @@ layout: default
 
 ---
 
-### YARN
+#### YARN
 
 * Yet Another Resource Negotiator (YARN)
 * Acts like the Operating System of Hadoop, managing resources (CPU, RAM) and scheduling jobs so that different engines (not just MapReduce, but also Spark or Hive) can run on the same data at the same time.
@@ -228,7 +241,7 @@ layout: default
 
 ---
 
-### Hive
+#### Hive
 
 * Hive was created (originally by Facebook) to allow people who know SQL to work with data in Hadoop. Without Hive, you’d have to write complex Java code to count rows. It turns SQL into a series of jobs that run on Hadoop. It alse stores Metadata.
 

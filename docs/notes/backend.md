@@ -4,9 +4,10 @@ layout: default
 
 - [Backend](#backend)
 - [Java](#java)
+  - [Execution](#execution)
   - [JDK, JRE and JVM](#jdk-jre-and-jvm)
+    - [Bytecode](#bytecode)
   - [Laguage](#laguage)
-    - [Basics](#basics)
     - [Methods](#methods)
     - [Class](#class)
   - [Middleware](#middleware)
@@ -25,15 +26,34 @@ layout: default
 
 ---
 
+## Execution
+
+* Write code in a file like HelloWorld.java.
+* Java Compiler "javac" compiles it into bytecode "HelloWorld.class".
+* JVM (Java Virtual Machine) reads the .class file and interprets the bytecode.
+* The JVM interprets bytecode and converts it into native machine code at runtime.
+
+![java_execution](../images/java_execution.png)
+
+<br>
+
+---
+
 ## JDK, JRE and JVM
 
 * Java Development Kit (JDK): a software development kit used to build Java applications. Includes compiler (javac), debugger, and utilities like jar and javadoc.
 * Java Runtime Environment (JRE): provides an environment to run Java programs but does not include development tools.
 * Java Virtual Machine (JVM): the core execution engine of Java. It is responsible for converting bytecode into machine-specific instructions.
 
-[jkd_jre_jvm](../images/jkd_jre_jvm.png)
+![jkd_jre_jvm](../images/jkd_jre_jvm.png)
 
 [differences-jdk-jre-jvm](https://www.geeksforgeeks.org/java/differences-jdk-jre-jvm/)
+
+<br>
+
+---
+
+### Bytecode
 
 * Bytecode: an intermediate, platform-independent code generated when a .java file is compiled into a .class file. This bytecode is executed by the Java Virtual Machine (JVM), enabling Java’s Write Once, Run Anywhere principle. JVM is platform-dependent and bytecode is platform-independent.
 
@@ -44,8 +64,6 @@ layout: default
 ---
 
 ## Laguage
-
-### Basics
 
 * Output:
 

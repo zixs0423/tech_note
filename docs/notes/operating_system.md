@@ -45,10 +45,24 @@ layout: default
 #### Command
 
 * ls: list files.
+* du: analyze and report on disk usage within directories and files.
+  * -h or --human-readable: Displays sizes in human-readable format, using units such as KB, MB, GB, etc. 
+  * -s or --summarize: rovides a summary of the disk usage for the specified directory or file, without displaying individual usage details for subdirectories.
+  
+  [du-command-linux-examples](https://www.geeksforgeeks.org/linux-unix/du-command-linux-examples/)
+  
 * pwd: display the path of the working directory.
 * cd: change directory.
 * mv: move or rename files.
 * rm: remove or delete the files.
+* mkdir: create new directories or folders.
+* cp: copy files or directories.
+* grep: search text patterns.
+* sed: stream editor, processes text line by line, applying the editing commands you specify. It can also be used for searching, inserting, deleting and modifying text efficiently.
+  * sed 's/unix/linux/' geekfile.txt: replaces the word "unix" with "linux" in the file.
+
+  [sed-command-in-linux-unix-with-examples](https://www.geeksforgeeks.org/linux-unix/sed-command-in-linux-unix-with-examples/)
+
 * echo: display text in the terminal.
 * cat: display file contents and combine multiple files.
   * cat file_name: View the Content of a Single File
@@ -60,9 +74,6 @@ layout: default
 
   [cat-command-in-linux-with-examples](https://www.geeksforgeeks.org/linux-unix/cat-command-in-linux-with-examples/)
 
-* grep: search text patterns.
-* mkdir: create new directories or folders.
-* cp: copy files or directories.
 * chmod: modify file and directory permissions. It controls who can read, write, or execute a file by setting access rights for the owner, group, and others.
   * r (Read): Permission to look inside the file and see its contents.
 
@@ -86,9 +97,17 @@ layout: default
 
   [set-file-permissions-linux](https://www.geeksforgeeks.org/linux-unix/set-file-permissions-linux/)
 
+* tar: create, view, extract, and manage archive files.
+  * tar -cvf file.tar *.c: create a file.tar file compressing all .c format files in the directory.
+  * -c: Creates a new archive
+  * -f: Specifies the name of the archive file
+  * -t: Lists files inside an archive
+  * -v: Displays the archiving process
+  * -z: Applies gzip compression
+  
+  [tar-command-linux-examples](https://www.geeksforgeeks.org/linux-unix/tar-command-linux-examples/)
+  
 [GeeksforGeeks – Basic Linux Commands](https://www.geeksforgeeks.org/linux-unix/basic-linux-commands/)
-
-[Hostinger – Linux Commands Tutorial](https://www.hostinger.com/tutorials/linux-commands?utm_source=google&utm_medium=cpc&utm_id=20913042668&utm_campaign=Generic-Tutorials-DSA-t2|NT:Se|LO:Other-ASIA&utm_term=&utm_content=778079304374&gad_source=1&gad_campaignid=20913042668&gbraid=0AAAAADMy-hasXwbMwV0bo-DarcdK_rOCb&gclid=CjwKCAjwtcHPBhADEiwAWo3sJmZOf_f1MVAcd8KqwSWNfqhVa5ir1s5AGOV7ccCejqrY4GgA70L3MBoCS3MQAvD_BwE)
 
 <br>
 
@@ -184,6 +203,4 @@ layout: default
 
 * A kernel is the core part of an operating system. The kernel manages system resources, such as the CPU, memory and devices. It handles tasks like running programs, accessing files and connecting to devices like printers and keyboards.
   
-![kernel-in-operating-system](https://www.geeksforgeeks.org/operating-systems/kernel-in-operating-system/)
-
 [kernel-in-operating-system](https://www.geeksforgeeks.org/operating-systems/kernel-in-operating-system/)
