@@ -19,6 +19,8 @@ layout: default
     - [Python](#python)
     - [Torch](#torch)
     - [Transformers](#transformers)
+  - [Vscode](#vscode)
+    - [Shortcuts](#shortcuts)
 
 # Deployment
 
@@ -332,6 +334,26 @@ layout: default
     model = LlamaModel.from_pretrained('./llama-7b')
     tokenizer = LlamaTokenizer.from_pretrained('./llama-7b')
     ```
+  
+<br>
+
+---
+
+## Vscode
+
+### Shortcuts
+
+* Cmd + Shift + P: Open Command Palette (Access all features).
+* Cmd + B: Toggle Sidebar (Show/hide file explorer).
+* Cmd + /: Toggle Line Comment.
+* Opt + Click: Manual Multi-Cursor. Just click anywhere you want to drop an extra cursor.
+* Shift + Opt + Box Select: Column Selection.Drag your mouse to select blocks of code vertically.
+* Cmd + F: Find in current file
+* Cmd + Opt + F: Replace in current file
+* Cmd + =: Zoom In
+* Cmd + -: Zoom Out
+
+[keyboard-shortcuts-macos](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
   
 <br>
 

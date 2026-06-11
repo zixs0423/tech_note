@@ -6,6 +6,8 @@ layout: default
   - [Machine Learning](#machine-learning)
     - [ARIMA (AutoRegressive Integrated Moving Average)](#arima-autoregressive-integrated-moving-average)
     - [XGBoost](#xgboost)
+      - [Feature Importance](#feature-importance)
+      - [SHAP](#shap)
     - [Prophet](#prophet)
   - [Deep Learning](#deep-learning)
     - [TCN](#tcn)
@@ -54,6 +56,9 @@ layout: default
     - [M4](#m4)
     - [M5](#m5)
     - [M6](#m6)
+  - [Engineering](#engineering)
+    - [Data Engineering](#data-engineering)
+    - [Model Engineering](#model-engineering)
 
 
 # Time Series Forecasting
@@ -121,8 +126,39 @@ layout: default
 
 KDD 2016 Cited 68032
 
+[xgboost tutorials#model](https://xgboost.readthedocs.io/en/latest/tutorials/model.html)
+
 [超详细解析XGBoost（你想要的都有）](https://zhuanlan.zhihu.com/p/562983875)
 
+<br>
+
+---
+
+#### Feature Importance
+
+* Weight (or Frequency)
+  * It counts the absolute number of times a feature is used to **split** the data across all trees in the ensemble.
+  * It measures the Feature popularity. This is the simplest metric and is often the default in many implementations (like plot_importance in the Python API).
+* Gain
+  * For every node where a specific feature is used to split the data, XGBoost calculates the resulting reduction in training **loss** (the optimization gain). The total "Gain" for a feature is the sum (or average) of these reductions across all trees.
+  * it measures the direct relative contribution of a feature to the model's accuracy.
+* Cover
+  * Cover looks at the volume of data that passes through a feature's split points. It measures the number of observations (or more technically, the sum of the second-order gradients/Hessians) affected by splits using that feature.
+  * It tells you how relevant a feature is to the entire dataset versus a tiny subset. For example, a feature might have high Gain because it perfectly predicts an outcome for a niche 1% of your users, but its Cover would be low because it rarely gets triggered for the other 99%.
+* **The external variants like price and temperature would have high weight (The model use them to route and split) and the average on sales number (the truth) would have high gain (the model uses them to quantify the leaves' values in the trees and give an accurate prediction) if the model is trained and fit correctly.**
+
+<br>
+
+---
+
+#### SHAP
+
+* Local Interpretability (Single Prediction): SHAP calculates the marginal contribution of each feature across all possible combinations (coalitions) of features to determine its fair share of credit for that specific prediction. The marginal contribution means the prediction with the original value of a feature minus the prediction with the expectation/average of a feature combined with the original values of other features.
+* Global Interpretability (The Whole Model): By calculating the SHAP values for every single row in your dataset and aggregating them.
+  
+[shap.py](../code/shap.py)
+
+[shap-a-comprehensive-guide-to-shapley-additive-explanations](https://www.geeksforgeeks.org/machine-learning/shap-a-comprehensive-guide-to-shapley-additive-explanations/)
 
 <br>
 
@@ -961,6 +997,26 @@ arXiv 2021 Cited by 259
 ### M6
 
 [The M6 forecasting competition: Bridging the gap between forecasting and investment decisions](https://www.sciencedirect.com/science/article/pii/S0169207024001079)
+
+<br>
+
+---
+
+## Engineering
+
+### Data Engineering
+
+* Perform a comprehensive analysis on the raw data—including calculating the average, standard deviation, and coefficient of variation—and implement an additional layering process based on meaningful business features to route data from different layers into various strategies or models.
+* Perform data analysis on every critical data layer (using SQL/Pandas). This involves calculating the sum or average of critical columns and inspecting typical use cases to gain a clear comprehension of the data, ensuring that the functions and procedures meet expectations.
+* The term "Data Engineering" encompasses both Feature and Strategy engineering in this context.
+  
+<br>
+
+---
+
+### Model Engineering
+
+* The input and output of the model should have approximately the same average, sum, standard deviation, and distribution when using models based on Maximum Likelihood Estimation ([MLE](./machine_learning.md#maximum-likelihood-estimation-mle)). Therefore, always begin by checking the differences between the averages of the training and testing sets.
 
 <br>
 

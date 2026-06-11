@@ -2,7 +2,7 @@
 layout: default
 ---
 
-- [Database](#database)
+- [Data](#data)
   - [SQL](#sql)
     - [Language](#language)
       - [CTE (Common Table Expression)](#cte-common-table-expression)
@@ -33,9 +33,13 @@ layout: default
       - [Engineering praticals](#engineering-praticals)
     - [Presto](#presto)
     - [Doris](#doris)
+  - [Pandas](#pandas)
+    - [Basic Api](#basic-api)
+  - [Excel](#excel)
+    - [Shortcuts](#shortcuts)
 
 
-# Database
+# Data
 
 ## SQL
 
@@ -390,3 +394,55 @@ layout: default
 <br>
 
 ---
+
+## Pandas
+
+### Basic Api
+
+[pandas api reference](https://pandas.pydata.org/docs/reference/index.html)
+
+* filter:
+  
+  ```python
+  df[['name', 'age', 'salary']] # filter multiple columns
+  df[(df['age'] > 25) & (df['dept'] == 'IT')] # filter with multiple conditions
+  df[df['salary'].isna()] # drop the nan rows in certain columns.
+  ```
+
+  [pandas.DataFrame.drop](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html#pandas.DataFrame.drop)
+
+* drop:
+  
+  ```python
+  df = df.drop(columns=['B', 'C']) # delete multiple columns
+  df = df.drop(index=['B', 'C']) # delete multiple rows
+  ```
+
+  [pandas.DataFrame.drop](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html#pandas.DataFrame.drop)
+
+* merge: 
+  
+  ```python
+  df_merged = df_left.merge(df_right, on='key', how='inner') # inner join two dataframes
+  ```
+
+  [pandas.DataFrame.merge](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html#pandas.DataFrame.merge)
+
+* groupby:
+  
+  ```python
+  df_grouped = df.groupby(['category', 'region']).sum() # group by mulitple columns and sum the rest columns
+  ```
+
+  [pandas.DataFrame.groupby](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html#pandas.DataFrame.groupby)
+
+
+<br>
+
+---
+
+## Excel
+
+### Shortcuts
+
+* Hold Control and scroll up or down: Zoom out or in.
