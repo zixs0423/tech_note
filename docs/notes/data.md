@@ -111,6 +111,10 @@ layout: default
   20000 | 4 | 3 | 4
   10000 | 5 | 4 | 5
 
+* Difference between the window function and the join operation
+  * Use the window function when supported, becuase it's faster. Remember to use 'range between' instead of 'rows between' to avoid collecting the data outside the time window when there is data missing.
+  * However, the 'range between' might not be supported to operate on string format on hive sql engine. So use the join operation with a date table as left table to avoid unexpectable data missing problem and be consistent with the ETL expression where most integration is constrained by date.
+
 [window-functions-in-sql](https://www.geeksforgeeks.org/sql/window-functions-in-sql/)
 
 <br>
