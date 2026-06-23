@@ -35,6 +35,7 @@ layout: default
     - [Doris](#doris)
   - [Pandas](#pandas)
     - [Basic Api](#basic-api)
+    - [PyArrow](#pyarrow)
   - [Excel](#excel)
     - [Shortcuts](#shortcuts)
 
@@ -319,10 +320,39 @@ layout: default
 
 #### API
 
-* spark.sql(): The result is a DataFrame.
+* Start a Spark Session:
+  
+  ```python
+  spark = SparkSession.builder.appName('app_name').config('config_option', "config_value").getOrCreate()
+  ```
+  
+  Use config to set the configurations like the number of excuters or drivers.
+
+* Run a sql query. The result is a DataFrame.
+  
+  ```python
+  df = spark.sql('sql_query')
+  ```
+
+* Register the DataFrame as a SQL temporary view, which can be used in the following sql queries.
+  
+  ```python
+  df.createOrReplaceTempView('view_name')
+  ```
+  
+* Returns the contents of a DataFrame as pandas.DataFrame:
+  
+  ```python
+  df_pandas = df.toPandas()
+  ```
+
+
 * Export data: 
-  * saveAsTextFile: takes the data inside an RDD and writes it out to a storage system as plain text files. 
-  * dataframe.write.csv(): If you have columns and types, use this.
+  
+  ```python
+  df.saveAsTextFile('path')   # takes the data inside an RDD and writes it out to a storage system as plain text files. 
+  df.write.csv('path')   # If you have columns and types, use this.
+  ```
   
 [sql-getting-started](https://spark.apache.org/docs/latest/sql-getting-started.html)
   
@@ -440,6 +470,48 @@ layout: default
 
   [pandas.DataFrame.groupby](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html#pandas.DataFrame.groupby)
 
+<br>
+
+---
+
+### PyArrow
+
+* Find the hive table path in hdfs first.
+  
+   ```sql
+  DESCRIBE FORMATTED your_database_name.your_table_name;
+  ```
+  
+* Read the hive table in hdfs directly by PyArrow, without using the hdfs commands like 'get' or any spark sql. (But the spark sql logic must be realized first. Because PyArrow can only pull/get the data but cannot compute or write.)
+  
+  ```python
+  import pyarrow as pa
+  import pyarrow.dataset as ds
+  import pyarrow.fs as pafs
+
+  # PyArrow automatically picks up host/port from $HADOOP_CONF_DIR/core-site.xml
+  hdfs_fs, hive_table_path = pafs.FileSystem.from_uri("/user/hive/warehouse/my_database.db/my_table")
+
+  # Force the dt column to be string format because the pyarrow may automatically recognize it as int format
+  partition_schema=pa.schema([('dt', pa.string())])
+
+  # Read directly using the auto-configured filesystem
+  dataset = ds.dataset(
+      hive_table_path,
+      filesystem=hdfs_fs,
+      format="orc",
+      partitioning=ds.partitioning(
+        partition_schema=partition_schema
+        flavor="hive"
+      )
+  )
+
+  df = dataset.to_table(
+    filter=ds.feild('dt')>='20260101'
+  ).to_pandas()
+  ```
+
+  [introduction-to-pyarrow](https://www.geeksforgeeks.org/python/introduction-to-pyarrow/)
 
 <br>
 
@@ -450,3 +522,7 @@ layout: default
 ### Shortcuts
 
 * Hold Control and scroll up or down: Zoom out or in.
+  
+<br>
+
+---
