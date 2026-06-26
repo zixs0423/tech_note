@@ -44,6 +44,9 @@ layout: default
 * git clone 'remote repository web URL': clone the remote repository (only the default branch, main/master).
   * Git actually downloads the entire repository, including all of its history and all branches. However, it only creates and checks out a single local branch for you to work on immediately (usually main or master).
 * create a .gitignore file in the project folder. Write '*.csv' in it to ignore all the csv files.
+
+  [Understanding Git-Ignore and Its Usage](https://www.geeksforgeeks.org/git/what-is-git-ignore-and-how-to-use-it/)
+
 * git status: get the current branch and commits
 * du -sh .git: show the git storage occupation.
 * git count-objects -v: show the detail information of git objectives.
@@ -51,35 +54,70 @@ layout: default
   * git branch -r: get the list of remote branches.
   * git branch -a: get the list of all branches.
 * git checkout 'local-branch-name': switch to a branch already existed locally.
-  * git checkout -b 'new-local-branch-name': create a new local branch. The f
+  * git checkout -b 'new-local-branch-name': create a new local branch. And Switches your HEAD pointer to that new branch.
   * git branch -d 'local-branch-name': delete the local branch.
   * git checkout -b 'new-local-branch-name' origin/'remote-branch-name': pull a new remote branch. Use the following command unless you need to specify the remote name when collaborating with multiple remotes.
   * git checkout 'remote-branch-name': check out to a new remote branch. The same as the above command, which automatically creates a local branch if git does not find the branch in local.
+
+  [Geeksforgeeks Naming Conventions for Git Branches](https://www.geeksforgeeks.org/git/how-to-naming-conventions-for-git-branches/)
+
+* git merge 'branch-name': Git Merge combines changes from different branches into a single branch, integrating work while preserving history.
+* git rebase 'branch-name': Git rebase integrates changes by replaying your commits on top of the latest state of another branch, creating a cleaner, linear history.
+
+  ![](../images/git_merge_rebase.png)
+
+* git fecth: git fetch is a safe and non-disruptive Git command that checks for and downloads the latest updates from a remote repository without merging them into your local branch, giving developers full control over when and how changes are integrated.
+
+  [git-fetch](https://www.geeksforgeeks.org/git/git-fetch/)
+
 * git pull: fetch and merge changes from the remote branch that your current local branch is tracking.
-  * git push -u origin 'new-local-branch-name': create the remote branch and link the newly-created local branch to the new remote branch.
+  * git pull -u origin 'new-local-branch-name': create the remote branch and link the newly-created local branch to the new remote branch.
 * git add .: add all modifications from working directory to staging area
 * git commit -m "": commit with message ""
+* git stash: Git stash allows you to temporarily save uncommitted changes so you can switch tasks without committing incomplete work or losing progress.
+* git stash pop: Apply and remove the stash simultaneously
+
+  [Git Stash](https://www.geeksforgeeks.org/git/git-stash/)
+
 * git push origin: push your current branch to the remote
   * git push origin --delete 'remote-branch-name': delete the remote branch
 
 [Geeksforgeeks Git Tutorial](https://www.geeksforgeeks.org/git/git-tutorial/)
 
-[Understanding Git-Ignore and Its Usage](https://www.geeksforgeeks.org/git/what-is-git-ignore-and-how-to-use-it/)
+<br>
 
-[Geeksforgeeks Naming Conventions for Git Branches](https://www.geeksforgeeks.org/git/how-to-naming-conventions-for-git-branches/)
-
-[Git Stash](https://www.geeksforgeeks.org/git/git-stash/)
+---
 
 #### Practice
 
 * Start a new team project:
   * git clone (automatically on master)
-  * git checkout -b 'songzhexiang_dev' (automatically on master)
+  * git checkout -b 'songzhexiang_dev' (Switches your HEAD pointer to that new branch.)
   * git push -u origin 'songzhexiang_dev' (the first time pushing after create the local branch)
-  * git pull 
-    * Daily. Choose the "Ladder" Graph instead of the "Long Divergent" Graph. "The person writing the feature branch is responsible for making sure it integrates cleanly with master."
-  * git add, commit and push (Daily as well)
-  * pull request
+  * Daily merge to 'master':
+    * Choose the "Ladder" Graph instead of the "Long Divergent" Graph. "The person writing the feature branch is responsible for making sure it integrates cleanly with master."
+      * "Ladder" Graph：
+        
+        master             o-----------o------------o------------o (Remote Main)
+                            \           \            \            \
+        songzhexiang_dev     o---x---x---M1---x---x---M2---x---x---M3 (Your Dev Branch)
+
+      * "Long Divergent" Graph：
+
+        master             o---o---o---o---o---o---o---o---o---o---o (No updates to dev)
+                            \                                       
+        songzhexiang_dev     o---x---x---x---x---x---x---x---x---x---x (Way behind!)
+
+    * pull approaches:
+      * git checkout 'master'
+      * git pull
+      * git checkout 'songzhexiang_dev'
+      * git merge/rebase 'master'
+      * git push (do not need to manually run git add or git commit during this process, because Git handles the committing for you automatically.)
+    * fetch approaches:
+      * git fetch 'origin' (At the 'songzhexiang_dev' branch, Fetch the latest changes from the remote server without moving your HEAD. Rebase your current dev branch directly onto the remote main)
+      * git rebase 'origin/master'
+  * pull request (merge to the master, while master is merged into feature branch in daily routine)
 * Pull Request (PR): a request to **pull** and then **merge** one branch (usually a feature branch) into another branch (usually main or master) in a remote repository.
   * merge a feature branch to main branch manually (equal to the pull request)
     * git pull: This fetches changes from the remote and merges them into your current branch. (currently on feature branch)
