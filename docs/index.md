@@ -8,6 +8,7 @@ title: Zixs' Tech Note
 ## CS
 ### [Computer Organization and Architecture](./notes/computer_organization_and_architecture.md)
 ### [Operating System](./notes/operating_system.md)
+### [Computer Network](./notes/computer_network.md)
 ### [Data Structure and Algorithms](./notes/data_structure_and_algorithms.md)
 ### [LeetCode](./notes/leetCode.md)
 ### [Deployment](./notes/deployment.md)
