@@ -86,13 +86,13 @@ $$
 
 Where:
 
-$P(\theta)$: prior probability of 
+$P(\theta)$: prior probability of observing $\theta$
 
 $P(D \mid \theta)$: likelihood of observing D given $\theta$
 
 $P(D)$: total probability of observing D
 
-$P(\theta \mid D)$: posterior probability — updated belief about {\theta} after seeing D
+$P(\theta \mid D)$: posterior probability — updated belief about $\theta$ after seeing D
 
 <details markdown="1"><summary>Devrivation</summary>
 $$
@@ -144,7 +144,7 @@ then:
 $$
 \hat{\theta}_{\text{MAP}} = \hat{\theta}_{\text{MLE}}
 $$
-****
+
 So **MLE is a special case of MAP when you use a uniform prior**.
 
 ---
@@ -161,7 +161,13 @@ $$
 \text{loss} = -\log P(\text{data}|\theta) + \lambda \|\theta\|^2_{2}
 $$
 
-This is exactly L2 regularization (Ridge).
+This is exactly L2 regularization (**Ridge Regression**). 
+
+Which is mathematically equivelent to **Bayesian Linear Regression** when the noise is Gaussian as well. But the Bayesian regression treats the parameters as variables with distributions respectively and can predict the distribution of the data insread of giving a single prediction.
+
+[a-gentle-introduction-to-bayesian-regression](https://machinelearningmastery.com/a-gentle-introduction-to-bayesian-regression/)
+
+
 
 <details markdown="1"><summary>Devrivation</summary>
 
@@ -199,7 +205,7 @@ $$
 \text{loss} = -\log P(\text{data}|\theta) + \lambda \|\theta\|_1
 $$
 
-This is L1 regularization (Lasso).
+This is L1 regularization (**Lasso Regression**).
 
 <details markdown="1"><summary>Devrivation</summary>
 
@@ -254,6 +260,9 @@ Here, the negative log-likelihood becomes the objective function, and dividing b
 $$
 \text{MSE} = \frac{1}{n} \sum_{i=1}^n (y_i - f_\theta(x_i))^2
 $$
+
+This is exactly the **Linear regression** or **Ordinary Least Squares (OLS)**
+
 <br>
 
 ---

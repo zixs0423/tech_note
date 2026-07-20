@@ -38,6 +38,10 @@ layout: default
   The staging area and 'git add' command let user picak which changes belong together instead of commiting all the changes at once every time, allowing fine-grained, locgial history.
   
 * Repository/ Head: The series of commits that make up the project history.
+* branch name 'remotes/origin/feature': 
+  * 'remotes': to seperate the remote branches and local ones. 
+  * 'origin': git supports multiple remote repositories, and 'origin' might be one of the nicknames.
+  * 'feature': the branch name.
   
 #### commands
 
@@ -57,7 +61,7 @@ layout: default
   * git checkout -b 'new-local-branch-name': create a new local branch. And Switches your HEAD pointer to that new branch.
   * git branch -d 'local-branch-name': delete the local branch.
   * git checkout -b 'new-local-branch-name' origin/'remote-branch-name': pull a new remote branch. Use the following command unless you need to specify the remote name when collaborating with multiple remotes.
-  * git checkout 'remote-branch-name': check out to a new remote branch. The same as the above command, which automatically creates a local branch if git does not find the branch in local.
+  * git checkout 'remote-branch-name': check out to a new remote branch. The same as the above command, which automatically creates a local branch if git does not find the branch in local. (Note that do not run "git checkout 'remote/origin/remote-branch-name'", which may cause the detached head. Run "git checkout 'remote-branch-name'")
 
   [Geeksforgeeks Naming Conventions for Git Branches](https://www.geeksforgeeks.org/git/how-to-naming-conventions-for-git-branches/)
 

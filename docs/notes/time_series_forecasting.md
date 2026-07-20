@@ -42,6 +42,9 @@ layout: default
     - [Time-LLM](#time-llm)
     - [CALF](#calf)
     - [LLM4TS](#llm4ts)
+  - [RAG-based](#rag-based)
+    - [RAFT](#raft)
+    - [SERAF](#seraf)
   - [Leadboard](#leadboard)
     - [TFB](#tfb)
     - [Time-Series-Library](#time-series-library)
@@ -747,7 +750,7 @@ KDD 2025 Cited by 8
 * Zero-shot means examining how well a model performs on a dataset♣ when it is optimized on another dataset.
 * The dataset in few-shot and zero-shot is different? 
 
-[One Fits All: Power General Time Series Analysis by Pretrained LM](https://proceedings.neurips.cc/paper_files/paper/2023/hash/86c17de05579cde52025f9984e6e2ebb-Concepts-Conference.html)  
+[One Fits All: Power General Time Series Analysis by Pretrained LM](https://arxiv.org/pdf/2302.11939)  
 
 NeurIPS 2023 Cited by 508
 
@@ -829,6 +832,30 @@ AAAI 2025 Cited by 21
 TIST 2025 Cited by 158
 
 [blacksnail789521 / LLM4TS](https://github.com/blacksnail789521/LLM4TS)
+
+<br>
+
+---
+
+## RAG-based
+
+### RAFT
+
+[RAFT](https://arxiv.org/pdf/2505.04163)  
+
+ICML 2025 Cited by 35
+
+[archon159 / RAFT](https://github.com/archon159/RAFT)
+
+<br>
+
+---
+
+### SERAF
+
+[SERAF](https://arxiv.org/pdf/2606.14941)  
+
+ICML 2026 Cited by 0
 
 <br>
 

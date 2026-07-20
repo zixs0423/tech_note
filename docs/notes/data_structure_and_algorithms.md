@@ -4,6 +4,7 @@ layout: default
 
 - [Data Structure and Algorithms](#data-structure-and-algorithms)
   - [Hashing](#hashing)
+  - [NP-hard](#np-hard)
 
 
 
@@ -38,3 +39,12 @@ layout: default
 <br>
 
 ---
+
+## NP-hard
+
+* The P Class: (Easy to Solve)Problems in P (Polynomial time) can be solved efficiently. Mathematically, polynomial time means the time complexity can be written as $O(n^k)$. Examples: Sorting a list, searching for a name in a database, or solving a standard, continuous Linear Program (LP).
+* The NP Class: (Easy to Verify)Problems in NP (Nondeterministic Polynomial time) might be incredibly hard to solve, but if someone hands you a piece of paper with a correct solution, you can verify that it is correct very quickly (in polynomial time). P Class is a subset of NP Class. Example: A Sudoku puzzle. Solving a $100 \times 100$ Sudoku grid from scratch is brutal, but checking if a completed grid follows the rules takes seconds.
+* NP-Hard Problem: (The Heavy Hitters)A problem is NP-hard if it is at least as hard as the hardest problems in NP.If you find a way to solve an NP-hard problem efficiently, you instantly unlock the key to solving all complex problems in the NP category. As the size of an NP-hard problem grows, the time required to solve it by exact methods typically blows up exponentially ($2^n$). Many NP-Hard problems aren't even in the NP class.
+* NP-Complete Problems: problems are the elite squad that belong to both categories. They are inside the NP class (their solutions are easy to verify), and they are NP-Hard (they are as tough as anything in NP). Example: The 0-1 Knapsack Decision Problem ("Can we fit items worth at least $100 without exceeding 20kg?") is NP-Complete. It's a Yes/No question, and if I give you the items, you can easily verify they weigh under 20kg and beat $100.
+
+  [np-hard-class](https://www.geeksforgeeks.org/dsa/np-hard-class/)

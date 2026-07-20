@@ -29,6 +29,8 @@ layout: default
       - [Dataframe](#dataframe)
       - [API](#api)
       - [Web UI](#web-ui)
+      - [Parameters](#parameters)
+      - [Physical Operators](#physical-operators)
       - [Optimization](#optimization)
       - [Engineering praticals](#engineering-praticals)
     - [Presto](#presto)
@@ -38,6 +40,8 @@ layout: default
     - [PyArrow](#pyarrow)
   - [Excel](#excel)
     - [Shortcuts](#shortcuts)
+  - [S3](#s3)
+  - [Parquet](#parquet)
 
 
 # Data
@@ -299,6 +303,30 @@ layout: default
   * In-Memory Processing: Spark keeps data in RAM between different stages of a job. It doesn't write to the disk unless it absolutely has to (e.g., during a Shuffle or if it runs out of memory).
   * DAG vs. Linear: MapReduce is a linear "Map -> Reduce" chain. Spark creates a DAG (Directed Acyclic Graph). This allows Spark to look at your entire query and optimize the path. 
   * Speed: Because it avoids constant disk I/O, Spark is often 10x to 100x faster than MapReduce for many workloads.
+* HDFS vs. Spark
+  * Defination:
+    * HDFS (Hadoop Distributed File System): A Storage Engine/Layer. Its only job is to break big files into chunks (blocks) and distribute them across a cluster of hard drives reliably.
+      * NameNode (The Manager): Holds the filesystem metadata. It knows where file blocks are stored across the cluster (e.g., "file.parquet Block 1 is on DataNode B, Block 2 is on DataNode C"). It does not store actual file data.
+      * DataNode (The Worker): Runs on physical machines and stores the actual raw file blocks on disk. It reads or writes data blocks when requested.
+    * Spark: A Compute Engine/Layer. Its only job is to take processing logic (SQL, DataFrames, RDDs), load data into memory/CPU across a cluster, and execute transformations fast.
+      * Driver (The Manager): Converts your application code into a execution plan (DAG), asks the cluster resource manager (YARN/Kubernetes/Standalone) for executors, and assigns tasks to them.
+      * Executor (The Worker): A JVM process running on a worker node that executes tasks assigned by the Driver, keeps data in RAM/disk cache, and performs computations.
+  * Workflow:
+    [ Spark Driver ] ── (1. Query File Metadata) ──► [ HDFS NameNode ]
+            │                                               │
+            │◄── (2. Return Block Locations / Locality) ────┘
+            │
+            ├── (3. Construct FileScans & RDD Partitions)
+            │
+            ▼
+    [ Task Scheduler ]
+            │
+            ├── Assigns Task 1 (Local) ──► [ Executor B ] ── (4. Short-Circuit Read) ──► [ DataNode B ]
+            │                                                                                │
+            └── Assigns Task 2 (Remote) ─► [ Executor C ] ── (4. TCP Block Transfer) ───► [ DataNode D ]
+  * Architecture:
+    * Co-located Architecture (Traditional On-Premise): Spark Executors and HDFS DataNodes run on the exact same physical servers. Advantage: Enables Data Locality (Process Local). Spark Executors read file blocks directly from the local disk via the local DataNode daemon, completely bypassing network bandwidth overhead.
+    * Decoupled Architecture (Modern Cloud Standard): Spark Compute and Storage are 100% physically separated. For instance, running Spark on Kubernetes while reading data from Amazon S3, Google Cloud Storage, or a remote HDFS/Ceph cluster. Advantage: Compute and storage can be scaled independently (e.g., expand storage without paying for idle CPU/RAM).
 
 <br>
 
@@ -364,6 +392,18 @@ layout: default
 
 #### Web UI
 
+* Jobs: A Job is created every time you call an "Action" in your Spark code (e.g., .collect(), .count(), .saveAsTextFile(), .show())
+* Stages: Stages are created based on shuffling boundaries
+* Tasks: The number of tasks in a Stage is exactly equal to the number of partitions in the RDD/DataFrame being processed in that Stage. Each Task executes the exact same set of code (the Stage's pipeline) but on a different partition (slice) of the data at the same time.
+  * Duration: The total time the task took to complete.
+  * GC Time (Garbage Collection Time): The total amount of time the Java Virtual Machine (JVM) spent pausing execution to perform Garbage Collection during that specific task's lifecycle.
+  * Input Size/Records: The volume of data (in MB/GB) and the total record count that this task read directly from an external storage system (such as HDFS, S3).
+  * Outpu Size/Records: The volume of data and number of records this task wrote out to an external storage system (e.g., saving a DataFrame to Parquet/ORC on S3 or HDFS).
+  * Shuffle Read/Size: The amount of serialized intermediate data this task read from other executors (or local disk) at the start of a wide stage.
+  * Shuffle Write/Size: The amount of intermediate data this task wrote out to local disk at the end of a stage. (**Inside a single Stage, processing happens in memory (pipelined in RAM). Between Stages, operations transition through local disk via the shuffle mechanism.**)
+  * Spill (Memory): The uncompressed, in-memory size of the data that Spark was forced to evict from RAM because the task's execution memory limit was exceeded.
+  * Spill (Disk): The actual compressed size of that evicted data once it was written down to the local disk. (Any non-zero value here is a major red flag. Disk spilling severely degrades performance because disk I/O and re-serialization are vastly slower than operating in memory. If you see spilling, you typically need to increase spark.executor.memory, increase the number of partitions, or fix data skew.)
+
 [web-ui](https://spark.apache.org/docs/latest/web-ui.html)
 
 [understanding-spark-ui](https://medium.com/@himanshukotkar007/understanding-spark-ui-b6250d3bdc47)
@@ -372,22 +412,83 @@ layout: default
 
 ---
 
-#### Optimization
+#### Parameters
 
-* Sort Merge Join (SMJ):
+* spark.executor.memory (Executor Heap Memory): RAM allocated per executor process. Increase this when tasks throw JVM OOM errors or suffer high GC pause times. (8g – 16g)
+* spark.executor.cores: Sets the number of concurrent task slots (CPU cores) assigned to each executor process. (4 to 5 Cores)
+* spark.executor.memoryOverhead (Off-Heap Memory): Extra memory allocated outside the JVM heap for overhead (PySpark internal processes, shuffle buffers, netty layers). Crucial if your job crashes with driver/executor container killed by YARN/K8s. (10% of executor RAM or 1g – 2g)
+* spark.sql.shuffle.partitions: Controls the number of partitions used when shuffling data for joins and aggregations (Default is 200). If processing a 500GB shuffle dataset with the default 200, each partition is 2.5GB (causing severe spilling). Increase this value (e.g., to 2500) to shrink partition sizes. (Target 100MB – 200MB per partition)
+* spark.sql.autoBroadcastJoinThreshold: The maximum size in bytes for a table that Spark will broadcast to all worker nodes during a join, converting a costly Sort-Merge Join (requires shuffle) into a fast Broadcast Hash Join (zero shuffle). Do not set too high, or driver RAM will blow up. (10m (Default) – 50m.)
+* spark.sql.adaptive.enabled (Adaptive Query Execution (AQE)): Dynamically re-optimizes query plans at runtime based on real-time stage statistics. (true, Default in Spark 3.x)
+* spark.sql.adaptive.skewJoin.enabled: Automatically detects skewed keys in joins during execution and splits them into smaller sub-partitions, preventing single "straggler" tasks from running for hours. (true)
+
+<br>
+
+---
+
+#### Physical Operators
+
+* Exchange (Shuffle): Redistributes data across cluster nodes based on hash keys (Inter-Stage boundary).
+* Broadcas: Sends a full copy of a small dataset to all executor nodes.
+* Sort: Sorts data within a single partition by key (often using external Timsort).Hash Table BuildHashedRelationConstructs an in-memory look-up table (HashMap) from a dataset.
+* Scan: Reads raw files (Parquet, ORC, CSV) from disk/cloud storage into RAM.
+* Filter: Drops rows that don't match a predicate condition.
+* Project: Selects, renames, or computes specified columns.
+* WholeStageCodegen: Collapses multiple pipeline operations into a single compiled Java bytecode loop. Eliminates virtual function call overhead; optimizes CPU cache utilization.
+* ColumnarToRow: Converts columnar batch data structures into individual row objects. Bridges vectorized file reads (Parquet/ORC) with row-based execution operators.
+* Generate: Expands complex array/map columns into individual rows (explode()). 
+* CustomShuffleReader: Dynamically adapts shuffle partition reading (coalescing small partitions or splitting skewed keys (AQE)).
+* HashAggregate (Fast & In-Memory): performs aggregations by building an in-memory Hash Map of grouping keys and their running aggregate states. Unbound Memory Requirement and Extremely Fast Speed.
+  * As rows stream in, Spark hashes the GROUP BY key.
+  * It looks up the key in an in-memory hash map.
+  * If the key exists, it updates the running aggregate state (e.g., adds to a running sum). If not, it creates a new entry.Once all rows are processed, it emits the key-value pairs.
+* SortAggregate (Slow & Memory-Safe Fallback): requires the input stream to be sorted by the GROUP BY keys first before doing the aggregation. Constant Memory Requirement and Slower Speed.
+  * Input data is sorted by the grouping keys (inserting a SortExec node if necessary).
+  * Spark streams the sorted rows one-by-one.It keeps a running aggregate state for the current key only.
+  * As soon as it encounters a new key, it emits the result for the previous key, clears the state buffer, and starts fresh for the new key.
+* SortMergeJoin (SMJ):
   * Workflow: 
     * Shuffle: Both datasets are re-partitioned across the cluster based on the join key. This ensures that records with the same key end up on the same node.
     * Sort: Within each partition, the data is sorted by the join key.
+      * Unsorted: For $N$ rows in Dataset A and $M$ rows in Dataset B, a nested loop join takes $O(N \times M)$ comparisons.
+      * Sorted: Once both datasets are sorted by the join key, Spark uses a Two-Pointer Merge Algorithm:
     * Merge: The engine iterates through both sorted partitions simultaneously, matching keys (similar to a two-pointer approach).
   * Pros: Highly scalable and robust; can handle massive datasets; does not require fitting an entire table into memory.
   * Cons: Slower due to the high cost of shuffling data over the network and the CPU cost of sorting.
-* Data skew: a condition in distributed computing where data is not distributed **evenly** across the cluster. In a distributed system, The job is only as fast as its slowest task. Power Users/Hot Keys and Null Values may lead to this.
-* Broadcast Hash Join (BHJ):
+* BroadcastHashJoin (BHJ):
   * Workflow: One of the datasets (the "small" one) is collected at the driver and then sent (broadcast) to every worker node in the cluster. Each worker then builds a **hash table** ([hashing](data_structure_and_algorithms.md#hashing)) of this small dataset in memory and performs the join with its local portion of the large dataset. It uses a hash table for O(1) average-time lookups during the join.
   * Pros: Extremely fast; eliminates the need for shuffling and sorting.
   * Cons: Risk of Out of Memory (OOM) errors if the broadcast table is too large.
   * Threshold configuration (spark.sql.autoBroadcastJoinThreshold): If the statistics for one of the tables show it is smaller than this value, the engine will automatically plan a Broadcast Hash Join.
 
+<br>
+
+---
+
+#### Optimization
+
+* Data skew: a condition in distributed computing where data is not distributed **evenly** across the cluster. In a distributed system, The job is only as fast as its slowest task. Power Users/Hot Keys and Null Values may lead to this.
+* Join Strategy: Change SortMergeJoin to BroadcastHashJoin when one table is quite small.
+* Change COUNT(DISTINCT col) to APPROX_COUNT_DISTINCT(col):
+  * APPROX_COUNT_DISTINCT: a high-performance aggregation function in Spark SQL (and other big data systems) used to estimate the number of unique/distinct values in a column.
+    * WorkFlow: 
+      * FileScan
+      * HashAggregate (Partial HLL Sketch): Every executor task hashes each incoming col value and updates a tiny fixed-size bit array called an HLL Register Sketch (e.g., HyperLogLogPlus buffer).
+        * Hashes "user_984321" into a 64-bit binary string:$$\mathbf{0000000101101...0101_2}$$Splits the bit string into two parts:
+          * Part 1 (The Register Index): Uses the first $k$ bits to choose a slot in the array (e.g., Slot #3).
+          * Part 2 (The Rarity Score): Counts the number of leading zeros in the remaining bits before hitting the first 1. In this example: 00000001... $\rightarrow$ 7 leading zeros.
+        * Updates the Register: Goes to Slot #3 and sets its value to $\max(\text{current\_value}, 7)$.
+        * Discards the input: The original "user_984321" is immediately thrown away.3. 
+        * The Ptinciple: The core intuition relies on coin flipping / probability:If you flip a fair coin, the probability of getting heads on the first flip (1...) is $1/2$ (50%). Getting a tail then heads (01...) is $1/4$ (25%). Getting 7 consecutive tails before a heads (00000001...) is $1/2^8 = 1/256$ (~0.39%).
+      * Exchange (Shuffle HLL Registers): Spark only shuffles the tiny HLL sketch buffers (a few kilobytes per partition) across the network.
+      * HashAggregate (Merge HLL Registers): Bitwise merges the tiny HLL sketches from all nodes together and applies the HyperLogLog estimation formula to output a single integer.
+        * HyperLogLog Estimation Formula on the single merged array $M_{\text{final}}$:$$E = \alpha_m \cdot m^2 \cdot \left( \sum_{i=0}^{m-1} 2^{-M[i]} \right)^{-1}$$
+        * $m = 16$ (number of registers).$\alpha_m$ is a bias-correction constant calibrated for $m$ (for $m=16$, $\alpha_m \approx 0.673$).Harmonic Mean: Using $\sum 2^{-M[i]}$ averages the inverted probabilities, preventing rare outlier hashes (like a hash with 30 leading zeros) from inflating the estimate.
+      * [ Output Result ]
+  * COUNT(DISTINCT col):
+    * WorkFlow: FileScan, HashAggregate (Partial 1: group col), Exchange (Shuffle by Hash(col)), HashAggregate (Partial 2: count keys), Exchange (Shuffle by Grouping Key), HashAggregate (Final Result).
+    * When you write SELECT b, COUNT(DISTINCT a) FROM table GROUP BY b, Spark's Catalyst Optimizer automatically expands your query into that exact two-stage GROUP BY subquery under the hood: SELECT b, COUNT(1) FROM(SELECT a, b FROM tbale GROUP BY a, b) GROUP BY b
+  
 <br>
 
 ---
@@ -522,6 +623,33 @@ layout: default
 ### Shortcuts
 
 * Hold Control and scroll up or down: Zoom out or in.
+  
+<br>
+
+---
+
+## S3
+
+* Amazon S3 (Simple Storage Service): an object storage service. Instead of organizing data in a traditional file hierarchy (like your computer's folders) or in structured tables, S3 stores data as "objects" inside containers called "buckets." Each object consists of the file itself, a unique identifier, and metadata.
+*  True Decoupling of Compute and Storage: With HDFS, if you run out of storage, you have to spin up more Hadoop nodes, meaning you pay for extra CPU power you might not need. With S3, your data sits safely and cheaply in a managed bucket. You only spin up your query engines (like Hive, Presto, or Spark) when you actually need to compute something, and turn them off when you're done.
+  
+<br>
+
+---
+
+## Parquet
+
+* Think of a Parquet file (.parquet) as the polar opposite of a CSV. While a CSV stores data row by row, Apache Parquet is an open-source, binary file format that stores data column by column. 
+* Read Parquet files:
+
+  ```python
+  import pandas as pd
+
+  # Read the entire Parquet file into a DataFrame
+  df = pd.read_parquet('data.parquet')
+
+  print(df.head())
+  ```
   
 <br>
 

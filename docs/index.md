@@ -5,6 +5,7 @@ title: Zixs' Tech Note
 # Welcome to my techincal notes
 ## Math
 ### [Statistics](./notes/statistics.md)
+### [Operations Research](./notes/statistics.md)
 ## CS
 ### [Computer Organization and Architecture](./notes/computer_organization_and_architecture.md)
 ### [Operating System](./notes/operating_system.md)
@@ -25,3 +26,4 @@ title: Zixs' Tech Note
 ### [Open Source Project](./notes/open_source_project.md)
 ## Business
 ### [Supply Chain](./notes/supply_chain.md)
+### [Supply Chain](./notes/site_selection.md)

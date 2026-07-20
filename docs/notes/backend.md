@@ -3,13 +3,19 @@ layout: default
 ---
 
 - [Backend](#backend)
-- [Java](#java)
-  - [Execution](#execution)
-  - [JDK, JRE and JVM](#jdk-jre-and-jvm)
-    - [Bytecode](#bytecode)
-  - [Laguage](#laguage)
-    - [Methods](#methods)
-    - [Class](#class)
+  - [Java](#java)
+    - [Execution](#execution)
+    - [JDK, JRE and JVM](#jdk-jre-and-jvm)
+      - [Bytecode](#bytecode)
+    - [Laguage](#laguage)
+      - [Methods](#methods)
+      - [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
+        - [Class and Objects](#class-and-objects)
+        - [Encapsulation](#encapsulation)
+        - [Inhereitance](#inhereitance)
+        - [Constructors](#constructors)
+        - [Abstraction](#abstraction)
+        - [Polymorphism](#polymorphism)
   - [Middleware](#middleware)
     - [Kafka](#kafka)
     - [Thrift](#thrift)
@@ -18,7 +24,7 @@ layout: default
 
 # Backend
 
-# Java
+## Java
 
 [java](https://www.geeksforgeeks.org/java/java/)
 
@@ -26,7 +32,7 @@ layout: default
 
 ---
 
-## Execution
+### Execution
 
 * Write code in a file like HelloWorld.java.
 * Java Compiler "javac" compiles it into bytecode "HelloWorld.class".
@@ -39,7 +45,7 @@ layout: default
 
 ---
 
-## JDK, JRE and JVM
+### JDK, JRE and JVM
 
 * Java Development Kit (JDK): a software development kit used to build Java applications. Includes compiler (javac), debugger, and utilities like jar and javadoc.
 * Java Runtime Environment (JRE): provides an environment to run Java programs but does not include development tools.
@@ -53,7 +59,7 @@ layout: default
 
 ---
 
-### Bytecode
+#### Bytecode
 
 * Bytecode: an intermediate, platform-independent code generated when a .java file is compiled into a .class file. This bytecode is executed by the Java Virtual Machine (JVM), enabling Java’s Write Once, Run Anywhere principle. JVM is platform-dependent and bytecode is platform-independent.
 
@@ -63,7 +69,7 @@ layout: default
 
 ---
 
-## Laguage
+### Laguage
 
 * Output:
 
@@ -111,7 +117,7 @@ layout: default
 
 ---
 
-### Methods
+#### Methods
 
 * Methods:
   
@@ -171,272 +177,310 @@ layout: default
 
 ---
 
-### Class
+#### Object-Oriented Programming (OOP)
 
-* Class and Objects: 
-  * Class: A class is a blueprint used to create objects that share common properties and behavior.
-  * Objects: An object is an instance of a class created to access its data and operations. Each object holds its own state.
+* Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects that contain data (fields) and behavior (methods).
+* Before OOP, the dominant paradigm was Procedural Programming (like C or basic Python/Go scripts), where changing a variable in one corner of the program broke a function in a completely unrelated corner.
+* OOP was designed to solve this by creating Capsules (Objects). A class doesn't just hold functions; it binds Data (Attributes/State) and Functions (Methods/Behavior) together into a single unit. Instead of passing data into random functions across your codebase, the data lives inside the object, and only the functions inside that same object are allowed to touch it.
   
+  [object-oriented-programming-oops-concept-in-java](https://www.geeksforgeeks.org/java/object-oriented-programming-oops-concept-in-java/)
+
+
+##### Class and Objects
+
+* Class: A class is a blueprint used to create objects that share common properties and behavior.
+* Objects: An object is an instance of a class created to access its data and operations. Each object holds its own state.
+
+```
+class Student {
+    int id;
+    String n;
+
+    public Student(int id, String n) {
+        this.id = id;
+        this.n = n;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s1 = new Student(10, "Alice");
+        System.out.println(s1.id);
+        System.out.println(s1.n);
+    }
+}
+```
+
+Here the 'Student' is a class and s1 is an object.
+
+<br>
+
+---
+
+##### Encapsulation
+
+* Encapsulation: an object-oriented principle that binds data and methods into a single unit, typically a class. It restricts direct access to data by hiding implementation details. This ensures controlled interaction with the data through defined methods.
+
+[encapsulation-in-java](https://www.geeksforgeeks.org/java/encapsulation-in-java/)
+
+<br>
+
+---
+
+##### Inhereitance
+
+* A subclass can reuse the fields and methods of the parent class without rewriting the code.
+* Use 'extends' expression:
+
+  ```
+  // Parent class
+  class Animal {
+      void sound() {
+          System.out.println("Animal makes a sound");
+      }
+  }
+
+  // Child class
+  class Dog extends Animal {
+      void sound() {
+          System.out.println("Dog barks");
+      }
+  }
+
+  // Child class
+  class Cat extends Animal {
+      void sound() {
+          System.out.println("Cat meows");
+      }
+  }
+
+  // Child class
+  class Cow extends Animal {
+      void sound() {
+          System.out.println("Cow moos");
+      }
+  }
+
+  // Main class
+  public class Geeks {
+      public static void main(String[] args) {
+          Animal a;
+          a = new Dog();
+          a.sound();  
+
+          a = new Cat();
+          a.sound(); 
+
+          a = new Cow();
+          a.sound();  
+      }
+  }
+  ```
+
+  [inheritance-in-java](https://www.geeksforgeeks.org/java/inheritance-in-java/)
+
+<br>
+
+---
+
+##### Constructors
+
+* A special member that is called when an object is created.
+* A constructor has the same name as the class.
+
   ```
   class Student {
-      int id;
-      String n;
+      String name;
 
-      public Student(int id, String n) {
-          this.id = id;
-          this.n = n;
+      // Constructor
+      Student(String name) {
+          this.name = name;
       }
-  }
 
-  public class Main {
+      void display() {
+          System.out.println("Name: " + name);
+      }
+
       public static void main(String[] args) {
-          Student s1 = new Student(10, "Alice");
-          System.out.println(s1.id);
-          System.out.println(s1.n);
+          Student s1 = new Student("Vishnu");
+          s1.display();
       }
   }
   ```
 
-  Here the 'Student' is a class and s1 is an object.
+  [constructors-in-java](https://www.geeksforgeeks.org/java/constructors-in-java/)
 
-* Inhereitance:
-  * A subclass can reuse the fields and methods of the parent class without rewriting the code.
-  * Use 'extends' expression:
+* This keyword: this is a keyword that refers to the current object, the object whose method or constructor is being executed. It is mainly used to refer to the current class’s instance variables and methods.
 
-    ```
-    // Parent class
-    class Animal {
-        void sound() {
-            System.out.println("Animal makes a sound");
-        }
-    }
+  [java-this-keyword](https://www.geeksforgeeks.org/java/java-this-keyword/)
 
-    // Child class
-    class Dog extends Animal {
-        void sound() {
-            System.out.println("Dog barks");
-        }
-    }
+* New operator: The new operator instantiates a class by dynamically allocating(i.e, allocation at run time) memory for a new object. The new operator is also followed by a call to a class constructor, which initializes the new object.
 
-    // Child class
-    class Cat extends Animal {
-        void sound() {
-            System.out.println("Cat meows");
-        }
-    }
+  [new-operator-java](https://www.geeksforgeeks.org/java/new-operator-java/)
 
-    // Child class
-    class Cow extends Animal {
-        void sound() {
-            System.out.println("Cow moos");
-        }
-    }
+<br>
 
-    // Main class
-    public class Geeks {
-        public static void main(String[] args) {
-            Animal a;
-            a = new Dog();
-            a.sound();  
+---
 
-            a = new Cat();
-            a.sound(); 
+##### Abstraction
 
-            a = new Cow();
-            a.sound();  
-        }
-    }
-    ```
-
-    [inheritance-in-java](https://www.geeksforgeeks.org/java/inheritance-in-java/)
-
-* Constructors
-  * A special member that is called when an object is created.
-  * A constructor has the same name as the class.
+* Interface:
+  * blueprint that defines a set of methods a class must implement without providing full implementation details.
+    * A class must implement all abstract methods of an interface.
+    * All variables in an interface are public, static, and final by default.
+    * Use 'implements' expression
 
     ```
-    class Student {
-        String name;
+    import java.io.*;
 
-        // Constructor
-        Student(String name) {
-            this.name = name;
-        }
+    // Interface Declared
+    interface testInterface {
+      
+        // public, static and final
+        final int a = 10;
 
-        void display() {
-            System.out.println("Name: " + name);
-        }
+        // public and abstract
+        void display();
+    }
 
-        public static void main(String[] args) {
-            Student s1 = new Student("Vishnu");
-            s1.display();
+    // Class implementing interface
+    class TestClass implements testInterface {
+      
+        // Implementing the capabilities of Interface
+        public void display(){ 
+          System.out.println("Geek"); 
         }
     }
-    ```
-  
-    [constructors-in-java](https://www.geeksforgeeks.org/java/constructors-in-java/)
 
-  * This keyword: this is a keyword that refers to the current object, the object whose method or constructor is being executed. It is mainly used to refer to the current class’s instance variables and methods.
-
-    [java-this-keyword](https://www.geeksforgeeks.org/java/java-this-keyword/)
-
-  * New operator: The new operator instantiates a class by dynamically allocating(i.e, allocation at run time) memory for a new object. The new operator is also followed by a call to a class constructor, which initializes the new object.
-  
-    [new-operator-java](https://www.geeksforgeeks.org/java/new-operator-java/)
-
-* Abstraction
-  * Interface:
-    * blueprint that defines a set of methods a class must implement without providing full implementation details.
-      * A class must implement all abstract methods of an interface.
-      * All variables in an interface are public, static, and final by default.
-      * Use 'implements' expression
-
-      ```
-      import java.io.*;
-
-      // Interface Declared
-      interface testInterface {
+    class Geeks{
         
-          // public, static and final
-          final int a = 10;
+        public static void main(String[] args){
+            
+            TestClass t = new TestClass();
+            t.display();
+            System.out.println(t.a);
+        }
+    }
+    ```
 
-          // public and abstract
-          void display();
+  [interfaces-in-java](https://www.geeksforgeeks.org/java/interfaces-in-java/)
+  
+* Abstract Class
+  * A class that cannot be instantiated and is designed to be extended by other classes.
+  * Difference between interface and abstract class:
+    * Interface: Provides full abstraction (though modern Java allows default/static methods). A class can implement multiple interfaces (Multiple Inheritance).
+    * Abstract Class: Provides partial abstraction (can have concrete methods). A class can extend only one abstract class (Single Inheritance).
+
+    [abstract-classes-in-java](https://www.geeksforgeeks.org/java/abstract-classes-in-java/)
+
+<br>
+
+---
+
+##### Polymorphism
+
+* Allows objects to behave differently based on their specific class type.
+* Overloading: (Compile-Time Polymorphism/static polymorphism) multiple methods with the same name exist but differ in parameter lists. The method to be called is resolved by the compiler at compile time.
+
+  ```
+  class Helper {
+
+      // Method with 2 integer parameters
+      static int Multiply(int a, int b)
+      {
+          // Returns product of integer numbers
+          return a * b;
       }
 
-      // Class implementing interface
-      class TestClass implements testInterface {
-        
-          // Implementing the capabilities of Interface
-          public void display(){ 
-            System.out.println("Geek"); 
-          }
+      // Method 2
+      // With same name but with 2 double parameters
+      static double Multiply(double a, double b)
+      {
+          // Returns product of double numbers
+          return a * b;
       }
+  }
 
-      class Geeks{
-          
-          public static void main(String[] args){
-              
-              TestClass t = new TestClass();
-              t.display();
-              System.out.println(t.a);
-          }
+
+  // Main class
+  class Geeks {
+      // Main driver method
+      public static void main(String[] args)
+      {
+
+          // Calling method by passing
+          // input as in arguments
+          System.out.println(Helper.Multiply(2, 4));
+          System.out.println(Helper.Multiply(5.5, 6.3));
       }
-      ```
+  }
+  ```
 
-    [interfaces-in-java](https://www.geeksforgeeks.org/java/interfaces-in-java/)
-    
-  * Abstract Class
-    * A class that cannot be instantiated and is designed to be extended by other classes.
-    * Difference between interface and abstract class:
-      * Interface: Provides full abstraction (though modern Java allows default/static methods). A class can implement multiple interfaces (Multiple Inheritance).
-      * Abstract Class: Provides partial abstraction (can have concrete methods). A class can extend only one abstract class (Single Inheritance).
+* Overriding: (Runtime Polymorphism/dynamic method dispatch) It occurs when a method call is resolved at runtime, and it is achieved when a subclass provides its own implementation of a method already defined in its superclass.
 
-      [abstract-classes-in-java](https://www.geeksforgeeks.org/java/abstract-classes-in-java/)
+  ```
+  // Class 1
+  // Helper class
+  class Parent {
 
-* Polymorphism
-  * Allows objects to behave differently based on their specific class type.
-  * Overloading: (Compile-Time Polymorphism/static polymorphism) multiple methods with the same name exist but differ in parameter lists. The method to be called is resolved by the compiler at compile time.
+      // Method of parent class
+      void Print() { System.out.println("parent class"); }
+  }
+
+  // Class 2
+  // Helper class
+  class Subclass1 extends Parent {
+
+      // Method
+      void Print() { System.out.println("subclass1"); }
+  }
+
+  // Class 3
+  // Helper class
+  class Subclass2 extends Parent {
+
+      // Method
+      void Print() { System.out.println("subclass2"); }
+  }
+
+  // Class 4
+  // Main class
+  class Geeks {
+
+      // Main driver method
+      public static void main(String[] args)
+      {
+
+          // Creating object of class 1
+          Parent a;
+
+          // Now we will be calling print methods
+          // inside main() method
+          a = new Subclass1();
+          a.Print();
+
+          a = new Subclass2();
+          a.Print();
+      }
+  }
+  ```
+
+  [polymorphism-in-java](https://www.geeksforgeeks.org/java/polymorphism-in-java/)
+
+  * The @Override expression is optional. It is officially called an Annotation. It is considered a "best practice" for two major reasons:
+    * Compiler Safety (The Safety Net): If you make a typo (e.g., you write void rol() instead of void role()), the compiler will realize that you intended to override something but failed.
+    * Readability: It acts as a clear visual marker for other developers.
+  * Overloading is called Compile-Time or static polymorphism because the types of the arguments are written explicitly in the code, the compiler can "link" that specific call to that specific method immediately. Overriding is called Runtime or dynamic Polymorphism because the object can be created in a way the compiler cannot predict. (depends on the input):
   
     ```
-    class Helper {
-
-        // Method with 2 integer parameters
-        static int Multiply(int a, int b)
-        {
-            // Returns product of integer numbers
-            return a * b;
-        }
-
-        // Method 2
-        // With same name but with 2 double parameters
-        static double Multiply(double a, double b)
-        {
-            // Returns product of double numbers
-            return a * b;
-        }
+    Person p;
+    if (new Scanner(System.in).nextInt() > 10) {
+        p = new Father();
+    } else {
+        p = new Son();
     }
-
-
-    // Main class
-    class Geeks {
-        // Main driver method
-        public static void main(String[] args)
-        {
-
-            // Calling method by passing
-            // input as in arguments
-            System.out.println(Helper.Multiply(2, 4));
-            System.out.println(Helper.Multiply(5.5, 6.3));
-        }
-    }
+    p.role();
     ```
-
-  * Overriding: (Runtime Polymorphism/dynamic method dispatch) It occurs when a method call is resolved at runtime, and it is achieved when a subclass provides its own implementation of a method already defined in its superclass.
-
-    ```
-    // Class 1
-    // Helper class
-    class Parent {
-
-        // Method of parent class
-        void Print() { System.out.println("parent class"); }
-    }
-
-    // Class 2
-    // Helper class
-    class Subclass1 extends Parent {
-
-        // Method
-        void Print() { System.out.println("subclass1"); }
-    }
-
-    // Class 3
-    // Helper class
-    class Subclass2 extends Parent {
-
-        // Method
-        void Print() { System.out.println("subclass2"); }
-    }
-
-    // Class 4
-    // Main class
-    class Geeks {
-
-        // Main driver method
-        public static void main(String[] args)
-        {
-
-            // Creating object of class 1
-            Parent a;
-
-            // Now we will be calling print methods
-            // inside main() method
-            a = new Subclass1();
-            a.Print();
-
-            a = new Subclass2();
-            a.Print();
-        }
-    }
-    ```
-
-    [polymorphism-in-java](https://www.geeksforgeeks.org/java/polymorphism-in-java/)
-
-    * The @Override expression is optional. It is officially called an Annotation. It is considered a "best practice" for two major reasons:
-      * Compiler Safety (The Safety Net): If you make a typo (e.g., you write void rol() instead of void role()), the compiler will realize that you intended to override something but failed.
-      * Readability: It acts as a clear visual marker for other developers.
-    * Overloading is called Compile-Time or static polymorphism because the types of the arguments are written explicitly in the code, the compiler can "link" that specific call to that specific method immediately. Overriding is called Runtime or dynamic Polymorphism because the object can be created in a way the compiler cannot predict. (depends on the input):
-    
-      ```
-      Person p;
-      if (new Scanner(System.in).nextInt() > 10) {
-          p = new Father();
-      } else {
-          p = new Son();
-      }
-      p.role();
-      ```
 
 <br>
 

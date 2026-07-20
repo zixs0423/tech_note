@@ -17,6 +17,7 @@ layout: default
       - [Protocols](#protocols-2)
       - [Hardware](#hardware-2)
     - [Transport Layer](#transport-layer)
+      - [Data](#data-2)
       - [Protocols](#protocols-3)
     - [Session Layer](#session-layer)
     - [Presentation Layer](#presentation-layer)
@@ -228,6 +229,18 @@ layout: default
 ### Transport Layer
 
 [transport-layer-in-osi-model](https://www.geeksforgeeks.org/computer-networks/transport-layer-in-osi-model/)
+
+<br>
+
+---
+
+#### Data
+
+* Segment: When data is transmitted from the application layer, it is divided into smaller units based on the Maximum Segment Size (MSS) to ensure efficient delivery. Each unit is then encapsulated with a TCP header, forming a segment, which is the Protocol Data Unit (PDU) at the Transport layer in the OSI Model.
+  
+  ![segment_packet_frame.png](../images/segment_packet_frame.png)
+
+  [difference-between-segments-packets-and-frames](https://www.geeksforgeeks.org/computer-networks/difference-between-segments-packets-and-frames/)
 
 <br>
 

@@ -12,6 +12,8 @@ layout: default
   - [Process](#process)
     - [Process Scheduling](#process-scheduling)
   - [Thread](#thread)
+  - [Mac](#mac)
+    - [ShortCuts](#shortcuts)
 
 
 # Operating System
@@ -68,6 +70,8 @@ layout: default
 * pwd: display the path of the working directory. (The relative path is rlative to this path.)
   * . (Single dot): Represents the current folder you are sitting in right now.
   * .. (Double dot): Represents the parent folder (one level up).
+  * /: home directory (user folder).
+  * ~: root directory.
 * cd: change directory.
 * mv: move or rename files.
   * mv 'file_name' 'foldername/': move file to a folder.
@@ -337,3 +341,12 @@ layout: default
   * The primary difference is that threads within the same process run in a shared memory space, while processes run in separate memory spaces.
   
   [difference-between-process-and-thread](https://www.geeksforgeeks.org/operating-systems/difference-between-process-and-thread/)
+
+## Mac
+
+### ShortCuts
+
+* Command (⌘) + Spacebar: open Spotlight Search.
+* Command (⌘) + Shift + G: open the "Go to Folder" search bar.
+* Command (⌘) + Shift + H: open a new Finder window directed straight to your home folder.
+* Command + Shift + Period (.): toggle hidden files in macOS Finder.

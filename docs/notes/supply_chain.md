@@ -4,6 +4,9 @@ layout: default
 
 - [Supply Chain](#supply-chain)
   - [Safety Stock](#safety-stock)
+  - [Architecture](#architecture)
+    - [Prediction](#prediction)
+    - [Stock Strategy](#stock-strategy)
 
 # Supply Chain
 
@@ -100,3 +103,47 @@ $$
 <br>
 
 ---
+
+## Architecture
+
+### Prediction
+
+* Demand Recoveray
+  * Holiday/Block: if(is_holiday=1 or is_block=1, avg, sale). avg=max(avg_week_n, avg_n) where is_holiday=1 and is_block=0 and is_stockout=0.
+  * Abnormal: if(sale>mean+stddev*n, avg, sale)
+  * Expiration: expired sales is larger than the normal sales. XGB model trained on non-expiration sales, min(prediction, sale).
+  * Stockout: stockout sales is smaller than the normal sales.
+    * sales>0: XGB model trained on non-stockout sales, max(prediction, sale).
+    * sales=0: if(is_stockout=1, avg, sale). avg=max(avg_week_n, avg_n) where is_holiday=1 and is_block=0 and is_stockout=0. Using model may induce serious bias cause the non-stokout sales implies choosing the (poi,item) with sales while most of them don't. 
+* Model feature
+  * weather
+  * price: price=gtv/sales in past few weeks. avg,min,max in 7,14,30,60,90,180 days. Weekly feautres as well
+  * category
+  * location
+  * sales: avg,min,max,sum in 7,14,30,60,90,180 days. Weekly feautres as well. onsale_sales: sales of the onsale (poi,dt). Using restored sales to compute features
+  * order_num/user_num
+* dataset
+  * train: lateral view explode todays' feature to 14 copies to the past as feautres at that day, introducing a feature representing the time step.
+  * inference: lateral view explode todays' feature to 14 copies to the future as the future features only with the weighted price. The weather uses the prediction. Other features use today's.
+* Model
+  * XGB at city level with sales constraints on both train and inference datasets. Training and inference at the same time or not depends on the compute time constraints.
+* Topdwwn
+  * Weighted Avg sales as fallback plan on both city and poi level, valid on most items.
+  * final city level prediction=coalesce(model prediction, avg).
+  * topdown the city prediction to poi prediction to ensure the consistency.
+* Evaluation
+  * Accuracy: Mape, WMAPE, DAR=count(ae<n or ape<n,1,0)
+  * Using a test data link with the same archituture with online data link to compare the result of any modification.
+
+<br>
+
+---
+
+### Stock Strategy 
+
+* Safety Stock: weekly/daily. Based on the error between the prediction and the real sales.
+* minimun holding: various strategies on different dynamic sales rate layers. Equals to max specification plus the avg on low dynamic sales rate layers while Equalsng to max(max specification, avg) on high dynamic sales rate layers. And use longer avg in the low layers. Effective on almost 80% of (poi, item) pairs.
+* maximum holding: avg_n*n.
+* target stock: min(maximum holding, max(minimun holding, prediction+safety stock))
+* evaluation: turnover days, (non-)stockout rate
+* Special strategies on new poi, item: raise ratio*avg as prediction. low avg sales features with high onsale days to preventing the vatality.
