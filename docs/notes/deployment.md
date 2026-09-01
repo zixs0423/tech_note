@@ -390,6 +390,8 @@ layout: default
 * Cmd + /: Toggle Line Comment.
 * Opt + Click: Manual Multi-Cursor. Just click anywhere you want to drop an extra cursor.
 * Shift + Opt + Box Select: Column Selection.Drag your mouse to select blocks of code vertically.
+* Shift + Opt + Up/Down: Copy Column up/down.
+* Opt + Up/Down: Move Column up/down.
 * Cmd + F: Find in current file
 * Cmd + Opt + F: Replace in current file
 * Cmd + =: Zoom In
